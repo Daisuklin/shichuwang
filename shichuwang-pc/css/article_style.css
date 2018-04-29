@@ -1,0 +1,36 @@
+@charset "utf-8";
+/*主要样式*/
+
+.subNavBox{width:200px;border:solid 1px #e5e3da; margin-left:0px;border-top:none;/* border-bottom: none; */border-top: none;}
+.subNav{border-bottom:solid 1px #e5e3da;backgroung:#f5f5f5;cursor:pointer;font-weight:bold;font-size:12px;color:#999;line-height:40px;padding-left:10px;background:url(../images/jiantou1.jpg) no-repeat;background-position:95% 50%}
+.subNav:hover{color:#c40000;}
+.currentDd{color:#666;}
+.currentDt{background-image:url(../images/jiantou.jpg);}
+.navContent{display: none;border-bottom:solid 1px #e5e3da;}
+.navContent li a{display:block;width:180px;heighr:28px;text-align:left;font-size:12x;line-height:28px;color:#666;padding-left:20px;}
+.navContent li a:hover{color:#f23131;background-color:#e5e5e5}
+/* 底部字段入口 */
+.section1_bom{ position: relative;left: -186px;font-family: "宋体";top:4px;}
+.section1_bom a{color:#63625D;}
+.con_main{width:1200px;margin:0 auto;}
+.con_right{float:left;width:985px;margin-left:10px;border:#e5e5e5 1px solid;margin-top:20px;}
+.con_left{float:left;width:200px;}
+.article_floating ul li{float:left;}
+.con_right .title{line-height:40px;padding-left:10px;color:#666;font-family:"微软雅黑";font-size:16px;border-bottom:#e5e5e5 1px solid;padding-left:10px;}
+.con_right .content{line-height:25px;color:#666;font-family:"微软雅黑";font-size:12px;padding-left:10px;padding-right:10px;}
+.con_right .subtitle{padding-top:20px;line-height:25px;color:#666;font-family:"微软雅黑";font-size:15px;padding-left:10px;}
+.list_left ul li{width:160px;line-height:30px;list-style-type:disc;text-align:left;margin-left:30px;padding-right:10px;}
+.list_left{width:200px;height:auto;border:#e5e5e5 1px solid;}
+.list_left .none{padding-top:10px;}
+.browsing{color:#666;}
+.liulan{width:170px;height:170px;}
+.convert_pm{margin-top:20px;background:#f23131;text-align:center;font-size:14px;color:#fff;font-size:16px;border-bottom:#e5e5e5 1px solid;height:40px;line-height:40px;width:202px;}
+.convert_two{margin-top:10px;background:#f23131;text-align:center;font-size:14px;color:#fff;font-size:16px;border-bottom:#e5e5e5 1px solid;height:40px;line-height:40px;width:202px;}           
+.list_left a{color:#666;}
+.list_left a:hover{color:#c40000;}
+
+/* 底部入口列表 */
+.list_right ul li{width:940px;list-style-type:disc;margin-left:40px;line-height:30px;}
+.list_right a{color:#666;}
+.list_right a:hover{color:#c40000;}
+

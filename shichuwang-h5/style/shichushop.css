@@ -1,0 +1,264 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-12-3, 17:09:36
+    Author     : Administrator
+*/
+body{
+    background-color: #f0f0f0;
+}
+.banbg {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.top {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background: #d00e14;
+     position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 900;
+    padding: 1% 0;
+}
+.D-ban{
+    position: relative;
+    margin-top: 12%;
+}
+.search{
+
+    margin-top: 5px;
+    height: 30px;
+    overflow: hidden;
+    background-color: #FFF;
+    float: left;
+    display: inline;
+    margin-left: 4%;
+    border-radius: 2px;
+    -mos-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 10px;
+    width: 75%;
+}
+.s_ipt {
+    width: 87%;
+    height: 30px;
+    line-height: 45px\9px;
+    overflow: hidden;
+    color: #888888;
+    font-size: 1.0em;
+    font-family: "Microsoft YaHei";
+    float: right;
+    display: inline;
+    border: 0;
+    background: #fff;
+}
+.s_btn {
+    width: 28px;
+    height: 28px;
+    overflow: hidden;
+    background: url(../images/s_btn.png) no-repeat center top;
+    float: left;
+    display: inline;
+    margin-top: 5px;
+}
+#logo{
+     width: 10px;
+    margin-left: 4%;
+}
+#logo img {
+   width: 10px;
+    height: 17px;
+    float: left;
+    margin-bottom: 9px;
+
+}
+.goods-button{
+    padding: 2px 3px;
+    width: 70px;
+    z-index: 3;
+}
+.dipu_lsit {
+    position: absolute;
+    z-index: 2;
+    /* left: 10px; */
+    top: 61%;
+    width: 100%;
+    height: 55px;
+    background-color: #f7f8f8;
+    opacity: 0.8;
+}
+.dipu_lsit{
+    left: 0;
+}
+.dipu_lsit ul li {
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.dipu_lsit .one_list img {
+    width: 70px;
+    height: 26px;
+    /* margin-bottom: -20px; */
+}
+.dipu_lsit .two_list {
+    margin-left: 5%;
+    margin-top: 10px;
+    color: #000;
+    font-weight: 700;
+    float: left;
+}
+.dipu_lsit .two_list .biaot1 {
+    font-family: "微软雅黑";
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.dipu_lsit .two_list .biaot2 {
+    font-family: "微软雅黑";
+    color: #888888;
+    font-size: 12px;
+}
+.button_anniu {
+    float: right;
+    /* width: 100%; */
+    height: 30px;
+    /* margin-bottom: 50px; */
+    margin-right: 10px;
+    /* margin-top: 20px; */
+}
+.subtitle {
+    margin-top: 10px;
+    /* border: solid; */
+    border-top: solid 1px #d7d7d7;
+     border-bottom: solid 1px #d7d7d7;
+    /* border: solid; */
+    padding-top: 15px;
+    background-color: #fff;
+}
+.subtitle .puul {
+    font-family: "微软雅黑";
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.subtitle .gray{
+    font-family: 微软雅黑;
+     font-size: 16px;
+    font-weight: 500;
+    color: #888888;
+    text-indent: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.border-grids {
+    margin-bottom: .36rem;
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    padding-bottom: 7px;
+     
+}
+.new-search-tab{
+     border-top: solid 1px #d7d7d7;
+     margin-top: 10px;
+    border-bottom: solid 1px #d7d7d7;   
+}
+@media screen and (min-width: 414px){
+   .dipu_lsit{
+   top: 65%;
+    }
+
+}
+/*产品展示*/
+
+.normal-list-div1 {
+    width: 100%;
+    height: 20.0rem;
+    background: #fff;
+
+}
+.normal-list{
+    position: relative;
+}
+.Ditemno{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #666666;
+    z-index: 4;
+    top: 27%;
+    left: 30%;
+    opacity: 0.8;
+}
+.Ditemno span{
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 25px;
+    margin-top: 25px;
+
+}
+/*商户推荐*/
+.normal-list-dl dt {
+    width: 100%;
+    height: auto;
+}
+.normal-list-dl dt img {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.normal-list-dd {
+    padding-left: 0.5rem;
+    padding-top: 1.25rem;
+    font-size: 0.325rem;
+    clear: both;
+}
+.tabbar-section ul li {
+    width: 33%;
+    float: left;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    border-style:none;
+}
+/*排序头部分*/
+.new-change-eleven {
+    width: 25%;
+    border-right: 0px none;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.total-centent a .total-num {
+    color: #222;
+    font-size: 12px;
+}
+.total-centent a .total-text {
+    color: #222;
+    font-size: 12px;
+    margin-top: 8px;
+}
+@media screen and (max-width: 414px){
+    .dipu_lsit .two_list {
+        margin-left: 1%;
+        margin-top: 10px;
+        color: #000;
+        font-weight: 700;
+        float: left;
+    }
+
+}

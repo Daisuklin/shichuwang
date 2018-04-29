@@ -1,0 +1,3130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>商品详情页</title>
+<!-- 商品详情 --><link rel="stylesheet" href="css/commodity.css" />
+<!-- <link rel="stylesheet" href="css/head.css" />
+<link rel="stylesheet" href="css/bottom_style.css" /> -->
+<!-- 详情修改的css -->
+
+<!-- 头部 --><!-- <link rel="stylesheet" href="css/head.css" /> -->
+<!-- 顶部图标 --><link href="fonts/iconfont.css"  rel="stylesheet" type="text/css" />
+<!-- 顶部下拉 --><script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+<!-- 购物车 左侧 菜单--><script src="js/common_js.js" type="text/javascript"></script>
+<!-- 超出自动隐藏js -->
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+<!-- 底部轮播样式 -->
+<link href="css/commonality.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/xgdetail_pages.css">
+<!-- 楼层底部轮播 -->
+
+
+<link href="css/common.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/scw-footer.css" />
+<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="js/jquery.SuperSlide.2.1.1.js" type="text/javascript"></script>
+</head>
+   <body onload="init();">
+<div id="header_top">
+  <div id="top">
+    <div class="Inside_pages">
+      <div class="Collection">您好！欢迎来到<span>饰厨网！</span></div>
+    <div class="hd_top_manu clearfix">
+	  <ul class="clearfix">
+	   <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！<a href="login.html" class="red">[请登录]</a> | <a href="register.html" class="red">[免费注册]</a></li>
+	   <li class="hd_menu_tit zhuce"><img src="images/photo.png" class="photos">400电话</li>
+      </ul>
+	</div>
+    </div>
+  </div>
+  <!--样式-->
+<!--顶部样式2-->
+<div id="header "  class="header page_style">
+  <div class="logo">
+  <a href="index.html" class="logo-a"><img src="images/logo.png" /></a>
+
+ <!--  城市的选择 -->
+  <div class="city-dw">
+    <div class="city-dw-father">
+    <span class="city-dw-sp1"></span>
+    <span class="city-dw-sp2">&nbsp;北京</span>
+     <div class="fd-xbq"></div>
+    <div class="city-dw-div">
+        <div class="add-div1">
+          <p>华东地区&nbsp;&nbsp;&nbsp;<span></span></p>
+          <ul>
+              <p>山 东</p>
+              <li><a href="javascript:void(0)">青岛</a></li>
+              <li><a href="javascript:void(0)">济南</a></li>
+              <li><a href="javascript:void(0)">烟台</a></li>
+              <li><a href="javascript:void(0)">潍坊</a></li>
+              <li><a href="javascript:void(0)">临沂</a></li>
+              <li><a href="javascript:void(0)">淄博</a></li>
+              <li><a href="javascript:void(0)">济宁</a></li>
+              <li><a href="javascript:void(0)">泰安</a></li>
+              <li><a href="javascript:void(0)">聊城</a></li>
+              <li><a href="javascript:void(0)">威海</a></li>
+              <li><a href="javascript:void(0)">枣庄</a></li>
+              <li><a href="javascript:void(0)">德州</a></li>
+              <li><a href="javascript:void(0)">日照</a></li>
+              <li><a href="javascript:void(0)">东营</a></li>
+              <li><a href="javascript:void(0)">菏泽</a></li>
+              <li><a href="javascript:void(0)">滨州</a></li>
+              <li><a href="javascript:void(0)">章丘</a></li>
+          </ul>
+          <ul>
+              <p>江 苏</p>
+              <li><a href="javascript:void(0)">苏州</a></li>
+              <li><a href="javascript:void(0)">南京</a></li>
+              <li><a href="javascript:void(0)">无锡</a></li>
+              <li><a href="javascript:void(0)">常州</a></li>
+              <li><a href="javascript:void(0)">徐州</a></li>
+              <li><a href="javascript:void(0)">南通</a></li>
+              <li><a href="javascript:void(0)">扬州</a></li>
+              <li><a href="javascript:void(0)">盐城</a></li>
+              <li><a href="javascript:void(0)">淮安</a></li>
+              <li><a href="javascript:void(0)">连云港</a></li>
+              <li><a href="javascript:void(0)">泰州</a></li>
+              <li><a href="javascript:void(0)">宿迁</a></li>
+              <li><a href="javascript:void(0)">镇江</a></li>
+              <li><a href="javascript:void(0)">沭阳</a></li>
+              <li><a href="javascript:void(0)">大丰</a></li>
+              <li><a href="javascript:void(0)">海门</a></li>
+              <li><a href="javascript:void(0)">东海</a></li>
+              <li><a href="javascript:void(0)">扬中</a></li>
+              <li><a href="javascript:void(0)">兴化</a></li>
+              <li><a href="javascript:void(0)">泰兴</a></li>
+              <li><a href="javascript:void(0)">沛县</a></li>
+              <li><a href="javascript:void(0)">靖江</a></li>
+          </ul>
+          <ul>
+              <p>浙 江</p>
+              <li><a href="javascript:void(0)">杭州</a></li>
+              <li><a href="javascript:void(0)">宁波</a></li>
+              <li><a href="javascript:void(0)">温州</a></li>
+              <li><a href="javascript:void(0)">金华</a></li>
+              <li><a href="javascript:void(0)">嘉兴</a></li>
+              <li><a href="javascript:void(0)">台州</a></li>
+              <li><a href="javascript:void(0)">绍兴</a></li>
+              <li><a href="javascript:void(0)">潮州</a></li>
+              <li><a href="javascript:void(0)">丽水</a></li>
+              <li><a href="javascript:void(0)">舟山</a></li>
+              <li><a href="javascript:void(0)">瑞安</a></li>
+              <li><a href="javascript:void(0)">义乌</a></li>
+              <li><a href="javascript:void(0)">余姚</a></li>
+              <li><a href="javascript:void(0)">象山</a></li>
+              <li><a href="javascript:void(0)">温岭</a></li>
+              <li><a href="javascript:void(0)">湘乡</a></li>
+              <li><a href="javascript:void(0)">长兴</a></li>
+              <li><a href="javascript:void(0)">海宁</a></li>
+              <li><a href="javascript:void(0)">德清</a></li>
+          </ul>
+          <ul>
+              <p>安 徽</p>
+              <li><a href="javascript:void(0)">合肥</a></li>
+              <li><a href="javascript:void(0)">芜湖</a></li>
+              <li><a href="javascript:void(0)">蚌埠</a></li>
+              <li><a href="javascript:void(0)">阜阳</a></li>
+              <li><a href="javascript:void(0)">淮南</a></li>
+              <li><a href="javascript:void(0)">安庆</a></li>
+              <li><a href="javascript:void(0)">宿州</a></li>
+              <li><a href="javascript:void(0)">六安</a></li>
+              <li><a href="javascript:void(0)">淮北</a></li>
+              <li><a href="javascript:void(0)">马鞍山</a></li>
+              <li><a href="javascript:void(0)">铜陵</a></li>
+              <li><a href="javascript:void(0)">宣城</a></li>
+              <li><a href="javascript:void(0)">亳州</a></li>
+              <li><a href="javascript:void(0)">黄山</a></li>
+              <li><a href="javascript:void(0)">池州</a></li>
+              <li><a href="javascript:void(0)">巢湖</a></li>
+              <li><a href="javascript:void(0)">和县</a></li>
+              <li><a href="javascript:void(0)">霍邱</a></li>
+              <li><a href="javascript:void(0)">宁国</a></li>
+              <li><a href="javascript:void(0)">天长</a></li>
+          </ul>
+        </div>
+        <div class="add-div1">
+          <p>华南地区&nbsp;&nbsp;&nbsp;<span></span></p>
+          <ul>
+              <p>广 东</p>
+              <li><a href="javascript:void(0)">深圳</a></li>
+              <li><a href="javascript:void(0)">广州</a></li>
+              <li><a href="javascript:void(0)">东莞</a></li>
+              <li><a href="javascript:void(0)">佛山</a></li>
+              <li><a href="javascript:void(0)">中山</a></li>
+              <li><a href="javascript:void(0)">珠海</a></li>
+              <li><a href="javascript:void(0)">惠州</a></li>
+              <li><a href="javascript:void(0)">江门</a></li>
+              <li><a href="javascript:void(0)">汕头</a></li>
+              <li><a href="javascript:void(0)">湛江</a></li>
+              <li><a href="javascript:void(0)">肇庆</a></li>
+              <li><a href="javascript:void(0)">茂名</a></li>
+              <li><a href="javascript:void(0)">揭阳</a></li>
+              <li><a href="javascript:void(0)">梅州</a></li>
+              <li><a href="javascript:void(0)">清远</a></li>
+              <li><a href="javascript:void(0)">阳江</a></li>
+              <li><a href="javascript:void(0)">韶关</a></li>
+              <li><a href="javascript:void(0)">河源</a></li>
+              <li><a href="javascript:void(0)">云浮</a></li>
+              <li><a href="javascript:void(0)">汕尾</a></li>
+              <li><a href="javascript:void(0)">台山</a></li>
+              <li><a href="javascript:void(0)">阳春</a></li>
+              <li><a href="javascript:void(0)">顺德</a></li>
+              <li><a href="javascript:void(0)">惠东</a></li>
+          </ul>
+          <ul>
+              <p>福 建</p>
+              <li><a href="javascript:void(0)">福州</a></li>
+              <li><a href="javascript:void(0)">厦门</a></li>
+              <li><a href="javascript:void(0)">泉州</a></li>
+              <li><a href="javascript:void(0)">莆田</a></li>
+              <li><a href="javascript:void(0)">漳州</a></li>
+              <li><a href="javascript:void(0)">宁德</a></li>
+              <li><a href="javascript:void(0)">三明</a></li>
+              <li><a href="javascript:void(0)">南平</a></li>
+              <li><a href="javascript:void(0)">龙岩</a></li>
+              <li><a href="javascript:void(0)">武夷山</a></li>
+              <li><a href="javascript:void(0)">石狮</a></li>
+              <li><a href="javascript:void(0)">晋江</a></li>
+              <li><a href="javascript:void(0)">南安</a></li>
+          </ul>
+          <ul>
+              <p>广 西</p>
+              <li><a href="javascript:void(0)">南宁</a></li>
+              <li><a href="javascript:void(0)">柳州</a></li>
+              <li><a href="javascript:void(0)">桂林</a></li>
+              <li><a href="javascript:void(0)">玉林</a></li>
+              <li><a href="javascript:void(0)">梧州</a></li>
+              <li><a href="javascript:void(0)">北海</a></li>
+              <li><a href="javascript:void(0)">贵港</a></li>
+              <li><a href="javascript:void(0)">钦州</a></li>
+              <li><a href="javascript:void(0)">百色</a></li>
+              <li><a href="javascript:void(0)">河池</a></li>
+              <li><a href="javascript:void(0)">来宾</a></li>
+              <li><a href="javascript:void(0)">赞州</a></li>
+              <li><a href="javascript:void(0)">崇左</a></li>
+          </ul>
+         <ul>
+              <p>海 南</p>
+              <li><a href="javascript:void(0)">海口</a></li>
+              <li><a href="javascript:void(0)">三亚</a></li>
+              <li><a href="javascript:void(0)">五指山</a></li>
+              <li><a href="javascript:void(0)">三沙</a></li>
+              <li><a href="javascript:void(0)">琼海</a></li>
+              <li><a href="javascript:void(0)">文昌</a></li>
+              <li><a href="javascript:void(0)">万宁</a></li>
+              <li><a href="javascript:void(0)">屯昌</a></li>
+              <li><a href="javascript:void(0)">琼中</a></li>
+              <li><a href="javascript:void(0)">陵水</a></li>
+              <li><a href="javascript:void(0)">东方</a></li>
+              <li><a href="javascript:void(0)">定安</a></li>
+              <li><a href="javascript:void(0)">澄迈</a></li>
+              <li><a href="javascript:void(0)">保亭</a></li>
+              <li><a href="javascript:void(0)">白沙</a></li>
+          </ul>
+        </div>
+        <div class="add-div1">
+          <p>中南地区&nbsp;&nbsp;&nbsp;<span></span></p>
+          <ul>
+              <p>河 南</p>
+              <li><a href="javascript:void(0)">郑州</a></li>
+              <li><a href="javascript:void(0)">洛阳</a></li>
+              <li><a href="javascript:void(0)">新乡</a></li>
+              <li><a href="javascript:void(0)">南阳</a></li>
+              <li><a href="javascript:void(0)">许昌</a></li>
+              <li><a href="javascript:void(0)">平顶山</a></li>
+              <li><a href="javascript:void(0)">安阳</a></li>
+              <li><a href="javascript:void(0)">焦作</a></li>
+              <li><a href="javascript:void(0)">商丘</a></li>
+              <li><a href="javascript:void(0)">开封</a></li>
+              <li><a href="javascript:void(0)">周口</a></li>
+              <li><a href="javascript:void(0)">信阳</a></li>
+              <li><a href="javascript:void(0)">驻马店</a></li>
+              <li><a href="javascript:void(0)">濮阳</a></li>
+              <li><a href="javascript:void(0)">濮河</a></li>
+              <li><a href="javascript:void(0)">三门峡</a></li>
+              <li><a href="javascript:void(0)">鹤壁</a></li>
+              <li><a href="javascript:void(0)">济源</a></li>
+              <li><a href="javascript:void(0)">明港</a></li>
+              <li><a href="javascript:void(0)">长葛</a></li>
+          </ul>
+          <ul>
+              <p>湖 北</p>
+              <li><a href="javascript:void(0)">武汉</a></li>
+              <li><a href="javascript:void(0)">宜昌</a></li>
+              <li><a href="javascript:void(0)">襄阳</a></li>
+              <li><a href="javascript:void(0)">荆州</a></li>
+              <li><a href="javascript:void(0)">十暖</a></li>
+              <li><a href="javascript:void(0)">黄石</a></li>
+              <li><a href="javascript:void(0)">孝感</a></li>
+              <li><a href="javascript:void(0)">黄冈</a></li>
+              <li><a href="javascript:void(0)">荆门</a></li>
+              <li><a href="javascript:void(0)">咸宁</a></li>
+              <li><a href="javascript:void(0)">天门</a></li>
+              <li><a href="javascript:void(0)">仙桃</a></li>
+              <li><a href="javascript:void(0)">神农架</a></li>
+              <li><a href="javascript:void(0)">宜都</a></li>
+              <li><a href="javascript:void(0)">潜江</a></li>
+          </ul>
+          <ul>
+              <p>湖 南</p>
+              <li><a href="javascript:void(0)">长沙</a></li>
+              <li><a href="javascript:void(0)">株洲</a></li>
+              <li><a href="javascript:void(0)">益阳</a></li>
+              <li><a href="javascript:void(0)">常德</a></li>
+              <li><a href="javascript:void(0)">衡阳</a></li>
+              <li><a href="javascript:void(0)">湘潭</a></li>
+              <li><a href="javascript:void(0)">岳阳</a></li>
+              <li><a href="javascript:void(0)">朗州</a></li>
+              <li><a href="javascript:void(0)">邵阳</a></li>
+              <li><a href="javascript:void(0)">怀化</a></li>
+              <li><a href="javascript:void(0)">永州</a></li>
+              <li><a href="javascript:void(0)">娄底</a></li>
+              <li><a href="javascript:void(0)">湘西</a></li>
+              <li><a href="javascript:void(0)">张家界</a></li>
+          </ul>
+         <ul>
+              <p>江 西</p>
+              <li><a href="javascript:void(0)">南昌</a></li>
+              <li><a href="javascript:void(0)">漳州</a></li>
+              <li><a href="javascript:void(0)">九江</a></li>
+              <li><a href="javascript:void(0)">宜春</a></li>
+              <li><a href="javascript:void(0)">吉安</a></li>
+              <li><a href="javascript:void(0)">萍乡</a></li>
+              <li><a href="javascript:void(0)">抚州</a></li>
+              <li><a href="javascript:void(0)">景德镇</a></li>
+              <li><a href="javascript:void(0)">新余</a></li>
+              <li><a href="javascript:void(0)">鹰潭</a></li>
+              <li><a href="javascript:void(0)">永新</a></li>
+          </ul>
+        </div>
+         <div class="add-div1">
+          <p>东北地区&nbsp;&nbsp;&nbsp;<span></span></p>
+          <ul>
+              <p>辽 宁</p>
+              <li><a href="javascript:void(0)">沈阳</a></li>
+              <li><a href="javascript:void(0)">大连</a></li>
+              <li><a href="javascript:void(0)">鞍山</a></li>
+              <li><a href="javascript:void(0)">锦州</a></li>
+              <li><a href="javascript:void(0)">抚顺</a></li>
+              <li><a href="javascript:void(0)">营口</a></li>
+              <li><a href="javascript:void(0)">盘锦</a></li>
+              <li><a href="javascript:void(0)">朝阳</a></li>
+              <li><a href="javascript:void(0)">丹东</a></li>
+              <li><a href="javascript:void(0)">辽阳</a></li>
+              <li><a href="javascript:void(0)">本溪</a></li>
+              <li><a href="javascript:void(0)">葫芦岛</a></li>
+              <li><a href="javascript:void(0)">铁岭</a></li>
+              <li><a href="javascript:void(0)">阜新</a></li>
+              <li><a href="javascript:void(0)">庄河</a></li>
+              <li><a href="javascript:void(0)">瓦房店</a></li>
+          </ul>
+          <ul>
+              <p>黑龙江</p>
+              <li><a href="javascript:void(0)">哈尔滨</a></li>
+              <li><a href="javascript:void(0)">大庆</a></li>
+              <li><a href="javascript:void(0)">齐齐哈尔</a></li>
+              <li><a href="javascript:void(0)">牡丹江</a></li>
+              <li><a href="javascript:void(0)">樱化</a></li>
+              <li><a href="javascript:void(0)">佳木斯</a></li>
+              <li><a href="javascript:void(0)">鸡西</a></li>
+              <li><a href="javascript:void(0)">双鸭山</a></li>
+              <li><a href="javascript:void(0)">鹤岗</a></li>
+              <li><a href="javascript:void(0)">黑网</a></li>
+              <li><a href="javascript:void(0)">伊春</a></li>
+              <li><a href="javascript:void(0)">七台河</a></li>
+              <li><a href="javascript:void(0)">大兴安岭</a></li>
+          </ul>
+          <ul>
+              <p>吉 林</p>
+              <li><a href="javascript:void(0)">长春</a></li>
+              <li><a href="javascript:void(0)">吉林</a></li>
+              <li><a href="javascript:void(0)">四平</a></li>
+              <li><a href="javascript:void(0)">延边</a></li>
+              <li><a href="javascript:void(0)">松原</a></li>
+              <li><a href="javascript:void(0)">白城</a></li>
+              <li><a href="javascript:void(0)">通化</a></li>
+              <li><a href="javascript:void(0)">白山</a></li>
+              <li><a href="javascript:void(0)">辽源</a></li>
+          </ul>
+        </div>
+           <div class="add-div1">
+          <p>西南地区&nbsp;&nbsp;&nbsp;<span></span></p>
+          <ul>
+              <p>四 川</p>
+              <li><a href="javascript:void(0)">成都</a></li>
+              <li><a href="javascript:void(0)">绵阳</a></li>
+              <li><a href="javascript:void(0)">德阳</a></li>
+              <li><a href="javascript:void(0)">南充</a></li>
+              <li><a href="javascript:void(0)">宜宾</a></li>
+              <li><a href="javascript:void(0)">自贡</a></li>
+              <li><a href="javascript:void(0)">乐山</a></li>
+              <li><a href="javascript:void(0)">泸州</a></li>
+              <li><a href="javascript:void(0)">达州</a></li>
+              <li><a href="javascript:void(0)">内江</a></li>
+              <li><a href="javascript:void(0)">遂宁</a></li>
+              <li><a href="javascript:void(0)">攀枝花</a></li>
+              <li><a href="javascript:void(0)">眉山</a></li>
+              <li><a href="javascript:void(0)">广安</a></li>
+              <li><a href="javascript:void(0)">资阳</a></li>
+              <li><a href="javascript:void(0)">凉山</a></li>
+          </ul>
+          <ul>
+              <p>云 南</p>
+              <li><a href="javascript:void(0)">昆明</a></li>
+              <li><a href="javascript:void(0)">曲靖</a></li>
+              <li><a href="javascript:void(0)">大理</a></li>
+              <li><a href="javascript:void(0)">红河</a></li>
+              <li><a href="javascript:void(0)">玉溪</a></li>
+              <li><a href="javascript:void(0)">丽江</a></li>
+              <li><a href="javascript:void(0)">文山</a></li>
+              <li><a href="javascript:void(0)">楚暮</a></li>
+              <li><a href="javascript:void(0)">西双版纳</a></li>
+              <li><a href="javascript:void(0)">昭通</a></li>
+              <li><a href="javascript:void(0)">德宏</a></li>
+              <li><a href="javascript:void(0)">普洱</a></li>
+              <li><a href="javascript:void(0)">保山</a></li>
+              <li><a href="javascript:void(0)">临沧</a></li>
+              <li><a href="javascript:void(0)">迪庆</a></li>
+              <li><a href="javascript:void(0)">怒江</a></li>
+          </ul>
+          <ul>
+              <p>贵 州</p>
+              <li><a href="javascript:void(0)">贵阳</a></li>
+              <li><a href="javascript:void(0)">遵义</a></li>
+              <li><a href="javascript:void(0)">赤水</a></li>
+              <li><a href="javascript:void(0)">六盘水</a></li>
+              <li><a href="javascript:void(0)">仁怀</a></li>
+              <li><a href="javascript:void(0)">铜仁</a></li>
+              <li><a href="javascript:void(0)">兴义</a></li>
+              <li><a href="javascript:void(0)">福泉</a></li>
+              <li><a href="javascript:void(0)">都匀</a></li>
+          </ul>
+          <ul>
+              <p>西 藏</p>
+              <li><a href="javascript:void(0)">拉萨</a></li>
+              <li><a href="javascript:void(0)">日噶则</a></li>
+              <li><a href="javascript:void(0)">山南</a></li>
+              <li><a href="javascript:void(0)">林芝</a></li>
+              <li><a href="javascript:void(0)">昌都</a></li>
+              <li><a href="javascript:void(0)">那曲</a></li>
+              <li><a href="javascript:void(0)">阿里</a></li>
+              <li><a href="javascript:void(0)">日土</a></li>
+              <li><a href="javascript:void(0)">改则</a></li>
+          </ul>
+        </div>
+         <div class="add-div1">
+          <p>华北地区&nbsp;&nbsp;&nbsp;<span></span></p>
+          <ul>
+              <p>河 北</p>
+              <li><a href="javascript:void(0)">石家庄</a></li>
+              <li><a href="javascript:void(0)">保定</a></li>
+              <li><a href="javascript:void(0)">唐山</a></li>
+              <li><a href="javascript:void(0)">廊坊</a></li>
+              <li><a href="javascript:void(0)">邯郸</a></li>
+              <li><a href="javascript:void(0)">秦皇岛</a></li>
+              <li><a href="javascript:void(0)">沧州</a></li>
+              <li><a href="javascript:void(0)">邢台</a></li>
+              <li><a href="javascript:void(0)">衡水</a></li>
+              <li><a href="javascript:void(0)">张家口</a></li>
+              <li><a href="javascript:void(0)">承德</a></li>
+              <li><a href="javascript:void(0)">定州</a></li>
+              <li><a href="javascript:void(0)">张北</a></li>
+              <li><a href="javascript:void(0)">赵县</a></li>
+              <li><a href="javascript:void(0)">正定</a></li>
+          </ul>
+        </div>
+    </div>
+
+    </div> <!--  city-dw-div -->
+  </div>   
+  <!--  城市的选择结束 -->
+  </div>
+  <!--结束图层-->
+   <div class="lanren-search-form">
+        <div id="search-bd" class="search-bd">
+            <ul>
+                <li class="selected">商品</li>
+                <li>店铺</li>
+            </ul>
+        </div>
+        <div id="search-hd" class="search-hd">
+			<form action="Product_listdetailed.html" method="post" class="searchform">
+            <div class="search-bg"></div>
+            <input type="text" id="s1" class="search-input" placeholder="搜索商品名称">
+            <input type="text" id="s2" class="search-input" placeholder="搜索店铺名称">
+            <button id="submit" class="btn-search" value="搜索">搜索</button>
+			</form>
+        </div>
+        <div class="sousuox-lb">
+        <a href="javascript:void(0)">&nbsp;橱柜定制<span>&nbsp;|&nbsp;</span></a>
+        <a href="javascript:void(0)">小橱柜<span>&nbsp;|&nbsp;</span></a>
+        <a href="javascript:void(0)">整体橱柜<span>&nbsp;|&nbsp;</span></a>
+        <a href="javascript:void(0)">橱柜厨房<span>&nbsp;|&nbsp;</span></a>
+        <a href="javascript:void(0)">马桶<span>&nbsp;|&nbsp;</span></a>
+        <a href="javascript:void(0)">橱柜架<span>&nbsp;|&nbsp;</span></a>
+        <a href="javascript:void(0)">橱柜拉篮<span>&nbsp;|&nbsp;</span></a>
+        <a href="javascript:void(0)">不锈钢橱柜</a>
+        
+        </div>
+    </div>
+    
+    <script>
+        $(function(){
+            //通用头部搜索切换
+            $('#search-hd .search-input').on('input propertychange',function(){
+                var val = $(this).val();
+                if(val.length > 0){
+                    $('#search-hd .pholder').hide(0);
+                }else{
+                    var index = $('#search-bd li.selected').index();
+                    $('#search-hd .pholder').eq(index).show().siblings('.pholder').hide(0);
+                }
+            })
+            $('#search-bd li').click(function(){
+                var index = $(this).index();
+                $('#search-hd .pholder').eq(index).show().siblings('.pholder').hide(0);
+                $('#search-hd .search-input').eq(index).show().siblings('.search-input').hide(0);
+                $(this).addClass('selected').siblings().removeClass('selected');
+                $('#search-hd .search-input').val('');
+            });
+			$(".btn-search").click(function(){
+				$(".searchform").submit();
+			});
+        })
+    </script>
+    <!--代码部分end-->
+
+ <!--购物车样式-->
+ <div class="hd_Shopping_list" id="Shopping_list">
+   <div class="s_cart">
+	   <em class="iconfont icon-cart2"></em>
+	   <a href="＃">我的购物车</a>
+	   <i class="ci-right">&gt;</i>
+	   <i class="ci-count" id="shopping-amount">0</i>
+   </div>
+   <div class="dorpdown-layer">
+    <div class="spacer"></div>
+	<!-- <div class="prompt" style="height:60px;line-height:60px;"></div><div class="nogoods"><b></b><img src="./images/settleup-nogoods.png">购物车中还没有商品，赶紧选购吧！</div> -->
+	 <ul class="p_s_list">	   
+		<li>
+		    <div class="img"><img src="images/tianma.png"></div>
+		    <div class="content">
+				<p class="p_s_tip"><a href="#">产品名称产品名称产品名称产品名称产品名称</a></p>
+				<p class="p_s_tip">颜色分类:紫花8255尺码:XL</p>
+			</div>
+			<div class="Operations">
+			<p class="Pri">￥55.00</p>
+			<p><a href="#">删除</a></p></div>
+		  </li>
+		</ul>	
+	 <div class="Shopping_style">
+	 <div class="p-total">共<b>1</b>件商品　共计<strong>￥ 515.00</strong></div>
+	  <a href="../Static_pag/my_cart.html" title="去购物车结算" id="btn-payforgoods" class="Shopping">去购物车结算</a>
+	 </div> 	
+   </div>
+ </div>
+</div>
+<div id="Menu" class="clearfix">
+<div class="index_style clearfix">
+  <div id="allSortOuterbox">
+    <div class="Category"><a href="#">所有产品分类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="margin-bottom:0px;" src="images/icon_134.png"/></a></div>
+    <div class="hd_allsort_out_box_new">
+	 <!--左侧栏目开始-->
+	 <ul class="Menu_list">	
+	    <li class="name">
+		<div class="Menu_name"><a href="product_list.html" ><p class="left_toptip">机械设备</p><p class="Menu_name_tip">吸塑  实木  柜体  电工工具</p></a>
+		 </div>
+		<div class="menv_Detail">
+		 <div class="cat_pannel clearfix">
+		   <div class="hd_sort_list">
+		    <dl class="clearfix" data-tpc="1">
+			 <dt><a href="#"><b class="index_toptip">面膜</b><i>></i></a></dt>
+			 <dd><a href="#">撕拉面膜</a><a href="#">面膜贴</a><a href="#">免洗面膜</a><a href="#">水洗面膜</a></dd> 
+			</dl>
+			 <dl class="clearfix" data-tpc="2">
+			 <dt><a href="#"><b class="index_toptip">洁面</b><i>></i></a></dt>
+			 <dd><a href="#">洁面摩丝</a><a href="#">洁面乳 </a><a href="#">洁面啫哩/胶</a><a href="#">面部去角质/磨砂</a><a href="#">洁面膏/霜</a><a href="#">洁肤皂</a></dd> 
+			</dl>
+			 <dl class="clearfix"   data-tpc="3">
+			 <dt><a href="#"><b class="index_toptip">化妆水</b><i>></i></a></dt>
+			 <dd><a href="#"> 喷雾</a><a href="#"> 精华水</a><a href="#"> 柔肤水</a><a href="#">爽肤水</a><a href="#">收敛水/紧肤水</a></dd> 
+			</dl>
+			 <dl class="clearfix" data-tpc="4">
+			 <dt><a href="#"><b class="index_toptip">眼部护理眼部护理</b><i>></i></a></dt>
+			 <dd><a href="#"> 眼膜</a><a href="#"> 眼部凝胶</a><a href="#">眼部精华</a><a href="#">眼霜</a></dd> 
+			</dl>
+             <dl class="clearfix" data-tpc="4">
+			 <dt><a href="#"><b class="index_toptip">眼部护理</b><i>></i></a></dt>
+			 <dd><a href="#"> 眼膜</a><a href="#"> 眼部凝胶</a><a href="#">眼部精华</a><a href="#">眼霜</a></dd> 
+			</dl>
+             <dl class="clearfix" data-tpc="4">
+			 <dt><a href="#"><b class="index_toptip">防晒</b><i>></i></a></dt>
+			 <dd><a href="#"> 眼膜</a><a href="#"> 眼部凝胶</a><a href="#">眼部精华</a><a href="#">眼霜</a></dd> 
+			</dl>
+             <dl class="clearfix" data-tpc="4">
+			 <dt><a href="#"><b class="index_toptip">唇部护理</b><i>></i></a></dt>
+			 <dd><a href="#"> 眼膜</a><a href="#"> 眼部凝胶</a><a href="#">眼部精华</a><a href="#">眼霜</a></dd> 
+			</dl> <dl class="clearfix" data-tpc="4">
+			 <dt><a href="#"><b class="index_toptip">乳液/面霜</b><i>></i></a></dt>
+			 <dd><a href="#"> 乳液</a><a href="#"> 面霜</a><a href="#">按摩霜</a><a href="#">面部啫喱</a><a href="#">凝露/凝胶</a></dd> 
+			</dl>
+		   </div><div class="Brands">
+		   <a href="#" class="logo_Brands"><img src="images/34.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="images/42.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="images/152.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="images/156.jpg" /></a>
+		   <a href="#" class="logo_Brands"><img src="images/458.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="images/339.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="images/245.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="images/199.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="images/618.jpg" /></a>
+           <a href="#" class="logo_Brands"><img src="images/644.jpg" /></a>
+           <a href="#" class="AD_3"><img src="images/2.jpg" /></a>
+		  </div>
+		  </div>
+		  <!--品牌-->		  
+		</div>		 
+		</li>
+		<li class="name">
+		<div class="Menu_name"><a href="#" ><p class="left_toptip">橱柜耗材</p><p class="Menu_name_tip">玻璃  铝材  木皮  木雕线条</p></a></div>
+		<div class="menv_Detail">
+		 <div class="cat_pannel clearfix">		   
+		  </div>
+		</div>		
+		</li>
+		<li class="name">
+		<div class="Menu_name"><a href="#" ><p class="left_toptip">橱柜配件</p><p class="Menu_name_tip">五金  移门配件  晶钢门配件</p></a></div>
+		<div class="menv_Detail">
+		 <div class="cat_pannel clearfix">		   
+		  </div>
+		</div>	
+		</li>
+		<li class="name">
+		<div class="Menu_name"><a href="#" ><p class="left_toptip">橱柜胶水</p><p class="Menu_name_tip" >吸塑胶  封边胶  拼板胶  免钉胶</p></a></div>
+		
+		<div class="menv_Detail">
+		 <div class="cat_pannel clearfix">		    
+		  </div>
+		</div>	
+		</li>
+		<li class="name">
+		<div class="Menu_name"><a href="#" ><p class="left_toptip">橱柜板材</p><p class="Menu_name_tip">密度板  刨花板  指接板 生态板</p></a></div>
+		<div class="menv_Detail">
+		 <div class="cat_pannel clearfix">		    
+		  </div>
+		</div>	
+		</li>
+        <li class="name">
+		<div class="Menu_name"><a href="#" ><p class="left_toptip">橱柜木材</p><p class="Menu_name_tip">红橡木  白橡木  樱桃木</p></a></div>
+		<div class="menv_Detail">
+		 <div class="cat_pannel clearfix">		    
+		  </div>
+		</div>	
+		</li>
+		<li class="name">
+		<div class="Menu_name"><a href="#" ><p class="left_toptip">贴膜油漆</p><p class="Menu_name_tip">橱柜膜  移门膜 实木膜</p></a></div>
+		<div class="menv_Detail">
+		 <div class="cat_pannel clearfix">		    
+		  </div>
+		</div>	
+		</li>	
+	</ul>
+	</div>		
+	</div>
+	<script>$("#allSortOuterbox").slide({ titCell:".Menu_list li",mainCell:".menv_Detail",	});</script>
+	<!--菜单栏-->
+	<div class="Navigation" id="Navigation">
+		 <ul class="Navigation_name">
+			<li><a href="javascript:void(0)">首页</a></li>
+			<li><a href="javascript:void(0)">团购</a></li>
+			<li><a href="javascript:void(0)">企业会员</a></li>
+             <li><a href="javascript:void(0)">原材料</a></li>
+             <li><a href="javascript:void(0)">整体橱柜</a></li>
+             <li><a href="javascript:void(0)">资讯</a></li>
+             <li><a href="javascript:void(0)">晒图</a></li>
+             <li><a href="javascript:void(0)">论坛</a></li>
+             <li><a href="javascript:void(0)">加盟</a></li>
+             <em class="hot_icon"></em></li>
+		 </ul>
+      <!--   banner右面显示的浮动模块 -->
+    
+  <!--   banner右面显示的浮动模块结束 -->	 
+	</div>
+	<script>$("#Navigation").slide({titCell:".Navigation_name li"});</script>	
+  </div>
+</div>
+</div>
+   <!-- 顶部样式结束 -->
+   <div class="main-top"><div class="main-top-img"><img src="images/corporate-member/mian-top-t.png" alt=""></div></div>
+   <!-- 顶部下面的大banner图 -->
+    <div class="list_page detail_page">
+            <div class="section1">
+              <div class="section1_left">
+              <!--  <div class="section1_bom" style="position: inherit; top: -4px;left: -8px;line-height:30px;height:30px;padding-top:0px;">
+              <img class="icon_home" src="images/u4.png"/ style="top:-7px;margin-left:0px;">
+              <a href="">首页</a>&nbsp;&gt;&nbsp<a href="">列表</a>&nbsp;&gt;&nbsp;<a href="">服务器</a>
+              </div> -->
+                   <div class="section1_main">
+                       <div class="section1_img">
+                           <!--展示图片 -->
+                           <div class="detail_img">
+                               <div id="origin_img" class="big">
+                                   <img src="images/s1.jpg" width="400" height="400" />
+                                   <span></span> 
+                                    <div class="show"></div> 
+                               </div>
+                                <div id="zoom_img"> 
+                                    <img id="img1" src="images/11_2_2.jpg" /> 
+                                </div> 
+                               <div id="detail_slide" class="small">
+                                   <div class="small_left prev"><img src="images/detail1.png" /></div>
+                                   <div class="viewport">
+                                       <ul class="overview small_ul">
+                                          <li data-pic="images/s3.jpg" data-zoom-pic="images/11_2_2.jpg"><img src="images/11_2_2_1.jpg" class="thumbnail"/></li> 
+                                          <li data-pic="images/b1.jpg" data-zoom-pic="images/11_2_2.jpg"><img src="images/detail1.gif" class="thumbnail"/></li>
+                                          <li data-pic="images/detail1.jpg" data-zoom-pic="images/11_2_2.jpg"><img src="images/detail1.gif" class="thumbnail"/></li>
+                                          <li data-pic="images/detail1.jpg" data-zoom-pic="images/11_2_2.jpg"><img src="images/detail1.gif" class="thumbnail"/></li>
+                                          <li data-pic="images/detail1.jpg" data-zoom-pic="images/11_2_2.jpg"><img src="images/detail1.gif" class="thumbnail" /></li>
+                                          <li data-pic="images/detail1.jpg" data-zoom-pic="images/11_2_2.jpg"><img src="images/detail1.gif" class="thumbnail"/></li>
+                                          <li data-pic="images/detail1.jpg" data-zoom-pic="images/11_2_2.jpg"><img src="images/detail1.gif" class="thumbnail" /></li>
+                                       </ul>
+                                   </div>
+                                   <div class="small_right next"><img src="images/detail2.png" /></div>
+                                   <div class="clear"></div>
+                               </div>
+                           </div>
+                           
+                           <!--展示图片 结束-->
+                          
+                       </div>
+                       <!--商品信息-->
+                       <div class="section1_buy">
+                            <p class="bm">皮阿诺橱柜定做 现代简约石英橱柜定</p>
+                            <p class="bp">皮阿诺橱柜定做 现代简约石英石橱柜定皮阿诺橱柜定做皮阿诺橱柜定做 现代简约石英石橱柜定皮阿诺橱柜定做</p>
+                            <p class="bj">一米阳光</p>
+                              <!-- 加入新样式开始 -->
+                            <div class="Price clearfix">
+						      <div class="price-div">
+						      	<p class="price-p1">价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格&nbsp;&nbsp;: <span class="price-p1-span1">￥500</span><span class="price-p1-span2"> / 平米</span></p>
+						      	<p class="price-p2">起&nbsp;批&nbsp;量&nbsp;：<span>10件</span></p>
+						      </div>
+						  </div> 
+                       <div class="mod_detailInfo_priceSales">
+						  <div class="margins">
+						  </div>
+						  
+						  </div>
+						 
+           <div class="buy_list3 buy-l">
+                <p class="buy-p1">&nbsp;&nbsp;&nbsp;&nbsp;起 订 量：10~500&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单价20元</p>
+                <p class="buy-p1">&nbsp;&nbsp;&nbsp;&nbsp;起 订 量：500~1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单价15元</p>
+                <p class="buy-p1">&nbsp;&nbsp;&nbsp;&nbsp;起 订 量：>5000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单价5元</p>
+
+           </div>
+                           
+                          <div class="buy_list2">
+                               <div class="list_left">购买数量:</div>
+                               <div class="list_right">
+                                   <div class="change_num">
+                                       <span class="change_less">-</span>
+                                       <input type="text" value="1"/>
+                                       <span class="change_more">+</span>
+                                   </div>
+                               </div>
+                               <div class="clear"></div>
+                           </div>
+                            <div class="buy_list2">
+                               <div class="list_left">提示:</div>
+                                 <div class="list_right">
+                                   <div class="prompt">起批量最少为10件</div>
+                               </div>
+                               <div class="clear"></div>
+                           </div>
+                           <div class="section1_btn detail_info_btns">
+                              <a href="javascript:showDiv()" class="section1_btn1">立即购买</a>
+                              <!-- <span  onClick="mask.style.visibility='visible';massage_box.style.visibility='visible'" style="cursor:hand"><a href="#" class="section1_btn1" href="javascript:showDiv()">立即购买</a></span> -->
+                               <a class="section1_btn2" href="">加入购物车</a>
+                              <div class="phone-gm"><span></span>&nbsp; 手机购买</div>
+                           </div>
+                       </div>
+                    <!--    新加入 -->
+ <style type="text/css">
+<!--
+html{height:100%; margin:0px; font-size:12px;}
+.mydiv {
+background-color: #fff; 
+border: 2px solid #e5e5e5;
+text-align: center;
+line-height: 40px;
+font-size: 12px;
+font-weight: bold;
+z-index:10000;
+width: 375px;
+height: 400px;
+left:50%;
+top:30%;
+margin-left:-150px!important;/*FF IE7 该值为本身宽的一半 */
+margin-top:-60px!important;/*FF IE7 该值为本身高的一半*/
+margin-top:0px;
+position:fixed!important;/* FF IE7*/
+position:absolute;/*IE6*/
+_top:       expression(eval(document.compatMode &&
+            document.compatMode=='CSS1Compat') ?
+            documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+            document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+.bg,.popIframe {
+background-color: #666; display:none;
+width: 100%;
+height: 100%;
+left:0;
+top:0;/*FF IE7*/
+filter:alpha(opacity=50);/*IE*/
+opacity:0.5;/*FF*/
+z-index:1000;
+position:fixed!important;/*FF IE7*/
+position:absolute;/*IE6*/
+_top:       expression(eval(document.compatMode &&
+            document.compatMode=='CSS1Compat') ?
+            documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+            document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);
+}
+.popIframe {
+filter:alpha(opacity=0);/*IE*/
+opacity:0;/*FF*/
+}
+-->
+</style>
+<script language="javascript" type="text/javascript">
+function showDiv(){
+document.getElementById('popDiv').style.display='block';
+document.getElementById('popIframe').style.display='block';
+document.getElementById('bg').style.display='block';
+}
+function closeDiv(){
+document.getElementById('popDiv').style.display='none';
+document.getElementById('bg').style.display='none';
+document.getElementById('popIframe').style.display='none';
+}
+</script>
+
+
+<div id="popDiv" class="mydiv" style="display:none;">
+<div id="login_form" class="login_box" style="left:10px;top:17px;">
+   <form>
+    <p style="text-align:left;font-size:16px;">您尚未登录账号</p>
+   <div class="login_top" style="padding:0px;font-size:14px;font-weight:400;color:#c40000;width:317px;">你输入的手机号码有误<a class="reg" href="register.html">立即注册</a></div>
+                     <div class="number" style="height:41px;">
+                         <label style="height:41px;"></label>
+                         <input id="username" class="focus" type="text" placeholder="手机号/邮箱">
+                     </div>
+                         <div id="pwd_intensity" style="height:20px">
+				<span class="label">
+				 <span class="ph_display"></span>
+				 </span>
+		  </div>
+                    <div class="password" style="height:41px;">
+                          <label style="height:41px;"></label>
+                         <input id="password" class="focus" type="password" placeholder="密码">
+                     </div>
+                    <div id="pwd_intensity" style="height:20px">
+<!-- <span class="label">
+<span class="ph_display">你输入的手机号码有误</span>
+</span> -->
+       </div>
+  <div>		  
+                     <input type="text" class="text" name="orderSn"  value="验证码" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999;height:38px;margin-left:-181px;padding-left:10px;line-height:38px;width:130px;border:#e5e5e5 1px solid;"/>
+       <div class="yanzhen">
+           <a href="#"><img src=images/form/dl_16.png></a>
+           <a href="#"><span class="red">&nbsp;&nbsp;换一张？</span></a>
+       </div>
+      </div>	   
+       <div class="auto_log" style="position: absolute;
+    left: 22px;"><input type="checkbox">请保存我这次的登录信息</div>
+       <div class="forget" style="margin-top:8px;">
+           <a href="">忘记登录密码？</a>
+       </div>
+      <a href="#" class="shop_register" style="color:#fff;margin-top:25px;">立即登录</a>
+   </form>
+                    </div>
+                    <link rel="stylesheet" href="css/form.css" />
+                    
+
+<a href="javascript:closeDiv()"><img src="images/sp.png" style="position: absolute;margin:4px;right:0px;"></a></div>
+<div id="bg" class="bg" style="display:none;"></div>
+
+<iframe id='popIframe' class='popIframe' frameborder='0' ></iframe>
+                   <!--商品信息 结束-->
+                       <div class="clear"></div>
+                   </div>
+               </div>
+               <div class="section1_right">
+                  
+                    <div class="detail_right">
+                  <div class="title_name">店铺信息</div> 
+                <div class="Recommend" style="margin-left:20px">
+			      <div class="Recommend_list">
+				    <ul>
+					 <li class="clearfix">
+					 <div class="r_content">
+						<div class="summary_price">
+						     <div class="dt">商<em style="padding-left:23px;"></em>家：</div>
+						     <div class="dd">泾川好牛</div>
+						</div>	
+			          </div>
+			           <div class="r_content">
+						<div class="summary_price">
+						     <div class="dt">综合评分：</div>
+						     <div class="dd"><span style="color: #c40000; font-size: 18px;">4.5</span>分</div>
+						</div>	
+			          </div>
+			           <div class="r_content">
+						<div class="summary_price">
+						     <div class="dt">描述相符：</div>
+						     <div class="dd"><p><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></p></div>
+						</div>	
+			          </div>
+			           <div class="r_content">
+						<div class="summary_price">
+						     <div class="dt">服务态度：</div>
+						     <div class="dd"><p><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_78.png" style="margin-bottom:3px;"><img src="images/icon_78.png" style="margin-bottom:3px;"><img src="images/icon_78.png" style="margin-bottom:3px;"></p></div>
+						</div>	
+			          </div>
+			          <div class="r_content">
+						<div class="summary_price">
+						     <div class="dt">发货速度：</div>
+						     <div class="dd"><p><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_78.png" style="margin-bottom:3px;"></p></div>
+						</div>	
+			          </div>
+			           <div class="lianxi_button">
+							<div style="float: left;"><a href="#" style="color:#fff;"><img src="images/ej01.png" width="17px;">&nbsp;联系客服</a></div>
+					         <div class="dd"><a href="#" style="color:#fff;">进入商家店铺</a></div>
+					   </div>
+					 </li>
+					</ul>
+				  </div>
+			   </div>
+           </div>
+          </div>
+               <div class="clear"></div>
+           </div>
+         <!--  推荐搭配开始  -->
+     
+        <!-- 推荐搭配结束 -->
+           <div class="section3">
+               <!--侧栏-->
+               		<div class="section3_left">
+				<div class="fl">
+					<p class="f1-p1">京川耗牛</p>
+					<dl class="f1-dl-1">
+						<dt><img src="images/cpt/list-l-logo.png" alt="" /></dt>
+						<dd>综合评价：<span>9.0分</span></dd>
+					</dl>
+					<dl class="f1-dl-2">
+						<dt>动态评价</dt>
+						<dd>&nbsp;描述相符：<span> 9. 92 ↑</span></dd>
+						<dd>&nbsp;服务态度：<span> 9. 90 ↑</span></dd>
+						<dd>&nbsp;发货速度：<span> 8. 00 ↓</span></dd>
+					</dl>
+					<dl class="f1-dl-3">
+						<dt>店铺信息</dt>
+						<dd> 创建时间：2016-2-19</dd>
+						<dd> 所 在 地 ： 北京，北京市</dd>
+						<dd> 商品数量：<span> 29</span>件商品</dd>
+						<dd> 商品收藏：<span>120</span>人收藏</dd>
+					</dl>
+					<p class="f1-p2"><span class="f1-p2-sp1">店铺地图</span><span class="f1-p2-sp2">店铺二维码</span></p>
+                </div>
+				<div class="hotsell fl clearfix" style="margin-top:10px;">
+					<div class="convert_ph">商品分类</div>
+					 <ul class="f2-ul">
+          <li class="f2-ul-li"><span class="f2-ul-li-span"></span> <a href="javascript:void(0)">机械设备</a>
+               <ul class="f2-ul-li-ul">
+              <li class="f2-ul-li2"><span class="f2-ul-li2-span2"></span> <a href="javascript:void(0)">跳蚤二手</a>
+                 <ul class="f2-ul-li2-ul">
+                   <li><a href="javascript:void(0)">1</a></li>
+                   <li><a href="javascript:void(0)">2</a></li>
+                   <li><a href="javascript:void(0)">3</a></li>
+                   <li><a href="javascript:void(0)">4</a></li>
+                   <li><a href="javascript:void(0)">5</a></li>
+                 </ul>
+              </li>
+              <li class="f2-ul-li2"><span class="f2-ul-li2-span2"></span> <a href="javascript:void(0)">跳蚤二手</a>
+                 <ul class="f2-ul-li2-ul">
+                   <li><a href="javascript:void(0)">1</a></li>
+                   <li><a href="javascript:void(0)">2</a></li>
+                   <li><a href="javascript:void(0)">3</a></li>
+                   <li><a href="javascript:void(0)">4</a></li>
+                   <li><a href="javascript:void(0)">5</a></li>
+                 </ul>
+              </li>
+             </ul>
+            </li>
+            <li class="f2-ul-li"><span class="f2-ul-li-span"></span> <a href="javascript:void(0)">机械设备</a>
+               <ul class="f2-ul-li-ul">
+              <li class="f2-ul-li2"><span class="f2-ul-li2-span2"></span> <a href="javascript:void(0)">跳蚤二手</a>
+                 <ul class="f2-ul-li2-ul">
+                   <li><a href="javascript:void(0)">1</a></li>
+                   <li><a href="javascript:void(0)">2</a></li>
+                   <li><a href="javascript:void(0)">3</a></li>
+                   <li><a href="javascript:void(0)">4</a></li>
+                   <li><a href="javascript:void(0)">5</a></li>
+                 </ul>
+              </li>
+              <li class="f2-ul-li2"><span class="f2-ul-li2-span2"></span> <a href="javascript:void(0)">跳蚤二手</a>
+                 <ul class="f2-ul-li2-ul">
+                   <li><a href="javascript:void(0)">1</a></li>
+                   <li><a href="javascript:void(0)">2</a></li>
+                   <li><a href="javascript:void(0)">3</a></li>
+                   <li><a href="javascript:void(0)">4</a></li>
+                   <li><a href="javascript:void(0)">5</a></li>
+                 </ul>
+              </li>
+             </ul>
+            </li>
+            <li class="f2-ul-li"><span class="f2-ul-li-span"></span> <a href="javascript:void(0)">机械设备</a>
+               <ul class="f2-ul-li-ul">
+              <li class="f2-ul-li2"><span class="f2-ul-li2-span2"></span> <a href="javascript:void(0)">跳蚤二手</a>
+                 <ul class="f2-ul-li2-ul">
+                   <li><a href="javascript:void(0)">1</a></li>
+                   <li><a href="javascript:void(0)">2</a></li>
+                   <li><a href="javascript:void(0)">3</a></li>
+                   <li><a href="javascript:void(0)">4</a></li>
+                   <li><a href="javascript:void(0)">5</a></li>
+                 </ul>
+              </li>
+              <li class="f2-ul-li2"><span class="f2-ul-li2-span2"></span> <a href="javascript:void(0)">跳蚤二手</a>
+                 <ul class="f2-ul-li2-ul">
+                   <li><a href="javascript:void(0)">1</a></li>
+                   <li><a href="javascript:void(0)">2</a></li>
+                   <li><a href="javascript:void(0)">3</a></li>
+                   <li><a href="javascript:void(0)">4</a></li>
+                   <li><a href="javascript:void(0)">5</a></li>
+                 </ul>
+              </li>
+             </ul>
+            </li>
+            <li class="f2-ul-li"><span class="f2-ul-li-span"></span> <a href="javascript:void(0)">机械设备</a>
+               <ul class="f2-ul-li-ul">
+              <li class="f2-ul-li2"><span class="f2-ul-li2-span2"></span> <a href="javascript:void(0)">跳蚤二手</a>
+                 <ul class="f2-ul-li2-ul">
+                   <li><a href="javascript:void(0)">1</a></li>
+                   <li><a href="javascript:void(0)">2</a></li>
+                   <li><a href="javascript:void(0)">3</a></li>
+                   <li><a href="javascript:void(0)">4</a></li>
+                   <li><a href="javascript:void(0)">5</a></li>
+                 </ul>
+              </li>
+              <li class="f2-ul-li2"><span class="f2-ul-li2-span2"></span> <a href="javascript:void(0)">跳蚤二手</a>
+                 <ul class="f2-ul-li2-ul">
+                   <li><a href="javascript:void(0)">1</a></li>
+                   <li><a href="javascript:void(0)">2</a></li>
+                   <li><a href="javascript:void(0)">3</a></li>
+                   <li><a href="javascript:void(0)">4</a></li>
+                   <li><a href="javascript:void(0)">5</a></li>
+                 </ul>
+              </li>
+             </ul>
+            </li>
+           <li class="f2-ul-li"><span class="f2-ul-li-span"></span> <a href="javascript:void(0)">机械设备</a>
+               <ul class="f2-ul-li-ul">
+              <li class="f2-ul-li2"><span class="f2-ul-li2-span2"></span> <a href="javascript:void(0)">跳蚤二手</a>
+                 <ul class="f2-ul-li2-ul">
+                   <li><a href="javascript:void(0)">1</a></li>
+                   <li><a href="javascript:void(0)">2</a></li>
+                   <li><a href="javascript:void(0)">3</a></li>
+                   <li><a href="javascript:void(0)">4</a></li>
+                   <li><a href="javascript:void(0)">5</a></li>
+                 </ul>
+              </li>
+              <li class="f2-ul-li2"><span class="f2-ul-li2-span2"></span> <a href="javascript:void(0)">跳蚤二手</a>
+                 <ul class="f2-ul-li2-ul">
+                   <li><a href="javascript:void(0)">1</a></li>
+                   <li><a href="javascript:void(0)">2</a></li>
+                   <li><a href="javascript:void(0)">3</a></li>
+                   <li><a href="javascript:void(0)">4</a></li>
+                   <li><a href="javascript:void(0)">5</a></li>
+                 </ul>
+              </li>
+             </ul>
+            </li>
+          </ul>
+				</div>
+  <!--               店铺推荐/橱窗 -->
+				<div class="shop-tj">
+				  <div class="shop-tj-div">
+					<p class="shop-tj-p1">店铺推荐/橱窗</p>
+					<dl class="shop-tj-dl">
+						<dt class="shop-tj-dt"><img src="images/cpt/cgut.png" alt="" /></dt>
+						<dd>皮阿诺橱柜定做 现代简约石英石橱柜定制  厨房装修 一米阳光</dd>
+						<dd class="shop-tj-dd2">￥66.00  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>赠品</span></dd>
+						<dd class="shop-tj-dd3">已有 <span>179</span>人评价</dd>
+					</dl>
+				  </div>
+				</div>
+			</div>
+               <!--侧栏 结束-->
+               <div class="section3_right tab">
+                   <ul class="section2_right_tit">
+                        <li class="on tab_t" data-to="tab_c_1">商品详情</li>
+                        <li class="tab_t" data-to="tab_c_2">规格说明</li>
+                        <li class="tab_t" data-to="tab_c_3">商品评价</li>
+                        <li class="tab_t" data-to="tab_c_4">销售记录</li>
+                        <li class="tab_t" data-to="tab_c_5">商品咨询</li>
+                   </ul>
+                   <div class="clear"></div>
+                 <!--   放入区域 -->
+              <div class="section2_main">
+                       <div class="tab_c tab_c_1 " style="background:#fff;color:#666;">
+                          <ul>
+                           <li class="cont_1">商品名称：IBM服务器</li>
+                           <li>商品名称：IBM服务器</li>
+                           <li>商品名称：IBM服务器</li>
+                           <li>商品名称：IBM服务器</li>
+                           <li class="cont_1">商品毛重：13.0kg</li>
+                           <li>货号：5457A3C</li>
+                           <li>商品名称：IBM服务器</li>
+                           <li>商品名称：IBM服务器</li>
+                           <li class="cont_1">商品名称：IBM服务器</li>
+                           <li>商品名称：IBM服务器</li>
+                           <li>商品毛重：13.0kg</li>
+                          </ul>
+                           <img src="images/detail2.jpg">
+                       </div>
+                       <style>
+                       .cont_1{padding-left:10px;}
+                       .tab_c ul li{width:232px;float:left;}
+                      </style>
+                       <div class="tab_c tab_c_2  hide">
+                           <!-- 规格说明 -->
+                           <div class="procon-param">
+                        <table id="bzqd_tag" style="" class="pro-para-tbl"><tbody><tr><th colspan="3">包裹清单</th></tr>
+                        <tr><td class="name">包裹清单</td><td class="val">手机x1、充电器x1、USB线x1、快速指南x1、三包凭证x1</td></tr></tbody></table>
+                        <table id="itemParameter" class="pro-para-tbl">
+                        <tbody>
+                                        <tr><th colspan="3">基本参数</th></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>品牌</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">华为(HUAWEI)</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>型号</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">Che1-CL20</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>上市时间</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">2014年12月</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>外观样式</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">直板</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>颜色</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">金色</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>智能机</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">是</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>系统版本</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">Android 4.4</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>CPU型号</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">MSM8916</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>CPU频率</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">1.2GHz</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>CPU核数</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">四核</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>手机操控方式</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">电容触摸屏</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>手机操作系统</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">Android</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>待机模式</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">双卡双待</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>运营商标识</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">无</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>SIM卡尺寸</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">Micro SIM（小卡）</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>视频通话</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">不支持</td></tr>
+                                        <tr><th colspan="3">网络</th></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>4G网络制式</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">电信4G(TD-LTE),联通4G（FDD-LTE）,电信4G（FDD-LTE）,移动4G(TD-LTE),联通4G(TD-LTE)</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>3G网络制式</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">移动3G(TD-SCDMA),电信3G(CDMA2000),联通3G（WCDMA）</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>2G网络制式</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">电信2G（CDMA）,移动2G/联通2G(GSM)</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>手机制式</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">多模(TD-LTE+WCDMA/GSM+CDMA2000/CDMA)</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>网络频率</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">卡1：TDD-LTE：B38/B39/B40/B41；FDD-LTE：B1/B3；TD-SCDMA：B34/B39；WCDMA：B1/B8；CDMA：BC0；GSM：900/1800/1900MHz（</td></tr>
+                                        <tr><th colspan="3">存储功能</th></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>机身内存</span>
+                                                <a href="javascript:void(0);" name="item_125359836_canshu_shuoming" class="pro-para-help"></a>
+                                                <div class="pro-para-tip" style="display: none;">
+                                                    <i></i>
+                                                    <a href="javascript:void(0);" class="close">×</a>&nbsp;&nbsp;&nbsp;&nbsp;相当于电脑的硬盘，即ROM,是电子数码产品或设备本身所带的内部存储介质，由存储芯片直接安装在仪器或是设备内部，以支撑机器的正常运行，用于暂时存放运算数据，以及与外部存储器交换的数据
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="val">8GB</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>运行内存</span>
+                                                <a href="javascript:void(0);" name="item_125359836_canshu_shuoming" class="pro-para-help"></a>
+                                                <div class="pro-para-tip" style="display: none;">
+                                                    <i></i>
+                                                    <a href="javascript:void(0);" class="close">×</a>&nbsp;&nbsp;&nbsp;&nbsp;手机运行程序时的内存又称RAM，RAM越大，手机能运行多个程序且流畅
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="val">2GB</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>存储卡类型</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">TF卡</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>最大存储扩展</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">32GB</td></tr>
+                                        <tr><th colspan="3">屏幕显示</th></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>屏幕材质</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">TFT</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>屏幕尺寸</span>
+                                                <a href="javascript:void(0);" name="item_125359836_canshu_shuoming" class="pro-para-help"></a>
+                                                <div class="pro-para-tip" style="display: none;">
+                                                    <i></i>
+                                                    <a href="javascript:void(0);" class="close">×</a>&nbsp;&nbsp;&nbsp;&nbsp;指屏幕可视区域的对角线尺寸，以英寸单位。一般来说尺寸越大，屏幕显示面积就越大。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="val">5.5英寸</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>屏幕分辨率</span>
+                                                <a href="javascript:void(0);" name="item_125359836_canshu_shuoming" class="pro-para-help"></a>
+                                                <div class="pro-para-tip" style="display: none;">
+                                                    <i></i>
+                                                    <a href="javascript:void(0);" class="close">×</a>&nbsp;&nbsp;&nbsp;&nbsp;显示分辨率就是屏幕上显示的像素个数，分辨率160×128的意思是水平方向含有像素数为160个，垂直方向像素数128个。屏幕尺寸一样的情况下，分辨率越高，显示效果就越精细和细腻 。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="val">1280×720</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>屏幕色彩</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">1600万</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>重力传感器</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">支持</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>光线传感器</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">支持</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>距离传感器</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">支持</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>陀螺仪</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">不支持</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>指南针</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">支持</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>超大字体</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">支持</td></tr>
+                                        <tr><th colspan="3">拍照摄像</th></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>摄像头像素</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">1300万像素</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>副摄像头像素</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">500万像素</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>闪光灯类型</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">支持</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>传感器类型</span>
+                                                <a href="javascript:void(0);" name="item_125359836_canshu_shuoming" class="pro-para-help"></a>
+                                                <div class="pro-para-tip" style="display: none;">
+                                                    <i></i>
+                                                    <a href="javascript:void(0);" class="close">×</a>&nbsp;&nbsp;&nbsp;&nbsp;与传统相机相比，传统相机使用“胶卷”作为其记录信息的载体，而数码相机的“胶卷”就是其成像感光元件，而且是与相机一体的，是数码相机的心脏。感光器是数码相机的核心，也是最关键的技术。目前数码相机的核心成像部件有两种：一种是广泛使用的CCD（电荷藕合）元件；另一种是CMOS（互补金属氧化物导体）器件。
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="val">CMOS</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>变焦模式</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">数码变焦</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>自动对焦</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">支持</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>连拍功能</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">支持</td></tr>
+                                        <tr><th colspan="3">传输功能</th></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>WIFI功能</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">支持</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>蓝牙版本</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">蓝牙4.0</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>PC数据同步</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">支持</td></tr>
+                                        <tr><th colspan="3">其他</th></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>电池类型</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">锂电池</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>标配电池容量</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">3000mAh</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>理论待机时间</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">200小时</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>理论通话时间</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">900分钟</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>电池更换</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">不支持</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>个人助理</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">办公应用,地图软件,后台运行,计算器,名片存储,闹钟,语音助理,视频播放,收音机</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>外形尺寸</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">152.9×77.2×8.65毫米</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>重量</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">165克</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>耳机接口</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">3.5mm</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>数据线</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">MICRO USB</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>数据业务</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">LTE Category 4：150Mbit/s（下行），50Mbit/s（上行）；TD-SCDMA：2.8Mbit/s（下行），2.3Mbit/s（上行）；WCDMA：42Mbit/s（下行），11</td></tr>
+                                        <tr><td class="name">
+                                            <div class="name-inner">
+                                            <span>CCC认证字</span>
+                                            </div>
+                                        </td>
+                                        <td class="val">有</td></tr>
+                        </tbody>
+                        </table>
+                    </div>
+                           <!-- 规格说明  结束-->
+                 </div>
+                  <div class="tab_c tab_c_3 hide">
+                         <div class="comment_header" style="float:left;width:995px;">
+                               <ul class="evaluate_top">
+                                <li class="evaluate_top1"><div class="figure">99<span>%</span></div>好评度</li>
+                                <li class="evaluate_top2">
+                                    <dl>
+                                        <dt>好评<span>(98%)</span></dt>
+                                            <dd> <div style="width: 98px;"></div></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>中评<span>(1%)</span></dt>
+                                            <dd class="d1"><div style="width: 1%;"> </div></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>差评<span>(1%)</span></dt>
+                                            <dd class="d1"><div style="width: 1%;"> </div></dd>
+                                    </dl>           
+                                </li>
+                                <li class="evaluate_top3"> 
+                                    <p>推荐点：</p>
+                                    <div class="box">
+                                        <span class="box1">性价比高(20)</span>
+                                        <span class="box1">性价比高(20)</span>
+                                        <span class="box1">送货快(7)</span>
+                                        <span class="box1">性能强大(6)</span>
+                                        <span class="box1">实惠(9)</span>
+                                    </div>
+                                </li>
+                                <li class="evaluate_top4">
+                                    您可对已购的商品进行评价<a class="evaluate_btn" href="">发评价</a>
+                                </li>
+                            </ul>
+                            <div class="clear"></div>
+                            <div class="comments_select">
+                                <ul>
+                                    <li style="width:100px;"><a href="#" class="browsing">全部评价(666)</a></li>
+                                    <li style="width:100px;"><a href="#" class="browsing">好评(122)</a></li>
+                                    <li style="width:100px;"><a href="#" class="browsing">中评(23)</a></li>
+                                    <li style="width:100px;"><a href="#" class="browsing">差评(2)</a></li>
+                                    <li style="width:100px;"><a href="#" class="browsing">有图片的评价(12)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mc ui-switchable-panel comments-table ui-switchable-panel-selected" id="comment-0" style="display: block;">
+                            <div class="com-table-main">
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <span style="width:40px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></span>
+                                                       <p>收货四天后评论</p>
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment mt10">
+                                                        <span class="desc">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧</span>
+                                                        <div class="slide_show">
+                                                         <ul>
+                                                           <li style="width:50px;"><img src="images/11_2_2_1.jpg"></li>
+                                                           <li style="width:50px;"><img src="images/11_2_2_1.jpg"></li>
+                                                           <li style="width:50px;"><img src="images/11_2_2_1.jpg"></li>
+                                                         </ul>
+                                                        </div>
+                                                        <div class="mt20">
+					                                        <span data-replylz="1" class="reply J-reply-trigger">回复（0）</span>
+					                                        <span title="0"  class="nice J-nice">赞（0）</span>
+					                                        <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                     </div>
+                                                </td>
+                                                <td class="com-i-column column3">
+                                                    <div class="type-item" style="width:240px;">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                        <p>铜牌牌会员</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                               <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <span style="width:40px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></span>
+                                                       <p>收货四天后评论</p>
+                                                        <p>2015-12-22 16:20</p>
+                                                     </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <span class="desc">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧</span>
+                                                        <div class="mt10">
+					                                        <span data-replylz="1" class="reply J-reply-trigger">回复（0）</span>
+					                                        <span title="0"  class="nice J-nice">赞（0）</span>
+					                                        <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column3">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                           <div class="container" style="width: 80px" id="div1">
+													            <label class="labels" id="lab1">自动显示省fffffff略强强强强号</label>
+													        </div>
+													   
+													       <style type="text/css">
+												           /*  * {
+                                       font-size: 9pt;
+                                   } */
+												             
+												            .container {
+												                overflow: hidden;
+												                white-space: nowrap;
+												            }
+												             
+												            .container .label {
+												                overflow: hidden;
+												                white-space: nowrap;
+												            }
+												        </style>
+         
+        
+                                                        <p>金牌会员</p>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                            <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <span style="width:40px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></span>
+                                                       <p>收货四天后评论</p>
+                                                        <p>2015-12-22 16:20</p>
+                                                     </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <span class="desc">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧</span>
+                                                        <div class="mt10">
+					                                        <span data-replylz="1" class="reply J-reply-trigger">回复（0）</span>
+					                                        <span title="0"  class="nice J-nice">赞（0）</span>
+					                                        <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                    </div>
+                                                </td>
+                                               <td class="com-i-column column3">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column5">
+                                                        <div class="container" style="width: 80px" id="div1">
+													            <label class="labels" id="lab1">自动显示省fffffff略强强强强号</label>
+													        </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                                <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <span style="width:40px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></span>
+                                                       <p>收货四天后评论</p>
+                                                        <p>2015-12-22 16:20</p>
+                                                     </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <span class="desc">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧</span>
+                                                        <div class="mt10">
+					                                        <span data-replylz="1" class="reply J-reply-trigger">回复（0）</span>
+					                                        <span title="0"  class="nice J-nice">赞（0）</span>
+					                                        <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                     </div>
+                                                </td>
+                                                 <td class="com-i-column column3">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bi***ehu</label>
+                                                        
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                               <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <span style="width:40px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></span>
+                                                       <p>收货四天后评论</p>
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <span class="desc">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧</span>
+                                                        <div class="mt10">
+					                                        <span data-replylz="1" class="reply J-reply-trigger">回复（0）</span>
+					                                        <span title="0"  class="nice J-nice">赞（0）</span>
+					                                        <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                    </div>
+                                                </td>
+                                              <td class="com-i-column column3">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                       <label class="labels" id="lab1">bihhkkkkku</label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                             <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <span style="width:40px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></span>
+                                                       <p>收货四天后评论</p>
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <span class="desc">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧</span>
+                                                        <div class="mt10">
+					                                        <span data-replylz="1" class="reply J-reply-trigger">回复（0）</span>
+					                                        <span title="0"  class="nice J-nice">赞（0）</span>
+					                                        <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                    </div>
+                                                </td>
+                                              <td class="com-i-column column3">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                               <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <span style="width:40px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></span>
+                                                       <p>收货四天后评论</p>
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <span class="desc">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧</span>
+                                                        <div class="mt10">
+					                                        <span data-replylz="1" class="reply J-reply-trigger">回复（0）</span>
+					                                        <span title="0"  class="nice J-nice">赞（0）</span>
+					                                        <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                    </div>
+                                                </td>
+                                               <td class="com-i-column column3">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                               <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <span style="width:40px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></span>
+                                                       <p>收货四天后评论</p>
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <span class="desc">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧</span>
+                                                        <div class="mt10">
+					                                        <span data-replylz="1" class="reply J-reply-trigger">回复（0）</span>
+					                                        <span title="0"  class="nice J-nice">赞（0）</span>
+					                                        <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column3">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                              <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <span style="width:40px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></span>
+                                                       <p>收货四天后评论</p>
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <span class="desc">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧</span>
+                                                        <div class="mt10">
+					                                        <span data-replylz="1" class="reply J-reply-trigger">回复（0）</span>
+					                                        <span title="0"  class="nice J-nice">赞（0）</span>
+					                                        <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                    </div>
+                                                </td>
+                                                <style>
+                                                .mt10{margin-top:10px;}
+                                                </style>
+                                               <td class="com-i-column column3">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item" style="text-align:left;">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <span class="">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                        </span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                               <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <span style="width:40px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"><img src="images/icon_40.png" style="margin-bottom:3px;"></span>
+                                                       <p>收货四天后评论</p>
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <span class="desc">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧</span>
+                                                        <div class="mt10">
+					                                        <span data-replylz="1" class="reply J-reply-trigger">回复（0）</span>
+					                                        <span title="0"  class="nice J-nice">赞（0）</span>
+					                                        <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                    </div>
+                                                </td>
+                                              
+                                                <td class="com-i-column column3">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)</span>
+                                                    </div>
+                                                </td>
+                                                <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="comment-replylist">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                       <div class="tab_c tab_c_4 hide">
+                       <div class="tab_c tab_c_4">
+                      <div class="mc ui-switchable-panel comments-table ui-switchable-panel-selected" id="comment-0" style="display: block;">
+                            <div class="com-table-main">
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                        <p>铜牌牌会员</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <div style="float:left;"><img src="images/55e66654N8ff7c28b.jpg" style="width:50px;height:50px;"></div>
+                                                        <span class="desc" style="line-height:25px;padding-top:5px;">宝贝收到了.帮同事买的事买的.</span>
+                                                        <div class="mt10 ml10">
+					                                       <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                     </div>
+                                                </td>
+                                                <td class="com-i-column column3" style="padding-left:10px;">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td> 
+                                               
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                        <p>铜牌牌会员</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <div style="float:left;"><img src="images/55e66654N8ff7c28b.jpg" style="width:50px;height:50px;"></div>
+                                                        <span class="desc" style="line-height:25px;padding-top:5px;">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧宝贝收到了.帮同事买的.</span>
+                                                        <div class="mt10 ml10">
+					                                       <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                     </div>
+                                                </td>
+                                                <td class="com-i-column column3" style="padding-left:10px;">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td> 
+                                               
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                        <p>铜牌牌会员</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <div style="float:left;"><img src="images/55e66654N8ff7c28b.jpg" style="width:50px;height:50px;"></div>
+                                                        <span class="desc" style="line-height:25px;padding-top:5px;">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧宝贝收到了.帮同事买的.</span>
+                                                        <div class="mt10 ml10">
+					                                       <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                     </div>
+                                                </td>
+                                                <td class="com-i-column column3" style="padding-left:10px;">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td> 
+                                               
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                        <p>铜牌牌会员</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <div style="float:left;"><img src="images/55e66654N8ff7c28b.jpg" style="width:50px;height:50px;"></div>
+                                                        <span class="desc" style="line-height:25px;padding-top:5px;">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧宝贝收到了.帮同事买的.</span>
+                                                        <div class="mt10 ml10">
+					                                       <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                     </div>
+                                                </td>
+                                                <td class="com-i-column column3" style="padding-left:10px;">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td> 
+                                               
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                        <p>铜牌牌会员</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <div style="float:left;"><img src="images/55e66654N8ff7c28b.jpg" style="width:50px;height:50px;"></div>
+                                                        <span class="desc" style="line-height:25px;padding-top:5px;">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧宝贝收到了.帮同事买的.</span>
+                                                        <div class="mt10 ml10">
+					                                       <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                     </div>
+                                                </td>
+                                                <td class="com-i-column column3" style="padding-left:10px;">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td> 
+                                               
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                        <p>铜牌牌会员</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <div style="float:left;"><img src="images/55e66654N8ff7c28b.jpg" style="width:50px;height:50px;"></div>
+                                                        <span class="desc" style="line-height:25px;padding-top:5px;">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧宝贝收到了.帮同事买的.</span>
+                                                        <div class="mt10 ml10">
+					                                       <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                     </div>
+                                                </td>
+                                                <td class="com-i-column column3" style="padding-left:10px;">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td> 
+                                               
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                        <p>铜牌牌会员</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <div style="float:left;"><img src="images/55e66654N8ff7c28b.jpg" style="width:50px;height:50px;"></div>
+                                                        <span class="desc" style="line-height:25px;padding-top:5px;">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧宝贝收到了.帮同事买的.</span>
+                                                        <div class="mt10 ml10">
+					                                       <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                     </div>
+                                                </td>
+                                                <td class="com-i-column column3" style="padding-left:10px;">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td> 
+                                               
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                                
+                                <div  class="comments-item">
+                                    <table class="com-item-main clearfix">
+                                        <tbody>
+                                            <tr>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item">
+                                                        <label class="labels" id="lab1">bihhkkkkku</label>
+                                                        <p>铜牌牌会员</p>
+                                                    </div>
+                                                </td>
+                                                <td  class="com-i-column column1">
+                                                    <div class="p-comment">
+                                                        <div style="float:left;"><img src="images/55e66654N8ff7c28b.jpg" style="width:50px;height:50px;"></div>
+                                                        <span class="desc" style="line-height:25px;padding-top:5px;">宝贝收到了.帮同事买的.质量还不错.挺厚的.其他还是等他穿了在作评价吧宝贝收到了.帮同事买的.</span>
+                                                        <div class="mt10 ml10">
+					                                       <div class="reply-textarea J-reply-con">
+					                                            <div class="reply-arrow">
+					                                                <b class="layer1"></b>
+					                                                <b class="layer2"></b>
+					                                            </div>
+					                                        </div>
+					                                    </div>
+                                                     </div>
+                                                </td>
+                                                <td class="com-i-column column3" style="padding-left:10px;">
+                                                    <div class="type-item">
+                                                        <span class="label">颜色：</span>
+                                                        <span class="text">男士藏青</span>
+                                                    </div>
+                                                    <div class="type-item">
+                                                        <span class="label">型号：</span>
+                                                        <span class="text">(170/95)L</span>
+                                                    </div>
+                                                </td>
+                                                 <td class="com-i-column column5">
+                                                    <div class="user-item" style="text-align:left;margin-top:15px;">
+                                                       <p>2015-12-22 16:20</p>
+                                                    </div>
+                                                </td> 
+                                               
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                   <div class="comment-replylist">
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                   </div>
+                       </div>
+                       <div class="tab_c tab_c_5 hide">
+                       <div class="tab_c tab_c_5">
+                      <div class="mc ui-switchable-panel comments-table ui-switchable-panel-selected" id="comment-0" style="display: block;">
+                            <div class="c_advisory">
+                              <div class="advisory_one">
+	                              <ul>
+	                                <li>购买之前，如有问题，请向雷铭科技商城咨询。</li>
+	                                <li><a class="shop_register button_show">我要咨询</a></li>
+	                              </ul>  
+                               </div>
+                              <form class="button_showp" method="POST" action="xxx.cgi" style="margin-left:10px;">
+								<div >
+								<textarea name="MSG" cols=80 rows=10 style="border:#e5e5e5 1px solid;">
+								</textarea>
+								</div>
+								<a href="#" class="shop_submit">提交</a>
+							  </form>
+							  
+                            </div>
+                           <div class="c_comment">
+                              <ul>
+                                <li class="comment_one">网<i class="pl26"></i>友：<span>网友名字</span><i class="pl26"></i><span>2016-05-24<i class="pl5"></i>13：50：15</span></li>
+                                <li class="comment_two">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                </li>
+                                <li class="comment_three">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                   <div class="advisory_right"><span class="f_right">2016-05-24</span></div>
+                                </li>
+                              </ul>
+                            </div>
+                           <div class="c_comment">
+                              <ul>
+                                <li class="comment_one">网<i class="pl26"></i>友：<span>网友名字</span><i class="pl26"></i><span>2016-05-24<i class="pl5"></i>13：50：15</span></li>
+                                <li class="comment_two">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                </li>
+                                <li class="comment_three">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                   <div class="advisory_right"><span class="f_right">2016-05-24</span></div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="c_comment">
+                              <ul>
+                                <li class="comment_one">网<i class="pl26"></i>友：<span>网友名字</span><i class="pl26"></i><span>2016-05-24<i class="pl5"></i>13：50：15</span></li>
+                                <li class="comment_two">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                </li>
+                                <li class="comment_three">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                   <div class="advisory_right"><span class="f_right">2016-05-24</span></div>
+                                </li>
+                              </ul>
+                            </div>
+                            
+                            <div class="c_comment">
+                              <ul>
+                                <li class="comment_one">网<i class="pl26"></i>友：<span>网友名字</span><i class="pl26"></i><span>2016-05-24<i class="pl5"></i>13：50：15</span></li>
+                                <li class="comment_two">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                </li>
+                                <li class="comment_three">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                   <div class="advisory_right"><span class="f_right">2016-05-24</span></div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="c_comment">
+                              <ul>
+                                <li class="comment_one">网<i class="pl26"></i>友：<span>网友名字</span><i class="pl26"></i><span>2016-05-24<i class="pl5"></i>13：50：15</span></li>
+                                <li class="comment_two">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                </li>
+                                <li class="comment_three">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                   <div class="advisory_right"><span class="f_right">2016-05-24</span></div>
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="c_comment">
+                              <ul>
+                                <li class="comment_one">网<i class="pl26"></i>友：<span>网友名字</span><i class="pl26"></i><span>2016-05-24<i class="pl5"></i>13：50：15</span></li>
+                                <li class="comment_two">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                </li>
+                                <li class="comment_three">
+                                   <div class="advisory_left">咨询回复：</div>
+                                   <div class="advisory_center">网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字网友名字</div>
+                                   <div class="advisory_right"><span class="f_right">2016-05-24</span></div>
+                                </li>
+                              </ul>
+                            </div>
+                        </div>
+                   </div>
+                       </div>
+                   </div>
+            </div>
+        <div class="clear"></div>
+           </div>
+        <div class="section5">
+               <div class="section5_tit">最近浏览<a  class="record" href="">更多浏览记录</a></div>
+               <!-- <ul class="section5_ul">
+                   <li>
+                       <a href=""><img src="images/list5.jpg" /></a>
+                       <div class="detail">
+                           <p>IBM服务器 x3100457i21<span class="highlight">(E3-1220v3 8G 无盘)塔式 主机不含显</span></p>
+                           <div class="price">￥13999.00</div>
+                              <div class="comment_info">( 已有<em class="comment_num">179</em>人评价)</div>
+                       </div>
+                   </li>
+                   <li>
+                       <a href=""><img src="images/list5.jpg" /></a>
+                       <div class="detail">
+                           <p>IBM服务器 x3100457i21<span class="highlight">(E3-1220v3 8G 无盘)塔式 主机不含显</span></p>
+                           <div class="price">￥13999.00</div>
+                              <div class="comment_info">( 已有<em class="comment_num">179</em>人评价)</div>
+                       </div>
+                   </li>
+                   <li>
+                       <a href=""><img src="images/list5.jpg" /></a>
+                       <div class="detail">
+                           <p>IBM服务器 x3100457i21<span class="highlight">(E3-1220v3 8G 无盘)塔式 主机不含显</span></p>
+                           <div class="price">￥13999.00</div>
+                              <div class="comment_info">( 已有<em class="comment_num">179</em>人评价)</div>
+                       </div>
+                   </li>
+                   <li>
+                       <a href=""><img src="images/list5.jpg" /></a>
+                       <div class="detail">
+                           <p>IBM服务器 x3100457i21<span class="highlight">(E3-1220v3 8G 无盘)塔式 主机不含显</span></p>
+                           <div class="price">￥13999.00</div>
+                              <div class="comment_info">( 已有<em class="comment_num">179</em>人评价)</div>
+                       </div>
+                   </li>
+                   <li>
+                       <a href=""><img src="images/list5.jpg" /></a>
+                       <div class="detail">
+                           <p>IBM服务器 x3100457i21<span class="highlight">(E3-1220v3 8G 无盘)塔式 主机不含显</span></p>
+                           <div class="price">￥13999.00</div>
+                              <div class="comment_info">( 已有<em class="comment_num">179</em>人评价)</div>
+                       </div>
+                   </li>
+                   <li>
+                       <a href=""><img src="images/list5.jpg" /></a>
+                       <div class="detail">
+                           <p>IBM服务器 x3100457i21<span class="highlight">(E3-1220v3 8G 无盘)塔式 主机不含显</span></p>
+                           <div class="price">￥13999.00</div>
+                              <div class="comment_info">( 已有<em class="comment_num">179</em>人评价)</div>
+                       </div>
+                   </li>
+               </ul> -->
+              
+     <div class="index_style clearfix">
+    <!-- 标签商品开始 -->
+    <div class="Brand_Show" id="Brand_Show">
+       <div class="parBd list">
+            <div class="parBdIn">
+                        <div class="ul_slideBox" style="overflow: hidden;">
+                            <div class="botton-scroll02">
+                                <div class="tempWrap" style="overflow:hidden; position:relative; width:1200px"><ul class="featureUL featureULs" style="width: 3000px; position: relative; overflow: hidden; padding: 0px; margin: 0px; left: -200px;"><li class="parBdInBox clone" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="#" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                            <img src="images/six_in/106_thumb_G_1405032125751.jpg" width="160">
+                                        </p>
+                                        <span>FisherPrice费雪叠叠方积木婴儿玩具74121</span>
+                                     </a>
+                                </div>
+                            </li>
+                            <li class="parBdInBox" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                            <img src="images/six_in/108_thumb_G_1405032289059.jpg" width="160">
+                                        </p>
+                                        <span>2016夏季黑色性感吊带背心女士百搭短款打底衫大码</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="parBdInBox" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                            <img src="images/six_in/109_thumb_G_1405032377832.jpg" width="160">
+                                        </p>
+                                        <span>2016夏款新品纯色V领无袖大码连衣裙中裙11681082</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="parBdInBox" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                            <img src="images/six_in/110_thumb_G_1449542685940.jpg" width="160">
+                                        </p>
+                                        <span>2016春夏季女装海军风黑白条纹T恤短袖宽松打底衫</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="parBdInBox" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                            <img src="images/six_in/113_thumb_G_1405033057428.jpg" width="160">
+                                        </p>
+                                        <span>18K白金1克拉经典钻戒 女裸钻订婚求婚结婚戒指PT950钻石戒指七夕</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="parBdInBox" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                            <img src="images/six_in/114_thumb_G_1405033189808.jpg" width="160">
+                                        </p>
+                                        <span>天然南非钻戒正品女18k金求婚结婚钻石戒指心形钻戒克拉钻戒定制</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="parBdInBox" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                           <img src="images/six_in/113_thumb_G_1405033057428.jpg" width="160">
+                                        </p>
+                                        <span>FisherPrice费雪智玩学习小火车/英语/BHC29</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="parBdInBox" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                            <img src="images/six_in/114_thumb_G_1405033189808.jpg" width="160">
+                                        </p>
+                                        <span>【包邮直送】星农联合大连尊品 淡干海参500g(80-110头)</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="parBdInBox" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                            <img src="images/six_in/110_thumb_G_1449542685940.jpg" width="160">
+                                        </p>
+                                        <span>FisherPrice费雪叠叠方积木婴儿玩具74121</span>
+                                    </a>
+                                </div>
+                            </li>
+                                <li class="parBdInBox clone" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                             <img src="images/six_in/114_thumb_G_1405033189808.jpg" width="160">
+                                        </p>
+                                        <span>2016夏季黑色性感吊带背心女士百搭短款打底衫大码</span>
+                                    </a>
+                                </div>
+                            </li><li class="parBdInBox clone" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                            <img src="images/six_in/110_thumb_G_1449542685940.jpg" width="160">
+                                        </p>
+                                        <span>2016夏款新品纯色V领无袖大码连衣裙中裙11681082</span>
+                                    </a>
+                                </div>
+                            </li><li class="parBdInBox clone" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                             <img src="images/six_in/114_thumb_G_1405033189808.jpg" width="160">
+                                        </p>
+                                        <span>2016春夏季女装海军风黑白条纹T恤短袖宽松打底衫</span>
+                                    </a>
+                                </div>
+                            </li><li class="parBdInBox clone" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                             <img src="images/six_in/114_thumb_G_1405033189808.jpg" width="160">
+                                        </p>
+                                        <span>18K白金1克拉经典钻戒 女裸钻订婚求婚结婚戒指PT950钻石戒指七夕</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="parBdInBox clone" style="float: left; width: 200px;">
+                                <div class="box">
+                                    <a href="javascript:void(0)" class="brand_logo" target="_blank">
+                                        <p class="img_box">
+                                             <img src="images/six_in/114_thumb_G_1405033189808.jpg" width="160">
+                                        </p>
+                                        <span>18K白金1克拉经典钻戒 女裸钻订婚求婚结婚戒指PT950钻石戒指七夕</span>
+                                    </a>
+                                </div>
+                            </li>
+                            </ul></div>
+                            </div>
+                            <a class="prev box_prev" href="javascript:void(0)" ><em class="iconfont icon-left"></em></a>
+                            <a class="next box_next" href="javascript:void(0)"><em class="iconfont icon-right"></em></a>
+                        </div>
+              </div>
+        </div>
+
+    </div>
+</div>
+           </div>
+           
+       </div>
+ <!-- 侧条 -->
+<div class="price_list">
+     <div class="price_main ">
+                <div class="price_tab hide">
+				   <div class="price_tab_main">
+					 <div class="parity_wrap">
+						   <ul class="parity">
+							   <li>
+								  <div class="parity_text">
+								   <span class="parity_text1">IBM服务器 X3650M5 5462i35 ...</span>
+								   <div class="change_num">
+                                       <span class="change_less">-</span><input type="text" value="1"><span class="change_more">+</span>
+                                   </div>
+								   <span class="parity_text2">13999</span>
+								   </div>
+								   <span class="parity_close"></span>
+							   </li>
+							   <li>
+								  
+								   <div class="parity_text">
+								   <span class="parity_text1">IBM服务器 X3650M5 5462i35 ...</span>
+								   <div class="change_num">
+                                       <span class="change_less">-</span><input type="text" value="1"><span class="change_more">+</span>
+                                   </div>
+								   <span class="parity_text2">13999</span>
+								   </div>
+								   <span class="parity_close"></span>
+							   </li>
+							   <li>
+								   <img src="images/pagebar/price2.gif" />
+								   <div class="parity_text">
+								   <span class="parity_text1">IBM服务器 X3650M5 5462i35 ...</span>
+								   <div class="change_num">
+                                       <span class="change_less">-</span><input type="text" value="1"><span class="change_more">+</span>
+                                   </div>
+								   <span class="parity_text2">13999</span>
+								   </div>
+								   <span class="parity_close"></span>
+							   </li>
+							   <li>
+								   <img src="images/pagebar/price2.gif" />
+								   <div class="parity_text">
+								   <span class="parity_text1">IBM服务器 X3650M5 5462i35 ...</span>
+								   <div class="change_num">
+                                       <span class="change_less">-</span><input type="text" value="1"><span class="change_more">+</span>
+                                   </div>
+								   <span class="parity_text2">13999</span>
+								   </div>
+								   <span class="parity_close"></span>
+							   </li>
+							   <li>
+								   <img src="images/pagebar/price2.gif" />
+								   <div class="parity_text">
+								   <span class="parity_text1">IBM服务器 X3650M5 5462i35 ...</span>
+								   <div class="change_num">
+                                       <span class="change_less">-</span><input type="text" value="1"><span class="change_more">+</span>
+                                   </div>
+								   <span class="parity_text2">13999</span>
+								   </div>
+								   <span class="parity_close"></span>
+							   </li>
+							   <li>
+								   <img src="images/pagebar/price2.gif" />
+								   <div class="parity_text">
+								   <span class="parity_text1">IBM服务器 X3650M5 5462i35 ...</span>
+								   <div class="change_num">
+                                       <span class="change_less">-</span><input type="text" value="1"><span class="change_more">+</span>
+                                   </div>
+								   <span class="parity_text2">13999</span>
+								   </div>
+								   <span class="parity_close"></span>
+							   </li>
+							   <li>
+								   <img src="images/pagebar/price2.gif" />
+								   <div class="parity_text">
+								   <span class="parity_text1">IBM服务器 X3650M5 5462i35 ...</span>
+								   <div class="change_num">
+                                       <span class="change_less">-</span><input type="text" value="1"><span class="change_more">+</span>
+                                   </div>
+								   <span class="parity_text2">13999</span>
+								   </div>
+								   <span class="parity_close"></span>
+							   </li>
+							   <li>
+								   <img src="images/pagebar/price2.gif" />
+								   <div class="parity_text">
+								   <span class="parity_text1">IBM服务器 X3650M5 5462i35 ...</span>
+								   <div class="change_num">
+                                       <span class="change_less">-</span><input type="text" value="1"><span class="change_more">+</span>
+                                   </div>
+								   <span class="parity_text2">13999</span>
+								   </div>
+								   <span class="parity_close"></span>
+							   </li>
+							   <li>
+								   <img src="images/pagebar/price2.gif" />
+								   <div class="parity_text">
+								   <span class="parity_text1">IBM服务器 X3650M5 5462i35 ...</span>
+								   <div class="change_num">
+                                       <span class="change_less">-</span><input type="text" value="1"><span class="change_more">+</span>
+                                   </div>
+								   <span class="parity_text2">13999</span>
+								   </div>
+								   <span class="parity_close"></span>
+							   </li>
+
+							   
+						   </ul>
+					   </div>
+					   <div class="quote_top">报价<span>已有<b>200</b>件供应商响应</span></div>
+					   <ul class="quote">
+						   <li>
+							   <div class="quote1">
+								   <p>汇智佳创科技有限公司</p>
+								   <span class="vip"><img src="images/pagebar/vip.jpg" /></span><span class="quote_img"><img src="images/p_icon_03.png" title="7天退换货 " /></span><span class="quote_img"><img src="images/p_icon_05.png" title="承诺24H之内发货" /></span><span class="quote_img"><img src="images/p_icon_07.png" title="100%真品保证" /></span><span class="quote_img"><img src="images/p_icon_09.png" title="已缴纳100元保证金" /></span>
+							   </div>
+							   <div class="quote2">在线客服</div>
+							   <div class="quote3">
+								   <p>综合评分<span>9.9</span>分</p>
+								   <div class="describe">
+									   <span>描述<br/><b>9.9<img src="images/pagebar/11.png" /></b></span>
+									   <span>描述<br/><b>9.9=</b></span>
+									   <span>描述<br/><b>9.9<img src="images/pagebar/12.png" /></b></span>
+								   </div>
+							   </div>
+							   <div class="quote4">
+								   ￥13999<a href="">查看详情</a>
+							   </div>
+							   <div class="clear"></div>
+						   </li>
+						   <li>
+							   <div class="quote1">
+								   <p>汇智佳创科技有限公司</p>
+								   <span class="vip"><img src="images/pagebar/vip.jpg" /></span><span class="quote_img"><img src="images/p_icon_03.png" title="7天退换货 " /></span><span class="quote_img"><img src="images/p_icon_05.png" title="承诺24H之内发货" /></span><span class="quote_img"><img src="images/p_icon_07.png" title="100%真品保证" /></span><span class="quote_img"><img src="images/p_icon_09.png" title="已缴纳100元保证金" /></span>
+							   </div>
+							   <div class="quote2">在线客服</div>
+							   <div class="quote3">
+								   <p>综合评分<span>9.9</span>分</p>
+								   <div class="describe">
+									   <span>描述<br/><b>9.9<img src="images/pagebar/11.png" /></b></span>
+									   <span>描述<br/><b>9.9=</b></span>
+									   <span>描述<br/><b>9.9<img src="images/pagebar/11.png" /></b></span>
+								   </div>
+							   </div>
+							   <div class="quote4">
+								   ￥13999<a href="">查看详情</a>
+							   </div>
+							   <div class="clear"></div>
+						   </li>
+						   <li>
+							   <div class="quote1">
+								   <p>汇智佳创科技有限公司</p>
+								   <span class="vip"><img src="images/pagebar/vip.jpg" /></span><span class="quote_img"><img src="images/p_icon_03.png" title="7天退换货 " /></span><span class="quote_img"><img src="images/p_icon_05.png" title="承诺24H之内发货" /></span><span class="quote_img"><img src="images/p_icon_07.png" title="100%真品保证" /></span><span class="quote_img"><img src="images/p_icon_09.png" title="已缴纳100元保证金" /></span>
+							   </div>
+							   <div class="quote2">在线客服</div>
+							   <div class="quote3">
+								   <p>综合评分<span>9.9</span>分</p>
+								   <div class="describe">
+									   <span>描述<br/><b>9.9<img src="images/pagebar/11.png" /></b></span>
+									   <span>描述<br/><b>9.9=</b></span>
+									   <span>描述<br/><b>9.9<img src="images/pagebar/11.png" /></b></span>
+								   </div>
+							   </div>
+							   <div class="quote4">
+								   ￥13999<a href="">查看详情</a>
+							   </div>
+							   <div class="clear"></div>
+						   </li>
+						   <li>
+							   <div class="quote1">
+								   <p>汇智佳创科技有限公司</p>
+								   <span class="vip"><img src="images/pagebar/vip.jpg" /></span><span class="quote_img"><img src="images/p_icon_03.png" title="7天退换货 " /></span><span class="quote_img"><img src="images/p_icon_05.png" title="承诺24H之内发货" /></span><span class="quote_img"><img src="images/p_icon_07.png" title="100%真品保证" /></span><span class="quote_img"><img src="images/p_icon_09.png" title="已缴纳100元保证金" /></span>
+							   </div>
+							   <div class="quote2">在线客服</div>
+							   <div class="quote3">
+								   <p>综合评分<span>9.9</span>分</p>
+								   <div class="describe">
+									   <span>描述<br/><b>9.9<img src="images/pagebar/11.png" /></b></span>
+									   <span>描述<br/><b>9.9=</b></span>
+									   <span>描述<br/><b>9.9<img src="images/pagebar/11.png" /></b></span>
+								   </div>
+							   </div>
+							   <div class="quote4">
+								   <span>报价中...</span><a href="">查看详情</a>
+							   </div>
+							   <div class="clear"></div>
+						   </li>
+						   <li>
+							   <div class="quote1">
+								   <p>汇智佳创科技有限公司</p>
+								   <span class="vip"><img src="images/pagebar/vip.jpg" /></span><span class="quote_img"><img src="images/p_icon_03.png" title="7天退换货 " /></span><span class="quote_img"><img src="images/p_icon_05.png" title="承诺24H之内发货" /></span><span class="quote_img"><img src="images/p_icon_07.png" title="100%真品保证" /></span><span class="quote_img"><img src="images/p_icon_09.png" title="已缴纳100元保证金" /></span>
+							   </div>
+							   <div class="quote2">在线客服</div>
+							   <div class="quote3">
+								   <p>综合评分<span>9.9</span>分</p>
+								   <div class="describe">
+									   <span>描述<br/><b>9.9<img src="images/pagebar/11.png" /></b></span>
+									   <span>描述<br/><b>9.9=</b></span>
+									   <span>描述<br/><b>9.9<img src="images/pagebar/11.png" /></b></span>
+								   </div>
+							   </div>
+							   <div class="quote4">
+								   ￥13999<a href="">查看详情</a>
+							   </div>
+							   <div class="clear"></div>
+						   </li>
+					   </ul>
+                    </div>
+				   <div class="price_btn_wrap"><a class="price_btn" href=""><i class="loading"></i>比价中...</a></div>
+			   </div>
+		   </div>
+           <div class="clear"></div>
+     </div>
+<!-- 底部样式开始  -->
+ <div class="footerbox">
+  <div class="clearfix abc-footer">
+   <div>
+    <dl class="clearfix-dl1">
+	 <dt>关于我们</dt>
+	 <dd><a href="#">售后流程</a></dd>
+     <dd><a href="#">购物流程</a></dd>
+     <dd><a href="#">订购方式</a> </dd>
+     <dd><a href="#">隐私声明 </a></dd>
+     <dd><a href="#">推荐分享说明</a></dd>
+	</dl>
+	<dl>
+	 <dt>新手指南</dt>
+	 <dd><a href="#">保险需求测试</a></dd>
+     <dd><a href="#">专题及活动</a></dd>
+     <dd><a href="#">挑选保险产品</a> </dd>
+     <dd><a href="#">常见问题 </a></dd>
+      <dd><a href="#">常见问题 </a></dd>
+	</dl>
+	<dl>
+	 <dt>安全保障</dt>
+	 <dd><a href="#">保险需求测试</a></dd>
+     <dd><a href="#">专题及活动</a></dd>
+     <dd><a href="#">挑选保险产品</a> </dd>
+     <dd><a href="#">常见问题 </a></dd>
+     <dd><a href="#">常见问题 </a></dd>
+	</dl>
+	<dl>
+	 <dt>商务合作</dt>
+	 <dd><a href="#">保险需求测试</a></dd>
+     <dd><a href="#">专题及活动</a></dd>
+     <dd><a href="#">挑选保险产品</a> </dd>
+     <dd><a href="#">常见问题 </a></dd>
+     <dd><a href="#">常见问题 </a></dd>
+	</dl>
+  <div class="xblianxi">
+    <div class="xblianxi-rwm"><img src="images/gnt/xbewm.png" alt="" /></div>
+    <dl>
+      <dt><img src="images/gnt/lx-ipone.png" alt="" /></dt>
+      <dd>周一至周六9:00-18:00</dd>
+    </dl>
+  </div>
+   </div>
+  </div>
+ <div class="text_link">
+  <p class="text_link-p1">友情链接: &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="#">饰橱网</a>｜ <a href="#">饰橱网</a>｜ <a href="#">饰橱网</a>｜ <a href="#">饰橱网</a>｜ <a href="#">饰橱网</a>｜ <a href="#">饰橱网</a>｜ <a href="#">饰橱网</a>｜ <a href="#">饰橱网</a>｜ <a href="#">饰橱网</a>
+  </p>
+   <p>
+  <a href="#">首页</a>｜ <a href="#">联系我们</a>｜ <a href="#">关于我们</a>｜ <a href="#">招聘英才</a>｜ <a href="#">广告合作</a>｜ <a href="#">触屏版</a>｜ <a href="#">商家管理中心</a>｜ <a href="#">后台管理中心</a>｜ <a href="#">ios原生版</a>｜ <a href="#">android原生版</a></p>
+	 <p>Copyright 2011-2015 北京雷铭智信科技有限公司 Inc.All rights reserved. </p>
+	 <p><a href="#"><img src="images/brand-_209.png"></a><a href="#"><img src="images/brand-_211.png"></a><a href="#"><img src="images/brand-_213.png"></a></p>
+  </div>
+  </div>
+ <!-- 底部样式结束 -->
+   <!--右侧层悬浮-->
+  <!-- <div class="fixedBox">
+  <ul class="fixedBoxList">
+    <li class="fixeBoxLi Home"> <a href="#" title="个人中心"> <span class="fixeBoxSpan iconfont  icon-yonghu"></span> </a> </li>
+    <li class="fixeBoxLi Home"> <a href="#" title="我的收藏"> <span class="fixeBoxSpan iconfont  icon-shoucang"></span> </a> </li>
+     <li class="fixeBoxLi Home"> <a href="#" title="我的关注"> <span class="fixeBoxSpan iconfont  icon-wodedingdan31" style="font-size: 18px;padding-top: 5px;"></span> </a> </li>
+    <li class="fixeBoxLi Home"> <a href="#" title="浏览记录"> <span class="fixeBoxSpan iconfont  icon-time" style="font-size: 19px;"></span> </a> </li>
+    <li class="fixeBoxLi BackToTop"><a href="#" title="返回顶部"><span class="fixeBoxSpan iconfont icon-fold" style="font-size: 20px;"></span> </a></li>
+  </ul>
+  </div> -->
+   <!--左侧楼层悬浮--> 
+   <!-- 侧条 结束-->
+   <!--    <script src="js/jqueryl.js"></script>
+       <script src="js/jquery.tinycarousel1.js"></script>
+       <script src="js/zoom_img.js"></script>
+       <script src="js/effects.js"></script>
+       <script src="js/pagebar1.js"></script> -->
+   
+         <!-- 超出自动隐藏 -->
+     <script type="text/javascript">
+            function getText(el) {
+                return el.html();
+            }
+             
+            function setText(el, text) {
+                if (el.context.innerText) {
+                    el.context.innerText = text;
+                } else if (el.context.textContent) {
+                    el.context.textContent = text;
+                }
+            }
+         
+            function updateEllipsis(label) {
+			var text = getText(label);
+			if(text.length > 5){//长度大于6就省略显示
+				setText(label, text.substring(0, 1) + "***"+text.substring(text.length-1, text.length));//两个个显示两个字符中间*号替换
+			}else{
+				if (label.title != "") {
+                        setText(label, label.title);
+                        label.title = "";
+                    }
+			}
+            }
+             
+            function init() {
+                $(".labels").each(function(){
+				updateEllipsis($(this));
+			}); 
+            }
+        </script>
+      </body>
+    <script>
+$(document).ready(function() {
+   $(".button_show").click(function(){
+	   $(".button_showp").toggle(200)
+	   })    
+});
+
+</script> 
+ <!--   最近浏览 轮播区域js -->
+    <script type="text/javascript">
+        jQuery("#Brand_Show .ul_slideBox").slide({
+            mainCell: ".featureULs",
+            trigger: "click",
+            vis:6,
+            effect:"leftLoop",
+            prevCell:".box_prev",
+            nextCell:".box_next"
+        });
+        jQuery("#Brand_Show").slide({
+            titCell: ".parHd li",
+            mainCell: ".parBdIn",
+            trigger: "click",
+            prevCell:"none",
+            nextCell:"none",
+        });
+    </script> 
+<style>
+/* 商品咨询 */
+.connment{width:900px;display: block;word-break: break-all;word-wrap: break-word;}
+.c_advisory{border-left:#e5e5e5 1px solid;height:auto;border-right:#e5e5e5 1px solid;border-bottom:#e5e5e5 1px solid;}
+.c_comment{padding-left:10px;padding-top:20px;}
+.c_comment .pl26{padding-left:26px;}
+.c_comment .pl5{padding-left:5px;}
+.c_comment ul li{width:989px;height:auto;}
+.f_right{float:right;color:#666;}
+.advisory_left{width:62px; float:left;height:auto;}
+.advisory_center{width:800px; float:left;height:auto;}
+.advisory_right{width:120px;float:right;height:auto;}
+.c_comment .comment_one{font-size:12px;color:#bcbcbc;}
+.c_comment .comment_two{font-size:12px;color:#666;}
+.c_comment .comment_three{font-size:12px;color:#f5af06;}
+.c_advisory .advisory_one ul li{line-height:35px;width:300px;height:auto;padding-left:10px;margin-top:10px;color:#666;font-size:14px;}
+.c_advisory .shop_register{padding:5px 10px;width:80px;height:35px;margin-bottom:10px;background:#f23131;color:#fff;line-height:38px;text-align:center;font-size:12px;}
+.c_advisory .shop_register:hover{background:#fa5151;color:#fff;}
+.c_advisory .shop_submit{padding:10px 30px;margin-left:10px;margin-top:5px;background:#f5f5f5;color:#666;line-height:48px;text-align:center;font-size:12px;}
+.c_advisory .shop_submit:hover{background:#e5e5e5;color:#666;}
+</style> 
+
+<!-- main左侧3级菜单特效 -->
+<script src="js/sjnav.js"></script>
+ <script src="js/more.js"></script>
+</html>

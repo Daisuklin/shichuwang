@@ -1,0 +1,126 @@
+/* 鏍峰紡鍒濆鍖�
+--------------------------------------------------*/
+.commodity{ text-indent: 3%;margin-bottom:18px;}
+.mr3{margin-right:3%;}
+.or_t .return{width:8px;height:13px;margin-left:1%;}
+.or_t .application{width:15px;height:15px;margin-bottom:3px;margin-right:2%;}
+.o_opr{float: right;color:#ec2322;margin-right: 3%;}
+.pos{text-align:center;}
+.nav{height: 100%; overflow: hidden; float: left; display: block;}
+.n_arroww{width:44px; height:26px; overflow:hidden; position:absolute; top:30%; right:3%;}
+.n_arroww a{/* width:100%; */ height:100%; overflow:hidden; float:left; display:block;}
+/* 绛涢�瀵艰埅鏍�*/
+nav{width:100%;height:48px; border-bottom:1px solid #dddddd;z-index:5;}
+nav ul{ background:#fff;height:48px;}
+nav ul a li { float:left; width:25%;}
+nav ul li { line-height:45px; display:block; margin:0 auto; width:3.6rem;text-align:center; font-size:14px;font-weight: 400;color:#464646}
+nav ul li:first-child a{ width:2.4rem;}
+nav ul a.hover li{border-bottom:3px solid #ff463c;color:#ff463c}
+
+
+
+/* 宸插彂璐�*/
+.logistics{text-indent: 3%;}
+.commodit{width:100%;float:right; clear: both;}
+.logistics .return {width: 8px; height: 13px;margin-bottom: -2px; margin-right:2%;}
+.logistics span{margin-right:3%;float:right;}
+.o_opp {font-size: .9em;padding: 0 2%;/* margin-left: 3%; */}
+.o_opp {float: right;border: 1px solid #ff4e00;border-radius: 5px; -mos-border-radius: 5px; /* -webkit-border-radius: 5px; */}
+.mr1{margin-tight:1%;}
+.o_oppo { font-size: .9em;padding: 0 2%; margin-right: 1%; }
+.o_oppo {float: right; border: 1px solid #e5e5e5; border-radius: 5px;-mos-border-radius: 5px;margin-bottom: 3%;}
+.logistics .transport{width:25px;height:20;margin-bottom:5px;}
+.Underline{border-bottom:#e5e5e5 1px solid;}
+.orders_listt {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.searchh {
+    width: 94%;
+    margin-top: 5px;
+    height: 30px;
+    overflow: hidden;
+    border-ridus:3px;
+    background-color: #FFF;
+    float: left;
+    display: inline;
+   margin-bottom:2%; 
+    margin-left:3%;
+    margin-right:3%;
+   -mos-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.s_btnn {
+    width: 19px;
+    height: 28px;
+    overflow: hidden;
+    background: url(../images/s_btn.png) no-repeat center top;
+    float: left;
+    display: inline;
+    margin-right: 3%;
+    margin-top: 8px;
+    margin-left:5px;
+    }
+.bihao {text-indent: 3%;}
+}
+
+
+
+.wid240 
+{ 
+width: 242px; 
+margin-bottom: 20px; 
+} 
+.wid180 
+{ 
+width: 100%; 
+} 
+.tab UL 
+{ 
+zoom: 1; 
+clear: both; 
+} 
+.tab UL:after 
+{ 
+display: block; 
+height: 0px; 
+visibility: hidden; 
+clear: both; 
+content: ""; 
+} 
+.tab UL LI { 
+text-align: center;
+line-height: 35px;
+width: 50%;
+display: inline;
+background: #fff;
+float: left;
+height: 35px;
+color: #000;
+border-bottom: 1px solid #e23333;
+} 
+.tab UL LI.on 
+{ 
+background: #fff; 
+color: #666; 
+border-bottom: 1px solid #fff;
+} 
+.tabList .one 
+{ 
+display: none; 
+color: #ff0000; 
+padding-top: 5px; 
+} 
+.tabList .block 
+{ 
+display: block; 
+}
+
+
+/* 商品详情布局 */
+.fukj{width:65%;}
+.o_img{margin-left:3%;}
+/* 进度查询 */
+.jitou{width:8px;height:12px;}
+

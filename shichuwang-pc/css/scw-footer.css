@@ -1,0 +1,51 @@
+.footerbox{
+	width: 100%;
+	background: #ececec;
+}
+.footerbox a{
+	color: #666;
+}
+.footerbox dl dt{
+	color:#666 	;
+}
+.xblianxi{
+	float: left;
+	padding-left: 44px;
+	width: 380px;
+	overflow: hidden;
+}
+.xblianxi-rwm{
+	padding-top: 20px;
+	float: left;
+	width: 140px;
+}
+.xblianxi dl{
+	width: 220px;
+   float: left;
+   padding:0;
+   margin: 0;
+   padding-top: 15px;
+   padding-left: 20px;
+}
+.xblianxi dd{
+	text-align: center;
+}
+.footerbox .text_link{
+	width: 100%;
+	color: #fff;
+	background: #000;
+}
+.text_link .text_link-p1 a{
+	display: inline-block;
+	padding: 0 5px;
+}
+.footerbox .text_link a{
+	color: #fff;
+}
+ .abc-footer{
+	width: 1200px;
+	margin: 0 auto;
+} 
+.clearfix .clearfix-dl1{
+	margin-left: 0;
+}

@@ -1,0 +1,155 @@
+
+@media screen and (max-width: 414px) {
+	#logo{
+		margin-top:3%;
+	}	
+	
+	.tj_c ul li .name{
+		font-size:13px;
+	}
+	.tj_c ul li .price font{
+		font-size:12px;
+	}
+	.tj_c ul li .price span{
+		font-size:12px;
+	}
+	
+	.s_name h2{
+		height:25px; line-height:25px; overflow:hidden; font-size:14px; margin-top:5px; text-align:center;
+	}
+	.s_name span{
+		color:#ff4e00; font-size:1.1em; line-height:1.1em;
+	}
+	
+	.fresh_mid ul li .name{
+		font-size:14px;
+	}
+	.fresh_mid ul li .price{
+		font-size:12px;
+	}
+	
+	.l_tel{
+		font-size:8px;
+	}
+	#tels{
+		width:40%;
+	}
+	
+	.backhome{
+		width:4%;
+	    margin-top: 2%;
+	}
+	.pos{
+		font-size:14px;
+	}
+	
+	.t_img ul li{
+		font-size:12px;
+	}
+	.t_img ul li img{
+		width:93%;
+	}
+	
+	.user_t td{
+		font-size:12px;
+	}
+	.user_t td span{
+		font-size:12px;
+	}
+	
+	.o_td span.o_op{
+		font-size:12px;
+	}
+	
+	.o_name{
+		line-height:1.33em; font-size:12px;
+	}
+	.o_num{
+		font-size:12px;
+	}
+	.o_td{
+		font-size:12px;
+	}
+	.o_op{
+		font-size:10px; padding:0 2%; margin-left:3%;
+	}
+	
+	.add_tab td{
+		font-size:16px;
+	}
+	
+	.jud_c{
+		font-size:14px;
+	}
+	.j_date{
+		font-size:14px;
+	}
+	
+	.m_img ul li{
+		font-size:14px; line-height:14px;
+	}
+	
+	.mem_tab td{
+		font-size:14px;
+	}
+	.mem_tab_r td{
+		font-size:14px;
+	}
+	.c_ipt{
+		font-size:12px;
+	}
+	.c_txt{
+		font-size:12px;
+	}
+	
+	.nav_con ul li{
+		font-size:12px; height:50px;
+	}
+	.nav_con ul li a{
+		height:50px;
+	}
+	
+	table.jud_list tr td{
+		font-size:12px;
+	}
+	
+	.p_sell ul li .times{
+		font-size:14px;
+	}
+	
+	ul.carList li{
+		font-size:12px;
+	}
+	ul.carList li td font{
+		font-size:14px;
+		font-family:"微软雅黑";
+	}
+	.product-imgs-li{width:116px;height:116px;}
+    .proudn_img{width:116px;height:116px;}
+	
+}
+@media screen and (max-width: 375px) {
+	.product-imgs-li{width:110px;height:110px;}
+    .proudn_img{width:110px;height:110px;}
+} 
+@media screen and (max-width: 320px) {
+	.product-imgs-li{width:94px;height:94px;}
+    .proudn_img{width:94px;height:94px;}
+	.tj_c ul li .name{
+		font-size:12px
+	}
+	.tj_c ul li .price font{
+		font-size:12px;
+	}
+	.tj_c ul li .price span{
+		font-size:12px;
+	}
+	
+	.add_tab td{
+		font-size:16px;
+	}
+	
+	.p_sell ul li .times{
+		font-size:12px;
+	}
+}

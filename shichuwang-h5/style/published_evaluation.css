@@ -1,0 +1,57 @@
+@charset "utf-8";
+.Multiple_text{border:#e5e5e5 1px solid;border-radius:5px;padding:3px;}
+.xiangia{width:84px;height:84px;margin-left:3%;}
+.xdd{width:20px;height:20px;}
+.collection dl {
+    line-height: 20px;
+    margin-top: 10px;
+    color: #777;
+    width: 96%;
+    clear: both;
+    padding: 0;
+   /*  margin: 4px auto; */
+    border-bottom:solid 1px #F5F5F5;
+    overflow: hidden;
+}
+.collection dl dt {
+    color: #404040;
+    line-height: 32px;
+    text-align: left;
+    width: 130px; 
+    float: left;
+    padding: 0 6px 0 0;
+    margin: 0;
+}
+}
+.collection dl dd {
+    float: left;
+    padding: 8px;
+    width: 625px;
+}
+
+
+
+.p_btm{position: fixed;bottom:0px;width:100%;background:#fff;height: 45px; line-height: 45px; text-align: center;}
+.pingk{width:30px;height:30px;}
+.fdr{float:right;background:#c40000;padding:4px 10px;width:15%;color:#fff;text-align:center;line-height: 37px;}
+.fdra{float:left;}
+
+.pinlun{float:left;}
+.pinlun ul li{float:left;width:32%;}
+.commstar-mod{display:inline-block;margin-top:5px;}
+.commstar-mod .commstar .star{float:left;width:21px;height:21px;background:url(../images/icon-star.png) no-repeat bottom}
+.commstar-mod .commstar .active{ background-position:top}
+.commstar-mod .degree{display:inline-block;padding:0 10px;margin-left:10px;border:1px solid #c81623;color:#c81623;font-weight:700}
+.add_to{background:url(../images/changk.png);width:80px;height:80px; margin-top: 4px;}
+.ddfs{margin-left:-25%;}
+.pinlun ul{margin-right:-3%;}
+.ulwidht{margin-left:3%;}
+.ulwidht li{margin-left:1%;}
+.upload-btn-box {clear: both;background: url(../images/changk.png) center center no-repeat; background-size: 61px 61px; border-radius: 1px;width: 64px; height: 64px;
+    color: #b9b9b9;
+    text-align: center;
+    margin-top:5px;
+    margin-left:5px;
+    position: relative;
+   }
+.upload-btn-box .upload-btn { opacity: 0; position: absolute; width: 64px; height: 64px; z-index: 1; left: 0; top: 0;}

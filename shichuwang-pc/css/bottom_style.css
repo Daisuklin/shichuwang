@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* 底部样式 */
+.text_link{margin:0 auto;width:1200px;text-align:center;padding-top:10px;}
+.text_link p{padding-top:10px;}
+.text_link a{color:#666;}
+.text_link a:hover{color:#c40000;}
+
+
+/* 底部样式 */
+.clearfix a{color:#666;}
+.clearfix a:hover{color:#c40000;}
+.s_cart a{color:#666;}
+.s_cart a:hover{color:#c40000;}
+
+.index_style, .Inside_pages, .user_style, .footerbox {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative
+}
+.slogen {
+	margin-top:10px;
+	border-top: 1px solid #e5e5e5;
+	padding: 20px 0px;
+	background: #fcfcfc;
+}
+
+.slogen .wrap li {
+	float: left;
+	color: #666;
+	line-height: 30px;
+	/* width: 240px; */
+	width: 202px;
+	margin-left:38px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.slogen .wrap li a {
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+
+.slogen .wrap li b {
+	display: block;
+	font-size: 24px;
+	color: #333
+}
+
+.slogen .wrap li span {
+	font-size: 16px
+}
+
+.phone_style {
+	background: #000;
+	padding: 10px 0px;
+	height: 50px;
+	color: #FFF;
+	line-height: 50px;
+	font-size: 14px
+}
+
+.phone_style .icon-dianhua {
+	font-size: 40px;
+	margin-right: 5px;
+}
+
+.phone_style  .phone_title {
+	line-height: 50px;
+	display: block;
+	float: left
+}
+
+.phone_style .phone_number {
+	font-size: 36px;
+	font-family: Impact;
+	margin: 0px 10px;
+	display: block;
+	float: left
+}
+
+.footerbox dl {
+	float: left;
+	width: 140px;
+	/* padding: 0px 50px; */
+	line-height: 24px;
+	margin-top: 20px;
+	margin-left:97px;
+}
+
+.footerbox dl dt {
+	font-size: 18px;
+	font-weight: bold
+}
+
+.footerbox .text_link {
+	margin-top: 10px;
+	padding: 10px 0px;
+	line-height: 30px;
+	color: #666666;
+	text-align: center;
+}
+
+.footerbox .text_link p img {
+	padding: 5px;
+}
+ .main-banner{
+	width: 100%;
+	overflow: hidden;
+}
+.main-banner div{
+	width: 1364px;
+	margin:0 auto;
+}
+.main-nav{
+	width: 100%;
+	float: left;
+}
+.main-nav p{
+padding-top: 10px;
+font-size: 14px;
+line-height: 26px;
+color: #000;	
+}
+.main-nav .main-nav-p1,.main-nav-p2{
+	line-height: 36px;
+	font-size: 18px ;
+	padding-top: 16px;
+	color:#c20000;
+	border-bottom:1px solid #c20000;
+	font-weight: bolder;
+}

@@ -1,0 +1,207 @@
+@charset "utf-8";
+/*------------banner----------*/
+#banner {
+	width:100%; overflow:hidden; margin:0 auto; position:relative;
+}
+#banner ul li {
+	width:100%; position:absolute;
+}
+#banner ul li img{
+	width:100%;
+}
+
+.i_img{
+	width:100%; overflow:hidden; background-color:#FFF; padding:2% 0;
+}
+.i_img ul{
+	width:102%; overflow:hidden;
+}
+.i_img ul li{
+	width:13%; overflow:hidden; text-align:center; font-size:1.1em; line-height:20px; float:left; margin:2% 6%;
+}
+.i_img ul li img{
+	width:100%; margin:0 auto 10px auto;min-height:42px;
+}
+.i_t{
+	height:40px; line-height:40px; overflow:hidden; color:#ff4e00; font-size:12px; padding:0 2%; margin-top:10px; border-bottom:1px solid #eaeaea; background: #fff
+}
+.f_i{
+	margin-top:11px; margin-right:8px;
+}
+.f_c{
+	color:#252525;
+	font-size: 14px;
+}
+
+.tj_c{
+	overflow:hidden; background-color:#FFF; padding:2% 0;
+}
+.tj_c ul li{
+	width:24.3%; overflow:hidden; float:left; border-left:1px solid #eaeaea; /* border-right:1px solid #eaeaea; */
+}
+.ntop{
+	 border-top:1px solid #eaeaea;
+} 
+.tj_c ul li .img{
+	width:100%; overflow:hidden; margin-top:5px;
+}
+.tj_c ul li .img img{
+	width:100%;min-height:66px;
+}
+.tj_c ul li .name{
+	height:40px; line-height:20px; overflow:hidden; font-size:13px; text-align:center; margin-top:5px;
+}
+.tj_c ul li .price{
+	height:30px; line-height:30px; overflow:hidden; color:#999999; text-align:center; text-transform:uppercase;
+}
+.tj_c ul li .price font{
+	color:#ff4e00; font-size:1.2em;    font-family: "微软雅黑";
+}
+.tj_c ul li .price span{
+	color:#ff4e00; font-size:1.4em;
+}
+
+.tm_c{
+	overflow:hidden; background-color:#FFF;
+}
+.sell_1{
+	width:49.6%; overflow:hidden; float:left; border-right:1px solid #eaeaea; position:relative; border-bottom:1px solid #eaeaea;  }
+.sell_2{
+	width:50%; overflow:hidden; float:left; border-bottom:1px solid #eaeaea; position:relative;
+}
+.sell_3{
+	width:50%; overflow:hidden; float:left; position:relative;
+}
+.s_img{
+	width:100%;
+}
+.s_img img{
+	width:100%;min-height:157px;
+}
+.s_price{
+	width:100%; height:30px; line-height:30px; overflow:hidden; color:#ff4e00; font-size:1.3em; text-indent:10px; position:absolute; left:0; top:10px;
+}
+.s_price span{
+	font-size:16px; color:#ff4e00;
+}
+.s_name{
+	width:100%; height:50px; overflow:hidden; background:url(../images/name.png) repeat-x center top; text-align:center; position:absolute; left:0; bottom:0;
+}
+.s_name h2{
+	height:25px; line-height:23px; overflow:hidden; font-size:1.5em; margin-top:5px; text-align:center;
+}
+.s_name span{
+	color:#ff4e00; font-size:1.4em; line-height:20px;
+}
+
+.mban{
+	width:100%; overflow:hidden;
+}
+.mban img{
+	max-width:100%;
+	min-height:65px;
+}
+.mar_3{
+	margin-top:3%;
+}
+.mar_31{
+	margin-bottom:3%;
+}
+
+.fresh_mid{
+	overflow:hidden; background-color:#FFF;
+}
+.fresh_mid ul{
+	width:102%; overflow:hidden;
+}
+.fresh_mid ul li{
+	width:33%; overflow:hidden; float:left; border-right:1px solid #eaeaea; border-bottom:1px solid #eaeaea;
+}
+.fresh_mid ul li .name{
+	height:20px; line-height:20px; overflow:hidden; font-size:1.5em; color:#555555; text-align:center; margin-top:4%;
+}
+.fresh_mid ul li .price{
+	height:20px; line-height:20px; overflow:hidden; color:#888888; font-size:1.3em; text-align:center;width: 84px;
+}
+.fresh_mid ul li .img{
+	width:66%; overflow:hidden; margin-top:1%;
+}
+.fresh_mid ul li .img img{
+	width:100%;
+	min-height:60px;
+}
+
+.like{
+	/* overflow:hidden; */
+	/* margin-bottom: 60px; */
+}
+.like ul{
+	margin-left:-0.5%;
+}
+.like ul li{
+	width:47%; margin-left:2%;margin-top:2%;overflow:hidden; background-color:#FFF; float:left; float:left; display:inline;/*  margin:0 1% 2% 1%; */ border:1px solid #eaeaea;
+}
+.like ul li .img{
+	width:63.5%; overflow:hidden; margin-top:1%;
+}
+.like ul li .img img{
+	width:100%;min-height:80px;
+}
+.like ul li .name{
+	height:40px; line-height:20px; overflow:hidden; color:#888888; font-size:1.2em; text-align:center; margin-top:1%;
+}
+.like ul li .name h2{
+	height:20px; line-height:20px; overflow:hidden; color:#555555; font-size:1.0em; text-align:center;
+}
+.like ul li .name h2 a{
+	color:#555555;
+}
+.like ul li .name h2 a:hover{
+	color:#555555; text-decoration:underline;
+}
+.like ul li .name a{
+	color:#888888;
+}
+.like ul li .name a:hover{
+	color:#888888; text-decoration:underline;
+}
+.like ul li .price{
+	height:30px; line-height:30px; overflow:hidden; color:#999999; text-align:center; text-transform:uppercase;
+}
+.like ul li .price font{
+	color:#e9321f; font-size:14px;font-family: "微软雅黑";
+}
+.like ul li .price span{
+	color:#e9321f; font-size:18px;
+}
+.imgs_01{widht:100%;height:160px;}
+
+
+/* .b_btm{
+	width:100%; overflow:hidden; background-color: #fff; margin-top:5%; border-top:1px solid #eaeaea;position:fixed;
+    bottom:0;z-index: 999
+}
+.b_btm ul li{
+	width:22%; height:42px; overflow:hidden; color:#333333; font-size:12px; text-align:center; float:left; display:inline; margin:1% 1% 2% 2%;
+}
+.b_btm ul li a{
+	width:100%; height:42px; overflow:hidden; color:#666; float:left; text-align:center;
+}
+.b_btm ul li a:hover, .b_btm ul li:hover a, .b_btm ul li.cur a{
+	color:#ce3131;
+}
+.b_btm ul li p{
+	height:23px; overflow:hidden; margin:1% auto 0% auto; padding:0;
+} */
+
+
+
+/* 限时抢购样式开始 */
+.flash_sale{}
+.flash_sale ul li{width:25%;float:left;background:#fff;}
+.kz_kg{width:100%;height:100%;min-height: 80px;max-height: 80px;}
+.flash_sale .price{color:#c40000;font-weight:600;text-align:center;font-size:16px;height:20px;}
+.schu{color:#666;font-weight:400;text-align:center;font-size:13px;height:20px;}
+.count_down{background:#c40000;padding:2px 4px;color:#fff;border-radius: 4px;margin-left:1px;}
+.ys{color:#666;margin-left:1px;}
+/* 限时抢购样式结束*/

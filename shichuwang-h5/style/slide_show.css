@@ -1,0 +1,88 @@
+@charset "utf-8";
+.total-section {padding: .3rem 0 .18rem;}
+.total-centent { position: relative; height:40px;}
+.total-centent a {float:left;width:30%; position: relative; color: #838689; text-align: center;border-right:#e5e5e5 1px solid;}
+.total-centent a .total-num {font-size: 14px;}
+.total-centent a span {width:100%; display: block;line-height: 18px;}
+.total-centent a .total-text {font-size: 12px;margin-top:0px;}
+
+.article{height:auto;line-hegith:55px;width:94%;margin:0 auto;}
+.article span{margin-top:3%;}
+
+.n_arrow .edit{width:20px;height:20px;margin-bottom:4px;}
+.mingi{width:35px;height:30px;-moz-border-radius: 13px; -webkit-border-radius: 13px;border-radius: 13px; }
+.line_x{border-bottom:#e5e5e5 1px solid;}
+.assess-top {position: relative;padding: 11px 10px 11px 0;}
+.user-name {font-size: 13px;line-height: 27px;/*  float: left; */height: 27px;margin-right: 5px;margin-left: 10px;color: #252525;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;max-width: 100px;}
+.assess-date, .reply-floor { font-size: 13px;line-height: 27px; float: right;height: 27px;color: #848689;}
+
+
+/* 评价晒图 */
+.slide_show{width:96%;margin:0 auto;}
+.slide_show ul{margin-left:-2%;}
+.slide_show ul li{float:left;margin-top:1%;margin-left:2%;width:23%;}
+.tubip{width:100%;height:74px;}
+ 
+/* 购物车弹出层 */
+ .p_des_bg{
+	overflow:hidden; background-color:#FFF; padding-bottom:80px;
+}
+.p_btm{
+	width:100%; overflow:hidden; background-color:#4c4c4c; position:fixed; left:0; bottom:0; z-index:900;
+}
+.p_btm ul li{
+	width:33%; height:60px; overflow:hidden; color:#FFF; font-size:1.2em; text-align:center; float:left;
+}
+.p_btm ul li a{
+	width:100%; height:60px; line-height:60px;overflow:hidden; color:#FFF; float:left; text-align:center;
+}
+.p_btm ul li p{
+	height:40px; overflow:hidden; margin:10% auto 2% auto; padding:0;
+}
+.p_btm ul li.b_1 p{
+	background:url(../images/n_5.png) no-repeat center center;
+}	
+.p_btm ul li.b_2 p{
+	background:url(../images/n_3.png) no-repeat center center;
+}
+.p_btm ul li.b_3{
+	background-color:#f79f22; color:#FFF; line-height:80px;
+}
+.p_btm ul li.b_4{
+	background-color:#d00e14; color:#FFF; line-height:80px;
+}
+.black_overlay{
+	width:100%; height:100%; background:url(../images/box_bg.png) repeat center top; display:none; position:fixed; top:0%; left:0%; z-index:900;
+}
+.white_content{	
+	width:100%; height:auto !important; min-height:100px; height:100px; background:url(../images/box.png) repeat center top; display:none; position:fixed; top:30%;/*  left:50%; *//*  margin-left:-45%;  */z-index:901;
+}
+.white_d{
+	height:auto; background-color:#FFF; /* margin:10px; */ padding-bottom:0px;
+}
+.notice_t{
+	width:100%; height:45px; line-height:45px; background-color:#d00e14; overflow:hidden; color:#FFF; font-size:1.3em; text-align:center; font-family:"Microsoft YaHei"; margin:0 auto; position:relative;
+}
+.notice_c{
+	width:94%; height:auto; margin-top:10px;
+}
+.notice_c table tr td{
+	font-size:1.2em;
+}
+.notice_c table tr td font{
+	color:#ff4e00; font-size:1.3em;
+}
+
+a.b_sure{
+	width:120px; height:40px; line-height:40px; overflow:hidden; background-color:#d00e14; color:#FFF; font-size:1.2em; font-family:"Microsoft YaHei"; text-align:center; display:inline-block; margin-right:10px; border:0;
+}
+.b_sure{
+	color:#FFF;
+}
+
+.b_buy{
+	width:118px; height:38px; line-height:38px; overflow:hidden; background-color:#f6f6f6; color:#ff4e00; font-size:14px; font-family:"Microsoft YaHei"; text-align:center; float:left; display:inline; margin-right:10px; border:1px solid #eaeaea;
+}
+.b_buy:hover{
+	color:#ff4e00;
+}

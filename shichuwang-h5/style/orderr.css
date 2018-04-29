@@ -1,0 +1,49 @@
+@charset "utf-8";
+--------------------------------------------------*/
+.commodity{ text-indent: 3%;margin-bottom:18px;}
+.mr3{margin-right:3%;}
+.or_t .return{width:8px;height:13px;margin-left:1%;margin-bottom: 1%;}
+.or_t .application{width:15px;height:15px;margin-bottom:4px;margin-right:2%;}
+.o_opr{float: right;color:#ec2322;margin-right: 3%;}
+.pos{text-align:center;}
+.nav{height: 100%; overflow: hidden; float: left; display: block;}
+.n_arroww{width:44px; height:26px; overflow:hidden; position:absolute; top:30%; right:3%;}
+.n_arroww a{/* width:100%; */ height:100%; overflow:hidden; float:left; display:block;}
+/* 绛涢�瀵艰埅鏍�*/
+nav{width:100%;height:48px; border-bottom:1px solid #dddddd;z-index:5;}
+nav ul{ background:#fff;height:48px;}
+nav ul a li { float:left; width:25%;}
+nav ul li { line-height:45px; display:block; margin:0 auto; width:3.6rem;text-align:center; font-size:14px;font-weight: 400;color:#464646}
+nav ul li:first-child a{ width:2.4rem;}
+nav ul a.hover li{border-bottom:3px solid #ff463c;color:#ff463c}
+
+
+
+/* 宸插彂璐�*/
+.logistics{text-indent: 3%;}
+.commodit{margin-right:3%;width:94%;margin-left:3%; clear: both;font-family: "微软雅黑";}
+.logistics .return {width: 8px; height: 13px;margin-bottom: -2px; margin-right:2%;}
+.logistics span{margin-right:3%;float:right;}
+.o_opp {font-size: .9em;padding: 0 2%;/* margin-left: 3%; */}
+.o_opp {float: right;border: 1px solid #ff4e00;border-radius: 5px; -mos-border-radius: 5px; /* -webkit-border-radius: 5px; */}
+.mr1{margin-tight:1%;}
+.o_oppo { font-size: .9em;padding: 0 2%; margin-right: 1%; }
+.o_oppo {float: right; border: 1px solid #ff4e00; border-radius: 5px;-mos-border-radius: 5px;margin-bottom: 3%;}
+.logistics .transport{width:25px;height:20;margin-bottom:5px;}
+
+/* 宸插畬鎴�*/
+.complete{float: right;margin-right: 3%;}
+.delete_1{width:16px;height:17px;margin-bottom:4px;margin-left:4px;}
+.list_chart{width:94%;margin:0 auto;}
+.list_chart ul{margin-left:-4%;}
+.list_chart ul li{margin-left:4%;width:105px;height:105px;float: left;}
+.o_imgg {width: 110px; height: 110px; overflow: hidden;border: 1px solid #eaeaea;}
+
+
+/* 全部订单 */
+ul.orderList li .or_t {height: 40px;line-height: 40px;overflow: hidden;font-size: 12px;text-indent: 3%;}
+.n_arroww {width: 44px;height: 26px;overflow: hidden;position: absolute;top: 22%;right: 3%;}
+.logistics{height: 40px;line-height: 40px;border-top: 1px solid #e5e5e5}
+.o_oppo {border: 1px solid #e5e5e5;}
+.fukj{width:65%;}
+.o_img{margin-left:3%;}

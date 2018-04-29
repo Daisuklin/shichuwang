@@ -1,0 +1,21 @@
+/* 鏍峰紡鍒濆鍖�
+--------------------------------------------------*/
+.order-bar {font-size: 14px;line-height: 50px;padding: 0 10px;}
+.pay-total {color: #f15353;float: right;font-family: \534e\6587\7ec6\9ed1;}
+.pay-total-icon {display: none;float: left;height: 14px;width: 14px; margin: 11px 5px 0 0;}
+.cash{width:20px;height:20px;}
+.cash .cash-e{width:26px;height:26px;}
+.pay-list-item .pay-ico {width: 30px; height: 30px; margin: 0px 10px 0 0;}
+.list {padding-left: 10px;}
+.pay-list-item { height: 55px;line-height: 55px; display: none;}
+.list-item {height: 60px;line-height:60px;}
+.pay-list-item .list-link { height: 65px;}
+.list-link { display: block; overflow: hidden; padding-right: 10px; position: relative;}
+.pay-list-item .pay-icon {float: left;width: 35px;height: 35px;margin: 0px 10px 0 0;}
+.pay-ico{float:right;}
+.pay-icon img{width:30px;height:30px;}
+.pay-list-item .title-vice {font-size: 12px;width: 60%;margin: -12px 0 0 45px;}
+.pay-list-item .title-main, .pay-list-item .title-vice, .safe-code-title-main {float: left;}
+.list-item .title-main, .pay-list-item .title-main, .safe-code-title-main {font-size: 14px;margin-top: 13px;line-height:35px;}
+
+

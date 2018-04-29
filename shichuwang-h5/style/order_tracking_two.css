@@ -1,0 +1,15 @@
+/* 样式初始化
+--------------------------------------------------*/
+.new-order-track {padding: 10px 10px;}
+.new-order-track span {display: block;font-size: 14px;color: #6e6e6e;}
+.new-order-track span {display: block;font-size: 12px;color: #6e6e6e;}
+
+.new-order-flow {padding: 5px 10px 30px;}
+.new-p-re { position: relative;}
+.new-order-arr { position: absolute;top: -4px;left: -5px;width: 9px; height: 9px;}
+.new-of-storey li { position: relative;padding: 15px 10px;border-bottom: 1px dotted #e8e5e5; border-left: 1px solid #ccc;}
+.new-of-storey li .icon.on {background-color: #e4393c;}
+.new-of-storey li .icon {margin-left:10px;position: absolute;top: 42%;left: -15px; width: 9px; height: 9px;border-radius: 5px;background-color: #01a1fd;}
+.new-of-storey li span {display: block;font-size: 12px;color: #6e6e6e;}
+.bbxian{border-bottom:1px solid #d7d7d7; height: 30px; width: 100%}
+.tongyi{float: right; color: red}

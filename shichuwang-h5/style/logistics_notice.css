@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* 消息物流通知 */
+.con_main .mana{text-align:center;}
+.not_paid{overflow: hidden;}
+.not_paid .details{text-indent: 3%;width:88%;float:left;margin-bottom:3%;}
+.dkkjk{text-indent: 3%;width:10%;float:right;}
+.tuk{width:8px;height:12px;margin-right:3%;}
+.not_paid p{text-indent: 3%;}
+.mrd {margin-right:3%;}
+.details{padding-left:2%;}
+
+
+/* 优惠促销 */
+.img_banner img{width:94%;margin:0 auto;margin-left:3%;height:100%;border-radius: 5px;}
+.not_paid .detailss{text-indent: 3%;width:94%;margin:0 auto;margin-bottom:3%;}
+.See{width:94%;margin:0 auto;}
+
+
+
+
+

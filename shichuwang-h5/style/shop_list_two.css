@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* 列表样式 */
+/* 列表头部 */
+.new-change-eleven {
+    width: 25%;
+    border-right: 0px none;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.new-change-eleven.active span {
+    color: #F15353 !important;
+}
+.like ul{
+	margin-left:-0.5%;
+}
+.like ul li{
+	width:47%; margin-left:2%;margin-top:2%;overflow:hidden; background-color:#FFF; 
+
+float:left; float:left; display:inline;/*  margin:0 1% 2% 1%; */ border:1px solid #eaeaea;
+}
+.like ul li .img{
+	width:63.5%; overflow:hidden; margin-top:1%;
+}
+.like ul li .img img{
+	width:100%;
+}
+.like ul li .name{
+	height:40px; line-height:20px; overflow:hidden; color:#888888; font-size:12px; 
+
+text-align:center; margin-top:1%;
+}
+.like ul li .name h2{
+	height:20px; line-height:20px; overflow:hidden; color:#555555; font-size:14px; 
+
+text-align:center;
+}
+.like ul li .name h2 a{
+	color:#555555;
+}
+.like ul li .name h2 a:hover{
+	color:#555555; text-decoration:underline;
+}
+.like ul li .name a{
+	color:#888888;
+}
+.like ul li .name a:hover{
+	color:#888888; text-decoration:underline;
+}
+.like ul li .price{
+	height:30px; line-height:30px; overflow:hidden; color:#999999; text-align:center; 
+
+text-transform:uppercase;
+}
+.like ul li .price font{
+	color:#e9321f; font-size:14px;font-family: "微软雅黑";
+}
+.like ul li .price span{
+	color:#e9321f; font-size:18px;
+}

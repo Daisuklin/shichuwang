@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>店铺首页</title>
+<!-- 店铺首页 --><link href="css/shop_index.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/shop_index_head.css" />
+<!-- 头部 --><link rel="stylesheet" href="css/head.css" />
+<link rel="stylesheet" href="css/bottom_style.css" /> 
+<!-- 顶部图标 --><link href="fonts/iconfont.css"  rel="stylesheet" type="text/css" />
+<!-- 顶部下拉 --><script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+<!-- 购物车 左侧 菜单--><script src="js/common_js.js" type="text/javascript"></script>
+</head>
+   <body>
+    <div>
+   <div id="header_top">
+    <div id="top">
+    <div class="Inside_pages">
+      <div class="Collection">您好！欢迎来到雷铭系统演示站！</div>
+      <div class="Collection"><a href="#" class="shop_center">商家管理中心</a></div>
+	<div class="hd_top_manu clearfix">
+	  <ul class="clearfix">
+	   <li class="hd_menu_tit zhuce" data-addclass="hd_menu_hover">欢迎光临本店！<a href="login.html" class="red">[请登录]</a> <a href="register.html" class="red">[免费注册]</a></li>
+	   <li class="hd_menu_tit" data-addclass="hd_menu_hover" style="line-height: 16px;"><a href="../Static_pag/advanced_search_s.html"><em class="iconfont icon-fankui dingdan_icon" ></em>我的订单</a></li>
+	   <li class="hd_menu_tit" data-addclass="hd_menu_hover" style="line-height: 16px;"> <a href="../Static_pag/personal_data.html"><em class="iconfont icon-yonghu"></em>个人中心</a> </li>
+	   <li class="hd_menu_tit phone_c" data-addclass="hd_menu_hover"><a href="#" class="hd_menu " style="line-height: 5px;"><em class="iconfont icon-erweima"></em>二维码</a>
+	    <div class="hd_menu_list erweima">
+		   <ul class="shoucang_top">
+		           <div class="shouji1">
+							<img src="./images/11.jpg" class="shouj4">
+							<div class="shouj2">
+								<p>客户端</p>
+								<p class="red">首次下单满79元</p>
+								<img src="images/yd-02_03.png" class="shouj3">
+								<img src="images/yd-02_03-02.png" class="shouj3">
+							</div>
+						</div>
+						<div class="yi">
+						 <div class="shouji1">
+							<img src="images/11.jpg" class="shouj4">
+							<div class="shouj2" style="margin-top:90px;">
+								<p>客户端</p>
+								<p class="red">首次下单满79元</p>
+								<img src="images/yd-02_03.png" class="shouj3">
+								<img src="images/yd-02_03-02.png" class="shouj3">
+							</div>
+						</div>
+						</div>
+		            </ul>
+		         </div>	   
+	         </li>
+	   <li class="hd_menu_tit phone_c" data-addclass="hd_menu_hover"><a href="#" class="hd_menu " style="line-height: 5px;"><em class="iconfont icon-shoucang"></em>我的收藏</a>
+	    <div class="hd_menu_list shoucang">
+		   <ul class="shoucang_top">
+           <li><a href="../Static_pag/collect_shop.html">我收藏的商品</a></li>
+			<li><a href="../Static_pag/collect_shop_2.html">我收藏的店铺</a></li>
+		   </ul>
+		</div>	   
+	   </li>
+     
+	  </ul>
+	</div>
+    </div>
+  </div>
+  </div>
+  <div id="header "  class="header page_style">
+    <div class="logo"><a href="index.html"><img src="images/logo.png" /></a></div>
+     <div class="lanren-search-form">
+    <div class="wrap clearfix">
+  <!--搜索框-->
+    <div class="header_c fl">
+      <div class="form clearfix">
+        <input type="text" class="fl"  value="搜索你所需要的商品" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}" style="color:#999;height:30px;line-height:30px;padding-left:10px;"/>
+         <a href="#" class="fl" style="background:#f23131">全站搜</a>
+        <a href="#" class="fl">站内搜</a></div>
+   </div>
+ 
+ 
+   </div>
+
+
+    </div>
+  <script>
+        $(function(){
+            //通用头部搜索切换
+            $('#search-hd .search-input').on('input propertychange',function(){
+                var val = $(this).val();
+                if(val.length > 0){
+                    $('#search-hd .pholder').hide(0);
+                }else{
+                    var index = $('#search-bd li.selected').index();
+                    $('#search-hd .pholder').eq(index).show().siblings('.pholder').hide(0);
+                }
+            })
+            $('#search-bd li').click(function(){
+                var index = $(this).index();
+                $('#search-hd .pholder').eq(index).show().siblings('.pholder').hide(0);
+                $('#search-hd .search-input').eq(index).show().siblings('.search-input').hide(0);
+                $(this).addClass('selected').siblings().removeClass('selected');
+                $('#search-hd .search-input').val('');
+            });
+        })
+    </script>
+  <div class="dimension">
+  <a href="#"><img src=images/erweim.jpg style="width:100px;height:100px;"></a>
+  </div>
+</div>
+<div id="Menu" class="clearfix">
+<div class="index_style clearfix">
+  <script>$("#allSortOuterbox").slide({ titCell:".Menu_list li",mainCell:".menv_Detail",	});</script>
+	<!--菜单栏-->
+	<div class="Navigation" id="Navigation">
+		 <ul class="Navigation_name">
+		    <li><a href="shop_index.html">店铺首页</a></li>
+			<li><a href="credit_rating.html">信用评价</a></li>
+			<li><a href="shop_credit.html">店铺详情</a></li>
+		 </ul>			 
+		</div>
+	<script>$("#Navigation").slide({titCell:".Navigation_name li"});</script>		
+  </div>
+</div>
+</div> 
+<!-- 顶部样式结束 -->
+<div class="list_page detail_page">
+   <div id="playBox">
+    <div class="pre"></div>
+    <div class="next"></div>
+    <div class="smalltitle">
+      <ul>
+        <li class="thistitle"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+     </ul>
+    </div>
+    <ul class="oUlplay">
+       <li><a href="#" target="_blank"><img src="images/AD-01.jpg" style="width:100%;height:410px;"></a></li>
+       <li><a href="#" target="_blank"><img src="images/AD-04.jpg" style="width:100%;height:410px;"></a></li>
+       <li><a href="#" target="_blank"><img src="images/AD-01.jpg" style="width:100%;height:410px;"></a></li>
+       <li><a href="#" target="_blank"><img src="images/AD-01.jpg" style="width:100%;height:410px;"></a></li>
+  </ul>
+  </div>
+ <!-- 轮播特效 --> 
+   <script>
+ function getStyle(obj,name)
+{
+	if(obj.currentStyle)
+	{
+		return obj.currentStyle[name]
+	}
+	else
+	{
+		return getComputedStyle(obj,false)[name]
+	}
+}
+
+function getByClass(oParent,nClass)
+{
+	var eLe = oParent.getElementsByTagName('*');
+	var aRrent  = [];
+	for(var i=0; i<eLe.length; i++)
+	{
+		if(eLe[i].className == nClass)
+		{
+			aRrent.push(eLe[i]);
+		}
+	}
+	return aRrent;
+}
+
+function startMove(obj,att,add)
+{
+	clearInterval(obj.timer)
+	obj.timer = setInterval(function(){
+	   var cutt = 0 ;
+	   if(att=='opacity')
+	   {
+		   cutt = Math.round(parseFloat(getStyle(obj,att)));
+	   }
+	   else
+	   {
+		   cutt = Math.round(parseInt(getStyle(obj,att)));
+	   }
+	   var speed = (add-cutt)/4;
+	   speed = speed>0?Math.ceil(speed):Math.floor(speed);
+	   if(cutt==add)
+	   {
+		   clearInterval(obj.timer)
+	   }
+	   else
+	   {
+		   if(att=='opacity')
+		   {
+			   obj.style.opacity = (cutt+speed)/100;
+			   obj.style.filter = 'alpha(opacity:'+(cutt+speed)+')';
+		   }
+		   else
+		   {
+			   obj.style[att] = cutt+speed+'px';
+		   }
+	   }
+	   
+	},30)
+}
+
+  window.onload = function()
+  {
+	  var oDiv = document.getElementById('playBox');
+	  var oPre = getByClass(oDiv,'pre')[0];
+	  var oNext = getByClass(oDiv,'next')[0];
+	  var oUlBig = getByClass(oDiv,'oUlplay')[0];
+	  var aBigLi = oUlBig.getElementsByTagName('li');
+	  var oDivSmall = getByClass(oDiv,'smalltitle')[0]
+	  var aLiSmall = oDivSmall.getElementsByTagName('li');
+	  
+	  function tab()
+	  {
+	     for(var i=0; i<aLiSmall.length; i++)
+	     {
+		    aLiSmall[i].className = '';
+	     }
+	     aLiSmall[now].className = 'thistitle'
+	     startMove(oUlBig,'left',-(now*aBigLi[0].offsetWidth))
+	  }
+	  var now = 0;
+	  for(var i=0; i<aLiSmall.length; i++)
+	  {
+		  aLiSmall[i].index = i;
+		  aLiSmall[i].onclick = function()
+		  {
+			  now = this.index;
+			  tab();
+		  }
+	 }
+	  oPre.onclick = function()
+	  {
+		  now--
+		  if(now ==-1)
+		  {
+			  now = aBigLi.length;
+		  }
+		   tab();
+	  }
+	   oNext.onclick = function()
+	  {
+		   now++
+		  if(now ==aBigLi.length)
+		  {
+			  now = 0;
+		  }
+		  tab();
+	  }
+	  var timer = setInterval(oNext.onclick,3000) //滚动间隔时间设置
+	  oDiv.onmouseover = function()
+	  {
+		  clearInterval(timer)
+	  }
+	   oDiv.onmouseout = function()
+	  {
+		  timer = setInterval(oNext.onclick,3000) //滚动间隔时间设置
+	  }
+  }
+  </script> 
+   <div class="con_main">
+        <div class="section3">
+            <div class="section3_left">
+                   <!--    店铺加入开始 -->
+                 <div class="dp_line" style="border: #e5e5e5 1px solid;margin-top:10px;">  
+                  <div class="dp_top">京川牦牛</div>
+                   <div class="dp_images">
+                      <img src=images/dp/dp_iocn1.png>
+                      <p>综合评分<span style="color:#fe292d;">&nbsp;9.0分</span></p>
+                   </div>
+                     <div class="store_shop">
+                        <h3>动态评价</h3>
+                        <dl>
+                         <dt>描述相符：</dt>
+                         <dd>9.92<span class="con_redcolor">↑</span></dd>
+                         <dt>服务态度：</dt>
+                         <dd>9.90<span class="con_redcolor">↑</span></dd>
+                         <dt>发货速度：</dt>
+                         <dd>8.00<span class="con_redcolor">↓</span></dd>
+                        </dl>
+                     </div>
+                     <div class="shop_info">
+                        <h3>店铺信息</h3>
+                        <dl>
+                         <dt>创建时间：</dt>
+                         <dd>2016-2-19</dd>
+                         <dt>所&nbsp;&nbsp;在&nbsp;地：</dt>
+                         <dd>北京，北京市</dd>
+                         <dt>商品数量：</dt>
+                         <dd><span class="con_red">29</span>件商品</dd>
+                         <dt>店铺收藏：</dt>
+                         <dd><span class="con_red">129</span>件收藏</dd>
+                        </dl>
+                     </div>
+                      <div class="dip_index">
+                       <ul>
+                         <li><a class="anniu_style">店铺地图</a></li>
+                         <li><a class="anniu_style1">店铺二维码</a></li>
+                       </ul>
+                      </div>
+                   </div>
+             <div class="fl" style="margin-top:10px;">
+                       <div class="fl_tit">商品分类</div>
+                       <ul class="fl_ul tree">
+                           <li class="show_btn">
+                               <p class="tree_title">IT设备</p>
+                               <div class="hide">
+                                   <a href="">电脑整机</a><a href="">网络产品</a><a href="">网络储存</a><a href="">安全产品</a><a href="">机房布线</a><a href="">安防产品</a>
+                               </div>
+                           </li>
+                           <li class="show_btn">
+                               <p class="tree_title">办公设备</p>
+                               <div class="hide">
+                                   <a href="">电脑整机</a><a href="">网络产品</a><a href="">网络储存</a><a href="">安全产品</a><a href="">机房布线</a><a href="">安防产品</a>
+                               </div>
+                           </li>
+                           <li class="show_btn">
+                               <p class="tree_title">软件产品</p>
+                               <div class="hide">
+                                   <a href="">电脑整机</a><a href="">网络产品</a><a href="">网络储存</a><a href="">安全产品</a><a href="">机房布线</a><a href="">安防产品</a>
+                               </div>
+                           </li>
+                           <li class="show_btn">
+                               <p class="tree_title">方案咨询</p>
+                               <div class="hide">
+                                   <a href="">电脑整机</a><a href="">网络产品</a><a href="">网络储存</a><a href="">安全产品</a><a href="">机房布线</a><a href="">安防产品</a>
+                               </div>
+                           </li>
+                           <li class="show_btn">
+                               <p class="tree_title">服务产品</p>
+                               <div class="hide">
+                                   <a href="">电脑整机</a><a href="">网络产品</a><a href="">网络储存</a><a href="">安全产品</a><a href="">机房布线</a><a href="">安防产品</a>
+                               </div>
+                           </li>
+                           <li class="show_btn">
+                               <p class="tree_title">云产品</p>
+                               <div class="hide">
+                                    <a href="">云服务器</a><a href="">云数据库</a><a href="">云计算</a><a href="">云应用</a><a href="">云安全</a><a href="">IDC数据中心</a>
+                               </div>
+                           </li>
+                       </ul>
+                </div>
+                 <!--   浏览记录 列表开始  -->
+                   <div class="fl" style="margin-top:10px;border-top:#e5e5e5 1px solid;"> 
+                     <div class="lljl" >浏览记录</div> 
+                     <div class="hotsell">
+                      <ul class="hotsell_ul" style="border:#EEEDEB 1px solid;">
+                          <li >
+                            <a href=""><img src="images/list4.gif"></a>
+                               <p>IBM服务器 x3100457i21<span class="highlight">(E3-1220v3 8G 无盘)塔式 主机不含显</span></p>
+                               <div class="price">￥6999.00<span>赠品</span></div>
+                              <div class="comment_info"> 已有<em class="comment_num">179</em>人评价</div>
+                           </li>
+                            <li>
+                               <a href=""><img src="images/list4.gif"></a>
+                               <p>IBM服务器 x3100457i21<span class="highlight">(E3-1220v3 8G 无盘)塔式 主机不含显</span></p>
+                               <div class="price">￥6999.00<span>赠品</span></div>
+                              <div class="comment_info"> 已有<em class="comment_num">179</em>人评价</div>
+                           </li>
+                     </ul>
+                   </div>
+                  </div> 
+            </div>
+               <!--侧栏 结束-->
+               <div class="section3_right tab" style="width:980px;margin-top:10px;">
+                   <!-- <ul class="section2_right_tit">
+                     <li class="on tab_t" data-to="tab_c_1">推荐商品</li>
+                        <li class="tab_t" data-to="tab_c_2">新品</li>
+                        <li class="tab_t" data-to="tab_c_3">最新优惠</li> 
+                   </ul> -->
+                   <div class="clear"></div>
+                   <div class="section2_main">
+                   <p class="title_b">推荐商品</p>
+                    <div class="tab_c tab_c_1">
+                         <div class="procon-param">
+						    <div class="shop_list">
+						      <ul>
+						       <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_06.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_08.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_10.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_12.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						           <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_06.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_08.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_10.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_12.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						      </ul>
+						     </div>
+						   </div>
+						   <p class="title_b">新品</p>
+						   <div class="procon-param">
+						    <div class="shop_list">
+						      <ul>
+						       <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_06.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						          <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_06.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						          <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_06.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						          <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_06.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						          <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_06.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_08.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_10.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_12.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						           <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_06.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_08.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_10.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						         <li style="margin-left:5px;">
+						           <a href="#"><div class="list_images">
+						           <img src="images/dp/dpicon_01_12.png">
+						            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+						            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+						           </div></a>
+						          </li>
+						      </ul>
+						     </div>
+						   </div>
+						     <p  class="title_b" >最新优惠</p>
+						   <div class="procon-param">
+						 <div class="con_list">
+							   <ul>
+							      <li style="margin-left:4px;"><span class="con_h" >
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							          </span></li>
+							      <li>
+							        <span class="con_h">
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							        </span>
+							      </li>
+							      <li><span class="con_h">
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							          </span></li>
+							      <li><span class="con_h">
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							          </span></li>
+							      <li style="margin-left:4px;"><span class="con_h">
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							      </span></li>
+							     <li><span class="con_h">
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							      </span></li>
+							     </ul>
+							  </div>
+                            </div>
+                      </div> 
+                   
+                       <div class="tab_c tab_c_3 hide">
+                         <!--  最新优惠 -->
+                         <style>
+                          .con_list {width:1000px;margin:0 auto;margin-top:10px;}
+		                  .con_list ul li .con_h .fon_s{font-size:34px;color:#fff;text-align:center;}
+		                  .con_list ul li .con_h p{font-size:14px;color:#fff;text-align:center;}
+		                   .button_y{width:60px;border:none;color:#fff;font-size:14px;curosr: pointer;padding:4px 30px;border-radius: 30px;text-align:center;border:#fff 1px solid;}
+		                  .button_y:hover{color:#666;background:#fff;border:#fff 1px solid;}
+		                  .con_list ul li .con_h{font-size:26px;color:#fff;margin:0 auto;padding-left:60px;color:#fff;}
+		                  .con_list ul li{float:left;margin-left:10px;margin-bottom:10px;background:url(images/youhuiquan/yh_03.png) no-repeat;width:232px;height:290px;}
+		                  .con_list ul li:hover{ background:url(images/youhuiquan/yh_03.png) no-repeat;opacity:0.8}
+		                  .con_h{font-size:14px;}
+                       </style>
+                       <!-- <div class="procon-param">
+						 <div class="con_list">
+							   <ul>
+							      <li style="margin-left:4px;"><span class="con_h" >
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							          </span></li>
+							      <li>
+							        <span class="con_h">
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							        </span>
+							      </li>
+							      <li><span class="con_h">
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							          </span></li>
+							      <li><span class="con_h">
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							          </span></li>
+							      <li style="margin-left:4px;"><span class="con_h">
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							      </span></li>
+							     <li><span class="con_h">
+							          <a href="#" style="color:#fff;">
+							             <p class="fon_s mt20">￥100 </p>
+							             <p class="mt50">无惧挑战放肆奔跑</p>
+							             <p>2016-03-04至2016-08-09</p>
+							             <p class="mt20"><a href="#" class="button_y" >立即使用 </a></p>
+							           </a>
+							      </span></li>
+							     </ul>
+							  </div>
+                            </div> -->
+				       <!-- 分页结束 -->  
+				       <div class="tab_c tab_c_2  hide">
+                           <!-- 规格说明 -->
+  <div class="procon-param">
+   <div class="shop_list">
+      <ul>
+        <li style="margin-left:5px;">
+           <a href="#"><div class="list_images">
+           <img src="images/dp/dpicon_01_08.png">
+            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+           </div></a>
+          </li>
+         <li style="margin-left:5px;">
+           <a href="#"><div class="list_images">
+           <img src="images/dp/dpicon_01_10.png">
+            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+           </div></a>
+          </li>
+         <li style="margin-left:5px;">
+           <a href="#"><div class="list_images">
+           <img src="images/dp/dpicon_01_12.png">
+            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+           </div></a>
+          </li>
+           <li style="margin-left:5px;">
+           <a href="#"><div class="list_images">
+           <img src="images/dp/dpicon_01_06.png">
+            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+           </div></a>
+          </li>
+         <li style="margin-left:5px;">
+           <a href="#"><div class="list_images">
+           <img src="images/dp/dpicon_01_08.png">
+            <p class="dp_fontlist">[移动购机赠话费] Apple ipone 6</p>
+            <p class="dh"><em class="con_red">￥221.00</em><span>已销售：630件</span></p>
+           </div></a>
+          </li>
+        
+      </ul>
+     </div>
+    <!-- 页码结束 -->
+   </div>
+                     </div>
+                       </div>
+                   </div>
+            </div>
+           <div class="clear"></div>
+           </div>
+</div>
+</div>
+<!--底部图层-->
+<div>		   
+<div class="slogen">
+  <div class="index_style">
+    <ul class="wrap">
+	 <li>
+	  <a href="#"><img src="images/icon-_189.png" data-bd-imgshare-binded="1"></a>
+	  <b>正品行货</b>
+	  <span>100%正品保证</span>
+	 </li>
+	 <li><a href="#"><img src="images/icon-_192.png" data-bd-imgshare-binded="2"></a>
+	  <b>天天低价</b>
+	  <span>天天有超低价</span>
+	 </li>
+	 <li>
+	  <a href="#"><img src="images/icon-_195.png" data-bd-imgshare-binded="3"></a>
+	  <b>7天包退换</b>
+	  <span>七天无理由退货</span>
+	 </li>
+      <li>
+	  <a href="#"><img src="images/icon-_198.png" data-bd-imgshare-binded="4"></a>
+	  <b>极速配送</b>
+	  <span>极速配送服务</span>
+	 </li>
+	  <li>
+	  <a href="#"><img src="images/icon_201.png" data-bd-imgshare-binded="4"></a>
+	  <b>精致服务</b>
+	  <span>贴心精致服务</span>
+	 </li>
+	</ul>
+  </div>
+ </div>
+<div class="footerbox clearfix">
+  <div class="clearfix">
+   <div class="">
+    <dl>
+	 <dt>店主之家</dt>
+	 <dd><a href="#">售后流程</a></dd>
+     <dd><a href="#">购物流程</a></dd>
+     <dd><a href="#">订购方式</a> </dd>
+     <dd><a href="#">隐私声明 </a></dd>
+     <dd><a href="#">推荐分享说明 </a></dd>
+	</dl>
+	<dl>
+	 <dt>新手上路</dt>
+	 <dd><a href="#">保险需求测试</a></dd>
+     <dd><a href="#">专题及活动</a></dd>
+     <dd><a href="#">挑选保险产品</a> </dd>
+     <dd><a href="#">常见问题 </a></dd>
+	</dl>
+	<dl>
+	 <dt>支付方式</dt>
+	 <dd><a href="#">保险需求测试</a></dd>
+     <dd><a href="#">专题及活动</a></dd>
+     <dd><a href="#">挑选保险产品</a> </dd>
+     <dd><a href="#">常见问题 </a></dd>
+	</dl>
+	<dl>
+	 <dt>配送方式</dt>
+	 <dd><a href="#">保险需求测试</a></dd>
+     <dd><a href="#">专题及活动</a></dd>
+     <dd><a href="#">挑选保险产品</a> </dd>
+     <dd><a href="#">常见问题 </a></dd>
+	</dl>	
+    <dl>
+	 <dt>关于我们</dt>
+	 <dd><a href="#">关于我们</a></dd>
+     <dd><a href="#">联系我们</a></dd>
+     <dd><a href="#">招聘英才</a> </dd>
+	</dl>	   
+   </div>
+  </div>
+ <div class="text_link">
+   <p>
+  <a href="#">首页</a>｜ <a href="#">联系我们</a>｜ <a href="#">关于我们</a>｜ <a href="#">招聘英才</a>｜ <a href="#">广告合作</a>｜ <a href="#">触屏版</a>｜ <a href="#">商家管理中心</a>｜ <a href="#">后台管理中心</a>｜ <a href="#">ios原生版</a>｜ <a href="#">android原生版</a></p>
+	 <p>Copyright 2011-2015 北京雷铭智信科技有限公司 Inc.All rights reserved. </p>
+	 <p><a href="#"><img src="images/brand-_209.png"></a><a href="#"><img src="images/brand-_211.png"></a><a href="#"><img src="images/brand-_213.png"></a></p>
+  </div>
+  </div>
+</div>
+ <!--右侧层悬浮-->
+ <style>
+.follow_l {
+    position: fixed;
+    top:740px;
+    right:10px;
+   }
+.follow_l .pt8{margin-top:4px;color:#fff;line-height:30px;}
+ </style>
+ <!-- 新加悬浮 -->
+  <div class="follow_l"  style="border:red 2px solid;width:70px;height:30px;border-radius:25px;background:red;">
+    <img src="images/gz.png"  style="width:23px;height:20px;margin-bottom:4px;">
+        <span class="pt8">已关注</span>
+     </ul>   
+  </div>
+
+  <div class="fixedBox">
+  <ul class="fixedBoxList">
+    <li class="fixeBoxLi Home"> <a href="#" title="个人中心"> <span class="fixeBoxSpan iconfont  icon-yonghu"></span> </a> </li>
+    <li class="fixeBoxLi Home"> <a href="#" title="我的收藏"> <span class="fixeBoxSpan iconfont  icon-shoucang"></span> </a> </li>
+     <li class="fixeBoxLi Home"> <a href="#" title="我的关注"> <span class="fixeBoxSpan iconfont  icon-wodedingdan31" style="font-size: 18px;padding-top: 5px;"></span> </a> </li>
+    <li class="fixeBoxLi Home"> <a href="#" title="浏览记录"> <span class="fixeBoxSpan iconfont  icon-time" style="font-size: 19px;"></span> </a> </li>
+    <li class="fixeBoxLi BackToTop"><a href="#" title="返回顶部"><span class="fixeBoxSpan iconfont icon-fold" style="font-size: 20px;"></span> </a></li>
+  </ul>
+</div>
+ <!--左侧楼层悬浮--> 
+ <!-- tab切换 --><script src="js/jquery.tinycarousel1.js"></script>
+                     <script src="js/effects.js"></script>
+      
+   </body>
+</html>

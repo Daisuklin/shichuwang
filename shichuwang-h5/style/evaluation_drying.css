@@ -1,0 +1,12 @@
+@charset "utf-8";
+.button_dy{ width: 40%;height: 15px;margin-bottom: 20px;}
+.goods-button_dy{ float: left;margin-left: -75%;width: 40%;border: 1px solid #d00e14;padding:0px 14px; background:#d00e14; border-radius: 4px; text-align: center;color: #fff}
+.goods-button_dy:hover{opacity:0.8; color: #fff}
+/* .dynamics{margin-top:12%;} */
+.dynamics p{text-align:center;line-height:35px;height:35px;font-size: 1.2em;}
+
+
+.img_banner img{width:94%;margin:0 auto;margin-left:3%;height:100%;border-radius: 5px;}
+.not_paid .detailss{text-indent: 3%;width:94%;margin:0 auto;}
+.See{width:94%;margin:0 auto;line-height:35px;height:35px;}
+.skjk{margin-right:3%;border: #e5e5e5 1px solid; padding: 0px 6px;border-radius: 4px;}

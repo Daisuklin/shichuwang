@@ -1,0 +1,10 @@
+.title{ line-height: 40px; font-size: 14px; color: #fff; }
+.title span{padding-right: 10px;}
+.sku_two_center{background: #fff; float: left;text-align: center;width: 100%; padding-top: 5px;height: 100px; line-height: 100px;  }
+.sku_two_centerc{float: left; width: 20%; text-align: left;padding-left: 5px; font-size: 14px;}
+.sku_two_centerimg img{width: 14px;}
+.sku_two_centerb{background: #fff;float: left; width: 33.3%;}
+.sku_two_centerd{float: left; width: 75%; color: #d00e14;font-size: 40px;}
+.sku_two_centerc a{color: #fff;text-decoration:none; line-height: 18px;}
+.sku_two_centere{float: left; width: 20%;text-align: left; padding-left: 5px; padding-top: 5px; height: 40px; line-height: 30px; width: 100%; margin-top: 10px;}
+

@@ -1,0 +1,1 @@
+if($.browser.msie&&$.browser.version=="6.0"){$("#shop_cart_lay").bgiframe();}

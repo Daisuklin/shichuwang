@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>首页</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Administrator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- 底部 --><link rel="stylesheet" href="style/head_bottom.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <link rel="stylesheet" href="style/base.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <link rel="stylesheet" href="style/common.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+     <link rel="stylesheet" href="style/index.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <link rel="stylesheet" href="style/device.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <link rel="stylesheet" href="style/jquery.bxslider.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--[if IE]>
+    <script src="js/html5.js"></script>
+    <![endif]-->
+    <script>
+        $(document).ready(function() {
+            $('.bxslider').bxSlider({
+                auto : true,
+                controls : false,
+                touchEnabled : true,
+            });
+        });
+        //回车事件
+        function searcht(){
+            $("#form1").attr("action","");
+            $("#form1").submit();
+         }
+    
+        $(function(){
+          $(document).keydown(function(event){
+            if(event.keyCode==13){
+            	searcht();
+            }
+         });
+        });
+       
+    </script>
+    
+</head>
+<body>
+<div class="banbg">	
+	<!--Begin Header Begin-->
+	<div class="top" style="position: fixed;">
+        <div id="logo"><a href="Index.html"><img src="images/logo.png" /></a></div>
+        <div class="search" style="width: 70%;">
+        	<form  action="" id="form1">
+        	    <input type="submit" value="" class="s_btn">
+            	<input type="text" value="搜索你想要的商品" class="s_ipt" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}">
+            </form>
+            
+        </div>        
+        <div class="t_log"><a href="sign_in.html">登录</a></div> 
+    </div>
+    <!--End Header End-->
+    <!--Begin Banner Begin-->
+    <section id="banner" style="margin-top:48px;">
+    <ul class="bxslider">
+            <li><a href="#" title="1"><img class="imgs_01" src="images/ban1.jpg" alt="" /></a></li>
+			<li><a href="#" title="2"><img class="imgs_01" src="images/ban1.jpg" alt="" /></a></li>
+            <li><a href="#" title="3"><img class="imgs_01" src="images/ban1.jpg" alt="" /></a></li>
+    </section>
+    <!--End Banner End-->
+</div>
+<div class="i_img">
+	<ul>
+    	<li><a href="classif.html"><img src="images/i_1.png">分类</a></li>
+        <li><a href="BuyCar.html"><img src="images/i_2.png">购物车</a></li>
+        <li><a href="my_concern.html"><img src="images/i_3.png">商品</a></li>
+        <li><a href="my_concern.html"><img src="images/i_4.png">店铺</a></li>                                 
+        <li><a href="browsing_record.html"><img src="images/i_5.png">记录</a></li>
+        <li><a href="return_records.html"><img src="images/i_6.png">退换货</a></li>                           
+        <li><a href="Order.html"><img src="images/i_7.png">订单</a></li>
+        <li><a href="coupon.html"><img src="images/i_8.png">优惠券</a></li>
+	</ul>
+</div>
+<!-- 限时抢购start -->
+	<div class="i_t">
+		<span class="f_i"><img style="margin-bottom: 4px;" src="images/panic_buying.png" height="30px;" width="85px;"></span>
+	    <span class="f_c" style="padding-top:3px;">12点场</span>
+	    <span class="count_down">01</span><em class="ys">：</em><span class="count_down">30</span><em class="ys">：</em><span class="count_down">10</span>
+	    <span class="fr"><a href="shop_list.html">更多></a></span>
+    </div>
+	<div class="flash_sale">
+		<ul>
+			<li>
+				<img src="images/index_qg1.png" class="kz_kg">
+				<p class="price">&yen;29</p>
+				<p class="schu">&yen;<strike>29</strike></p>
+		    </li>
+		    <li>
+				<img src="images/index_qg2.png" class="kz_kg">
+				<p class="price">&yen;29</p>
+				<p class="schu">&yen;<strike>29</strike></p>
+		    </li>
+		    <li>
+				<img src="images/index_qg3.png" class="kz_kg">
+				<p class="price">&yen;29</p>
+				<p class="schu">&yen;<strike>29</strike></p>
+		    </li>
+		    <li>
+				<img src="images/index_qg1.png" class="kz_kg">
+				<p class="price">&yen;29</p>
+				<p class="schu">&yen;<strike>29</strike></p>
+		    </li>
+		</ul>
+	</div>
+	
+<!-- 限时抢购end -->
+
+
+<!-- 团购start -->
+	<div class="i_t">
+		<span class="f_i"><img src="images/group.png" height="30px;" width="65px;"></span>
+	    <span class="f_c" style="padding-top:3px;">品牌团</span>
+	    <span class="fr"><a href="shop_list.html">更多></a></span>
+    </div>
+	<div class="flash_sale">
+		<ul>
+			<li>
+				<img src="images/index_qg2.png" class="kz_kg">
+				<p class="price">&yen;29</p>
+				<p class="schu">&yen;<strike>29</strike></p>
+		    </li>
+		    <li>
+				<img src="images/index_qg3.png" class="kz_kg">
+				<p class="price">&yen;29</p>
+				<p class="schu">&yen;<strike>29</strike></p>
+		    </li>
+		    <li>
+				<img src="images/index_qg1.png" class="kz_kg">
+				<p class="price">&yen;29</p>
+				<p class="schu">&yen;<strike>29</strike></p>
+		    </li>
+		    <li>
+				<img src="images/index_qg2.png" class="kz_kg">
+				<p class="price">&yen;29</p>
+				<p class="schu">&yen;<strike>29</strike></p>
+		    </li>
+		</ul>
+	</div>
+	
+<!-- 团购end -->
+<div class="i_t">
+	<span class="f_i"><img src="images/kllkn.png" height="16px;" width="18px;"></span>
+    <span class="f_c">店铺上新</span>
+</div>
+<div class="fresh_mid">
+    <ul>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="merchant.html"><img src="images/ht_1.jpg" width="141" /></a></div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="#"><img src="images/ht_5.jpg" width="141" /></a></div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="#"><img src="images/ht_6.jpg" width="141" /></a></div>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- 高告位star -->
+<div class="mban mar_3">
+	<img src="images/lbo1.png" width="640">
+</div>
+<!--Begin 热门推荐 Begin-->
+<div class="i_t">
+	<span class="f_i"><img src="images/h_icon.png" height="16px;" width="18px;"></span>
+    <span class="f_c">水果、蔬菜、富食、饮料</span>
+    <span class="fr"><a href="shop_list.html">更多></a></span>
+</div>
+<div class="tm_c">
+	<div class="sell_1">
+        <div class="s_img"><a href="#"><img src="images/s1.jpg" width="319" /></a></div>
+        <div class="s_price">&yen;<span>289</span></div>
+        <div class="s_name">
+            <h2><a href="merchant.html">保健品</a></h2>
+            倒计时：<span>1200</span> 时 <span>30</span> 分 <span>28</span> 秒
+        </div>
+    </div>
+    <div class="sell_1">
+        <div class="s_img"><a href="#"><img src="images/s1.jpg" width="319" /></a></div>
+        <div class="s_price">&yen;<span>289</span></div>
+        <div class="s_name">
+            <h2><a href="merchant.html">保健品</a></h2>
+            倒计时：<span>1200</span> 时 <span>30</span> 分 <span>28</span> 秒
+        </div>
+    </div>
+    
+</div>
+<div class="tj_c">
+	<ul>
+    	<li>
+        	<a href="Goods_details.html">
+        	<div class="img"><img src="images/hot1.jpg" width="320" /></div>                                        
+            <div class="name">德111亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+             </a>
+        </li>
+        <li>
+        	<a href="Goods_details.html">
+        	<div class="img"><img src="images/hot2.jpg" width="320" /></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li>
+        <a href="Goods_details.html">
+        	<div class="img"><img src="images/hot3.jpg" width="160" /></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li>
+           <a href="Goods_details.html">
+        	<div class="img"><img src="images/hot4.jpg" width="160" /></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li class="ntop">
+        	<a href="Goods_details.html">
+        	<div class="img"><img src="images/hot3.jpg" width="160" /></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li class="ntop">
+        <a href="Goods_details.html">
+        	<div class="img"><img src="images/hot4.jpg" width="160" /></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+             </a>
+        </li>
+        <li class="ntop">
+        <a href="Goods_details.html">
+        	<div class="img"><img src="images/hot1.jpg" width="160" /></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+             </a>
+        </li>
+        <li class="ntop">
+        <a href="Goods_details.html">
+        	<div class="img"><img src="images/hot2.jpg" width="160" /></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+             </a>
+        </li>
+    </ul>
+</div>
+<!--End 热门推荐 End-->
+
+<!-- 高告位star -->
+<div class="mban mar_3">
+	<img src="images/lbo2.png" width="640">
+</div>
+<!--Begin 限时特卖 Begin-->
+<div class="i_t">
+	<span class="f_i"><img src="images/t_icon.png" height="16px;" width="18px;"></span>
+    <span class="f_c">家居、家具</span>
+    <span class="fr"><a href="shop_list.html">更多></a></span>
+</div>
+<div class="tm_c">
+     <a href="Goods_details.html">
+	<div class="sell_1">
+        <div class="s_img"><a href="#"><img src="images/s1.jpg" width="319" /></a></div>
+        <div class="s_price">&yen;<span>289</span></div>     
+    </div>
+     </a> 
+     <a href="Goods_details.html">
+      <div class="sell_1">
+     
+        <div class="s_img"><a href="#"><img src="images/s1.jpg" width="319" /></a></div>
+        <div class="s_price">&yen;<span>211189</span></div>
+     
+    </div>
+     </a> 
+     <a href="Goods_details.html">
+       <div class="sell_1">   
+        <div class="s_img"><a href="#"><img src="images/s1.jpg" width="319" /></a></div>
+        <div class="s_price">&yen;<span>289</span></div>
+       </div>
+     </a>  
+     <a href="Goods_details.html">
+         <div class="sell_1">
+            <div class="s_img"><a href="#"><img src="images/s1.jpg" width="319" /></a></div>
+	        <div class="s_price">&yen;<span>289</span></div>       
+          </div>
+      </a>  
+</div>
+<div class="tj_c">
+	<ul>
+    	<li>
+    	 <a href="Goods_details.html">
+        	<div class="img"><a href="#"><img src="images/hot1.jpg" width="320" /></a></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+        	<div class="img"><a href="#"><img src="images/hot2.jpg" width="320" /></a></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+        	<div class="img"><a href="#"><img src="images/hot3.jpg" width="160" /></a></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+        	<div class="img"><a href="#"><img src="images/hot4.jpg" width="160" /></a></div>                                        
+            <div class="name">德亚全脂200ml*48盒</div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<!--End 限时特卖 End-->
+<div class="mban mar_3">
+	<img src="images/mban.jpg" width="640">
+</div>
+<!--Begin 热门主题 Begin-->
+<div class="i_t">
+	<span class=" f_i"><img src="images/t_icon.png" height="16px;" width="18px;"></span>
+    <span class=" f_c">家居、家具</span>
+    <span class="fr"><a href="shop_list.html">更多></a></span>
+</div>
+<div class="fresh_mid">
+    <ul>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="merchant.html"><img src="images/ht_1.jpg" width="141" /></a></div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="#"><img src="images/ht_2.jpg" width="141" /></a></div>
+            </a>
+        </li>
+        <li>
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="#"><img src="images/ht_3.jpg" width="141" /></a></div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="#"><img src="images/ht_4.jpg" width="141" /></a></div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="#"><img src="images/ht_5.jpg" width="141" /></a></div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="#"><img src="images/ht_6.jpg" width="141" /></a></div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="#"><img src="images/ht_7.jpg" width="141" /></a></div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><a href="#"><img src="images/ht_8.jpg" width="141" /></a></div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+            <div class="name">进口 · 生鲜</div>
+            <div class="price">德亚全脂纯牛奶</div>
+            <div class="img"><img src="images/ht_9.jpg" width="141" /></div>
+            </a>
+        </li>
+	</ul>
+</div>
+<!--End 热门主题 End-->
+<div class="mban mar_3">
+	<img src="images/mban1.jpg" width="640">
+</div>
+<!--Begin 为你推荐 Begin-->
+<div class="i_t">
+	<span class="f_i"><img src="images/l_icon.png" height="16px;" width="18px;"></span>
+    <span class="f_c">为你推荐</span>
+</div>
+<div class="like" style="">
+	<ul>
+    	<li>
+    	 <a href="Goods_details.html">
+        	<div class="img"><img src="images/like_1.jpg" width="185" /></div>                                        
+            <div class="name">
+               <h2>德国进口</h2>德亚全脂200ml*48盒
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+          </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+        	<div class="img"><img src="images/like_2.jpg" width="185" /></div>                                        
+            <div class="name">
+               <h2>德国进口</h2>德亚全脂200ml*48盒
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+        	<div class="img"><img src="images/like_3.jpg" width="185" /></div>                                        
+            <div class="name">
+               <h2>德国进口</h2>德亚全脂200ml*48盒
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+        	<div class="img"><img src="images/like_4.jpg" width="185" /></div>                                        
+            <div class="name">
+                <h2>德国进口</h2>德亚全脂200ml*48盒
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+        	<div class="img"><img src="images/like_5.jpg" width="185" /></div>                                        
+            <div class="name">
+               <h2>德国进口</h2>德亚全脂200ml*48盒
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+        <li>
+         <a href="Goods_details.html">
+        	<div class="img"><img src="images/like_6.jpg" width="185" /></div>                                        
+            <div class="name">
+              <h2>德国进口</h2>德亚全脂200ml*48盒
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 
+            </div>
+            </a>
+        </li>
+    </ul>
+    <div class="bottom_space"></div>
+</div>
+<!--End 猜你喜欢 End-->
+<div class="b_btm gudingdibu">
+	<ul>
+    	<li class="b_1 cur"><a href="Index.html"><p> <img src="images/b_1.png"> </p>首页</a></li>
+        <li class="b_2"><a href="classif.html"><p><img src="images/b_2.png"> </p>分类</a></li>
+        <li class="b_3"><a href="BuyCar.html"><p><img src="images/b_3.png"> </p>购物车</a></li>
+        <li class="b_4"><a href="Personal_center.html"><p><img src="images/b_4.png"> </p>我的</a></li>
+    </ul>
+</div>
+<!--End Footer End-->
+
+
+</body>
+</html>

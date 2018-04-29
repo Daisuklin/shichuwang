@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    Remove this if you use the .htaccess -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>商品列表</title>
+<meta name="description" content="" />
+<meta name="author" content="Administrator" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<!-- 商品列表 --><link rel="stylesheet" href="style/shop_list.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<link rel="stylesheet" href="style/base.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<link rel="stylesheet" href="style/common.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<!--头部样式	--><link rel="stylesheet" href="style/head_buycar.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="style/shaixuan.css">
+<!-- 下拉刷新 下拉加载 --><link rel="stylesheet" href="style/pullToRefresh1gd.css" />
+<!-- 修改的css样式 -->
+<!-- 下拉刷新 下拉加载 --><script src="js/iscroll.js"></script>
+<!-- 下拉刷新 下拉加载 --><script src="js/pullToRefresh.js"></script>
+<!-- 下拉刷新 下拉加载 --><script src="js/colorful.js"></script>
+
+<!--[if IE]>
+<script src="js/html5.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<div style="">
+<div class="banbg"> 
+  <!--Begin Header Begin-->
+  <div class="top" >
+     <div class="backhome"><a href="javascript:void(0)"></a></div>
+    <div class="search" style="width: 76%;">
+      <form class="top-form">
+        <input type="submit" value="" class="s_btnn">
+        <input type="text" class="s_ipt" value="搜索你想要的商品" onFocus="if(value==defaultValue){value='';this.style.color='#000'}" onBlur="if(!value){value=defaultValue;this.style.color='#999'}">
+      </form>
+    </div>
+    <div class="lingdang"><a href="javascript:void(0)" class="lingdang-a"></a>
+     <div class="lingdang-sl">3</div>
+    </div>
+  </div>
+</div>
+<div class="list-nav-div">
+	<ul class="new-search-tab" style="clear: both;">
+      <li class="new-change-eleven active"><a href="#"><span>综合<img src="images/list_add.png"  class="eleven_icon"/></span></a></li>
+      <li class="new-change-eleven "><a href="#"><span>销量<img src="images/list_next.png"  class="eleven_icon"/></span></a></li>
+      <li class="new-change-eleven "><a href="#"><span>价格<img src="images/list_none.png"  class="eleven_icon"/></span></a></li>
+      <li class="new-change-eleven "><a class="con_button" id="filterBtn" type="button"><span>筛选<img src="images/list_saixuan.png"  class="eleven_icon_section"/></span></a></li>
+      <li class="new-change-eleven">
+      <a href="javascript:void(0)" class="new-change-eleven-a"></a>
+      <a href="javascript:void(0)" class="new-change-eleven-a1"></a>
+      </li>
+    </ul>
+  <!--   点击筛选弹出的模块 -->
+    <div class="list-nav-xl">
+    	<div class="list-nav-div1">
+    		<ul class="list-nav-div1-ul">
+    			<li class="yangshi-active-li"><a href="javascript:void(0)" class="yangshi-active">找厂家</a></li>
+    			<li><a href="javascript:void(0)">找门店</a></li>
+    			<li><a href="javascript:void(0)">找原材料</a></li>
+    		</ul>
+    	</div>
+    	<div class="list-nav-div2">
+    		<ul class="list-nav-div2-ul">
+    		 <p class="list-nav-div2-p">主 营:</p>
+    		   <li class="yangshi-active-li"><a href="javascript:void(0)" class="yangshi-active">板材</a></li>
+    		   <li><a href="javascript:void(0)">胶水</a></li>
+    		   <li><a href="javascript:void(0)">贴膜</a></li>
+    		   <li><a href="javascript:void(0)">机床</a></li>
+    		   <li><a href="javascript:void(0)">台面</a></li>
+    		   <li><a href="javascript:void(0)">门板</a></li>
+           <li><a href="javascript:void(0)">门板</a></li>
+    		   <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li><a href="javascript:void(0)">胶水</a></li>
+           <li><a href="javascript:void(0)">贴膜</a></li>
+           <li><a href="javascript:void(0)">机床</a></li>
+           <li><a href="javascript:void(0)">台面</a></li>
+           <li><a href="javascript:void(0)">门板</a></li>
+           <li><a href="javascript:void(0)">柜体</a></li>
+           <li><a href="javascript:void(0)">板材</a></li>
+           <li><a href="javascript:void(0)">胶水</a></li>
+           <li><a href="javascript:void(0)">贴膜</a></li>
+           <li><a href="javascript:void(0)">机床</a></li>
+           <li><a href="javascript:void(0)">台面</a></li>
+           <li><a href="javascript:void(0)">门板</a></li>
+           <li><a href="javascript:void(0)">柜体</a></li>
+           <div class="list-nav-div2-more"><a href="javascript:void(0)">更多 <span class="list-nav-div2-more-span"></span></a></div>
+           <div class="list-nav-div2-ziti">（注册时需填写主营业务,多选）</div>
+    		</ul>
+     
+    	</div>
+    	<div class="list-nav-div3">
+        <ul class="list-nav-div3-ul">
+         <p class="list-nav-div3-p">地 区:</p>
+           <li class="yangshi-active-li"><a href="javascript:void(0)" class="yangshi-active">北京</a></li>
+           <li><a href="javascript:void(0)">上海</a></li>
+           <li><a href="javascript:void(0)">长春</a></li>
+           <li><a href="javascript:void(0)">海南</a></li>
+           <li><a href="javascript:void(0)">大连</a></li>
+           <li><a href="javascript:void(0)">沈阳</a></li>
+           <li><a href="javascript:void(0)">广州</a></li>
+           <li><a href="javascript:void(0)">深圳</a></li>
+           <li><a href="javascript:void(0)">大理</a></li>
+           <li><a href="javascript:void(0)">昆明</a></li>
+           <li><a href="javascript:void(0)">成都</a></li>
+           <li><a href="javascript:void(0)">西安</a></li>
+           <li><a href="javascript:void(0)">郑州</a></li>
+           <li><a href="javascript:void(0)">上海</a></li>
+           <li><a href="javascript:void(0)">杭州</a></li>
+           <li><a href="javascript:void(0)">苏州</a></li>
+           <li><a href="javascript:void(0)">南京</a></li>
+           <li><a href="javascript:void(0)">郑州</a></li>
+           <li><a href="javascript:void(0)">上海</a></li>
+           <li><a href="javascript:void(0)">杭州</a></li>
+           <li><a href="javascript:void(0)">苏州</a></li>
+           <li><a href="javascript:void(0)">南京</a></li>
+           <div class="list-nav-div3-more"><a href="javascript:void(0)">更多<span class="list-nav-div3-more-span"></span></a></div>
+        </ul>
+      </div>
+      <div class="djhuiqu">
+        
+      </div>
+    </div>
+</div>
+</div>
+<!--分类列表-->
+  
+<script type="text/javascript" src="js/shaixuan_one.js"></script>  
+  <div class="seach_list" id="wrapper_list" >
+    <ul>
+        <li class="normal-list">
+		     <div class="normal-list-div1">
+		     	<dl class="normal-list-dl">
+		     		<dt><img src="images/list-pic/pic2.png" alt=""></dt>
+		     		<dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+		     		<dd class="normal-list-dd2">￥198.00</dd>
+		     		<div class="normal-list-dl-div"><img src="images/list-pic/logo-qy2.png" alt=""></div>
+		     	</dl>
+		     </div>
+       </li> 
+       <li class="normal-list">
+		     <div class="normal-list-div1">
+		     	<dl class="normal-list-dl">
+		     		<dt><img src="images/list-pic/pic2.png" alt=""></dt>
+		     		<dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+		     		<dd class="normal-list-dd2">￥198.00</dd>
+		     		<div class="normal-list-dl-div"><img src="images/list-pic/logo-qy2.png" alt=""></div>
+		     	</dl>
+		     </div>
+       </li> 
+           <li class="normal-list">
+		     <div class="normal-list-div1">
+		     	<dl class="normal-list-dl">
+		     		<dt><img src="images/list-pic/pic2.png" alt=""></dt>
+		     		<dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+		     		<dd class="normal-list-dd2">￥198.00</dd>
+		     		<div class="normal-list-dl-div"><img src="images/list-pic/logo-qy2.png" alt=""></div>
+		     	</dl>
+		     </div>
+       </li> 
+       <li class="normal-list">
+		     <div class="normal-list-div1">
+		     	<dl class="normal-list-dl">
+		     		<dt><img src="images/list-pic/pic2.png" alt=""></dt>
+		     		<dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+		     		<dd class="normal-list-dd2">￥198.00</dd>
+		     		<div class="normal-list-dl-div"><img src="images/list-pic/logo-qy2.png" alt=""></div>
+		     	</dl>
+		     </div>
+       </li> 
+         <li class="normal-list">
+		     <div class="normal-list-div1">
+		     	<dl class="normal-list-dl">
+		     		<dt><img src="images/list-pic/pic2.png" alt=""></dt>
+		     		<dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+		     		<dd class="normal-list-dd2">￥198.00</dd>
+		     		<div class="normal-list-dl-div"><img src="images/list-pic/logo-qy2.png" alt=""></div>
+		     	</dl>
+		     </div>
+       </li> 
+       <li class="normal-list">
+		     <div class="normal-list-div1">
+		     	<dl class="normal-list-dl">
+		     		<dt><img src="images/list-pic/pic2.png" alt=""></dt>
+		     		<dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+		     		<dd class="normal-list-dd2">￥198.00</dd>
+		     		<div class="normal-list-dl-div"><img src="images/list-pic/logo-qy2.png" alt=""></div>
+		     	</dl>
+		     </div>
+       </li> 
+        <!-- <li class="normal-list">
+          <div class="pro-img"><img src="images/hot4.jpg" /></div>
+          <div class="product-info-box">
+              <div class="product-name"><span>胜伟 床品家纺 纯棉套件 高支棉全棉双人斜纹被套床单四件套1.5米床/1.8米床 被套200*230cm 裸婚时代</span></div>
+              <div class="product-price-m"> <em>&yen;<span class="big-price">149</span><span class="small-price">.00</span></em></div>
+              <div class="gray-pro-info"><span>52579条评价</span><span>52579条评价</span></div>
+          </div>
+       </li> -->
+    </ul>
+  </div>
+  
+</div>
+</body>
+<!-- 上拉刷新下拉加载 -->
+ <script>
+        for (var i = 0; i < document.querySelectorAll("#wrapper_list ul li").length; i++) {
+            document.querySelectorAll("#wrapper_list ul li")[i].colorfulBg();
+        }
+        refresher.init({
+            id: "wrapper_list",//<------------------------------------------------------------------------------------┐
+            pullDownAction: Refresh,
+            pullUpAction: Load
+        });
+        var generatedCount = 0;
+        var html=""
+        function Refresh() {
+            setTimeout(function () {	// <-- Simulate network congestion, remove setTimeout from production!
+                var el, li, i;
+                el = document.querySelector("#wrapper_list ul");
+                el.innerHTML = '';
+                for (i = 0; i < 6; i++) {
+                	html +='<li class="normal-list"><div  class="normal-list_left"><a href="Goods_details.html"><div class="pro-img"><img src="images/hot42.jpg" /></div></a></div>'
+                    +'<div class="product-info-box"><div class="product-name">'
+                    +'<a href="Goods_details.html"><span>胜伟 床品家纺 纯棉套件 高支棉全棉双人斜纹被套床单四件套1.5米床/1.8米床 被套200*230cm 裸婚时代</span></a></div>'
+                    +'<div class="product-price-m"> <em>&yen;<span class="big-price">149</span><span class="small-price">.00</span></em></div>'
+                    +'<div class="gray-pro-info"><p class="red_color fs12">自营&nbsp;&nbsp;</p><span>52579条评价</span>&nbsp;&nbsp;<span>好评95%</span></div></div></li>';
+                }
+                el.innerHTML=html;
+                wrapper_list.refresh();/****remember to refresh after  action completed！ ---yourId.refresh(); ----| ****/
+                /*for (var i = 0; i < document.querySelectorAll("#wrapper_list ul li").length; i++) {
+                    document.querySelectorAll("#wrapper_list ul li")[i].colorfulBg();
+                }*/
+            }, 1000);
+
+        }
+
+        function Load() {
+			setTimeout(function () {	// <-- Simulate network congestion, remove setTimeout from production!
+				var el, li, i;
+				el = document.querySelector("#wrapper_list ul");
+				el.innerHTML = '';
+				for (i = 0; i < 6; i++) {
+					html +='<li><div  class="normal-list_left"><a href="Goods_details.html"><div class="pro-img"><img src="images/hot42.jpg" /></div></a></div>'
+							+'<div class="product-info-box"><div class="product-name">'
+							+'<a href="Goods_details.html"><span>胜伟 床品家纺 纯棉套件 高支棉全棉双人斜纹被套床单四件套1.5米床/1.8米床 被套200*230cm 裸婚时代</span></a></div>'
+							+'<div class="product-price-m"> <em>&yen;<span class="big-price">149</span><span class="small-price">.00</span></em></div>'
+							+'<div class="gray-pro-info"><p class="red_color fs12">自营&nbsp;&nbsp;</p><span>52579条评价</span>&nbsp;&nbsp;<span>好评95%</span></div></div></li>';
+				}
+				el.innerHTML=html;
+				wrapper_list.refresh();/****remember to refresh after  action completed！ ---yourId.refresh(); ----| ****/
+				/*for (var i = 0; i < document.querySelectorAll("#wrapper_list ul li").length; i++) {
+					document.querySelectorAll("#wrapper_list ul li")[i].colorfulBg();
+				}*/
+			}, 1000);
+        }
+    </script>
+     <script src="js/conversion-list.js"></script>
+     <script src="js/navmore.js"></script>
+</html>

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    Remove this if you use the .htaccess -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>首页</title>
+    <meta name="description" content="" />
+    <meta name="author" content="Administrator" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <link rel="stylesheet" href="style/pullToRefresh1gd.css">
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <!-- 底部 --><link rel="stylesheet" href="style/head_bottom.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <link rel="stylesheet" href="style/base.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <link rel="stylesheet" href="style/common.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <link rel="stylesheet" href="style/index.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <link rel="stylesheet" href="style/device.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <link rel="stylesheet" href="style/jquery.bxslider.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <link rel="stylesheet" href="style/scindex.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+    <script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/jquery.bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+    <!--轮播特效-->
+    <!--[if IE]>
+    <script src="js/html5.js"></script>
+    <![endif]-->
+    <script>
+        $(document).ready(function () {
+            $('.bxslider').bxSlider({
+                auto: true,
+                controls: false,
+                touchEnabled: true,
+            });
+        });
+        //回车事件
+        function searcht() {
+            $("#form1").attr("action", "");
+            $("#form1").submit();
+        }
+
+        $(function () {
+            $(document).keydown(function (event) {
+                if (event.keyCode == 13) {
+                    searcht();
+                }
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+<div class="banbg">
+    <!--Begin Header Begin-->
+    <div class="top" style="position: fixed;">
+        <div id="logo"><a href="Index.html"><img class="backhome_icon" src="images/shichu.png"  /></a></div>
+        <div class="search" >
+            <form  action="" id="form1">
+                <input type="submit" value="" class="s_btn">
+                <input type="text" value="搜索你想要的商品" class="s_ipt" onFocus="if (value == defaultValue) {
+                                    value = '';
+                                    this.style.color = '#000'
+                                }" onBlur="if (!value) {
+                                            value = defaultValue;
+                                            this.style.color = '#999'
+                                        }">
+            </form>
+
+        </div>
+        <div class="t_log"><a href="sign_in.html"><img src="images/scinfo.jpg"></a></div>
+    </div>
+    <!--End Header End-->
+    <!--Begin Banner Begin-->
+    <section id="banner" >
+        <ul class="bxslider">
+            <li><a href="#" title="1"><img class="imgs_01" src="images/scbanner.jpg" alt="" /></a></li>
+            <li><a href="#" title="2"><img class="imgs_01" src="images/scbanner.jpg" alt="" /></a></li>
+            <li><a href="#" title="3"><img class="imgs_01" src="images/scbanner.jpg" alt="" /></a></li>
+    </section>
+    <!--End Banner End-->
+</div>
+<div class="i_img">
+    <ul>
+        <li><a href="classif.html"><img src="images/indexnav01.png">团购</a></li>
+        <li><a href="BuyCar.html"><img src="images/indexnav02.png">企业会员</a></li>
+        <li><a href="my_concern.html"><img src="images/indexnav03.png">原材料</a></li>
+        <li><a href="my_concern.html"><img src="images/indexnav04.png">整体橱柜</a></li>
+        <li><a href="browsing_record.html"><img src="images/indexnav05.png">咨询</a></li>
+        <li><a href="return_records.html"><img src="images/indexnav06.png">晒图</a></li>
+        <li><a href="Order.html"><img src="images/indexnav07.png">论坛</a></li>
+        <li><a href="coupon.html"><img src="images/indexnav08.png">加盟</a></li>
+    </ul>
+</div>
+<!-- 限时抢购start -->
+<div class="i_t">
+    <span class="f_i">客官留步此处有精品</span>
+    <span class="Df_c" >好商品</span>
+
+</div>
+<!--商品轮播-->
+<section id="banner" class="Dbanner" >
+    <ul class="bxslider">
+        <li>
+            <div class="Dban-item" >
+                    <div class="Dban-itemT">
+                        <a href="#">
+                            <img src="images/itemzs03.png" class="kz_kg">
+                            <p class="Dprice">橱柜零件螺丝钉</p>
+                            <p class="schu">￥198.00</strike></p>
+                        </a>
+                    </div>
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs04.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs02.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs04.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+        </div>
+        </li>
+        <li>
+            <div class="Dban-item" >
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs02.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs03.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs04.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs01.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="Dban-item" >
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs03.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs04.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs02.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+                <div class="Dban-itemT">
+                    <a href="#">
+                        <img src="images/itemzs04.png" class="kz_kg">
+                        <p class="Dprice">橱柜零件螺丝钉</p>
+                        <p class="schu">￥198.00</strike></p>
+                    </a>
+                </div>
+            </div>
+        </li>
+</section>
+
+
+<!-- 团购start -->
+
+<!-- 团购end -->
+
+
+
+<!--Begin 热门推荐 Begin-->
+
+<!-- 高告位star -->
+
+
+<!--End 热门推荐 End-->
+
+<!-- 高告位star -->
+
+<!--楼层1-->
+<div class="i_t">
+    <span class="f_i"><img src="images/floor01.png" height="16px;" width="18px;"></span>
+    <span class="f_c">机械设备</span>
+    <span class="fr"><a href="shop_list.html">更多></a></span>
+</div>
+<div class="mban mar_3">
+    <img src="images/floor-banner.png" width="640">
+</div>
+<div class="tm_c">
+    <a href="Goods_details.html">
+        <div class="sell_1">
+            <div class="s_img"><a href="#"><img src="images/floor-item01.png" width="319" /></a></div>
+
+        </div>
+    </a>
+    <a href="Goods_details.html">
+        <div class="sell_1">
+
+            <div class="s_img"><a href="#"><img src="images/floor-item02.png" width="319" /></a></div>
+
+
+        </div>
+    </a>
+
+</div>
+<div class="tj_c">
+
+    <ul>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+    </ul>
+
+</div>
+<!--楼层2-->
+<div class="i_t">
+    <span class="f_i"><img src="images/floor2.png" height="16px;" width="18px;"></span>
+    <span class="f_c">橱柜配件</span>
+    <span class="fr"><a href="shop_list.html">更多></a></span>
+</div>
+<div class="mban mar_3">
+    <img src="images/floor-banner.png" width="640">
+</div>
+<div class="tm_c">
+    <a href="Goods_details.html">
+        <div class="sell_1">
+            <div class="s_img"><a href="#"><img src="images/floor-item01.png" width="319" /></a></div>
+
+        </div>
+    </a>
+    <a href="Goods_details.html">
+        <div class="sell_1">
+
+            <div class="s_img"><a href="#"><img src="images/floor-item02.png" width="319" /></a></div>
+
+
+        </div>
+    </a>
+
+</div>
+<div class="tj_c">
+
+    <ul>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+    </ul>
+
+</div>
+
+<!--楼层3-->
+<div class="i_t">
+    <span class="f_i"><img src="images/floor01.png" height="16px;" width="18px;"></span>
+    <span class="f_c">机械设备</span>
+    <span class="fr"><a href="shop_list.html">更多></a></span>
+</div>
+<div class="mban mar_3">
+    <img src="images/floor-banner.png" width="640">
+</div>
+<div class="tm_c">
+    <a href="Goods_details.html">
+        <div class="sell_1">
+            <div class="s_img"><a href="#"><img src="images/floor-item01.png" width="319" /></a></div>
+
+        </div>
+    </a>
+    <a href="Goods_details.html">
+        <div class="sell_1">
+
+            <div class="s_img"><a href="#"><img src="images/floor-item02.png" width="319" /></a></div>
+
+
+        </div>
+    </a>
+
+</div>
+<div class="tj_c">
+
+    <ul>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <img src="images/itemzs04.png" class="kz_kg">
+                <p class="Dprice">橱柜零件螺丝钉</p>
+                <p class="schu">￥198.00</p>
+            </a>
+        </li>
+    </ul>
+
+</div>
+<!--End 热门主题 End-->
+
+<!--Begin 为你推荐 Begin-->
+<div class="i_t">
+    <span class="f_i"><img src="images/floor4.png" height="16px;" width="18px;"></span>
+    <span class="f_c">推荐商品</span>
+</div>
+<div class="like" style="">
+    <ul>
+        <li class="normal-list" style="background-color: rgb(255, 255, 255);">
+            <div class="normal-list-div1">
+                <dl class="normal-list-dl">
+                    <dt><img src="images/list-pic/pic2.png" alt=""></dt>
+                    <dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+                    <dd class="normal-list-dd2">￥198.00</dd>
+
+
+                </dl>
+
+            </div>
+
+        </li>
+        <li class="normal-list" style="background-color: rgb(248, 248, 248);">
+            <div class="normal-list-div1">
+                <dl class="normal-list-dl">
+                    <dt><img src="images/list-pic/pic2.png" alt=""></dt>
+                    <dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+                    <dd class="normal-list-dd2">￥198.00</dd>
+
+                </dl>
+            </div>
+        </li>
+        <li class="normal-list" style="background-color: rgb(255, 255, 255);">
+            <div class="normal-list-div1">
+                <dl class="normal-list-dl">
+                    <dt><img src="images/list-pic/pic2.png" alt=""></dt>
+                    <dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+                    <dd class="normal-list-dd2">￥198.00</dd>
+
+                </dl>
+            </div>
+        </li>
+        <li class="normal-list" style="background-color: rgb(248, 248, 248);">
+            <div class="normal-list-div1">
+                <dl class="normal-list-dl">
+                    <dt><img src="images/list-pic/pic2.png" alt=""></dt>
+                    <dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+                    <dd class="normal-list-dd2">￥198.00</dd>
+
+                </dl>
+            </div>
+        </li>
+        <li class="normal-list" style="background-color: rgb(255, 255, 255);">
+            <div class="normal-list-div1">
+                <dl class="normal-list-dl">
+                    <dt><img src="images/list-pic/pic2.png" alt=""></dt>
+                    <dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+                    <dd class="normal-list-dd2">￥198.00</dd>
+
+                </dl>
+            </div>
+        </li>
+        <li class="normal-list" style="background-color: rgb(248, 248, 248);">
+            <div class="normal-list-div1">
+                <dl class="normal-list-dl">
+                    <dt><img src="images/list-pic/pic2.png" alt=""></dt>
+                    <dd class="normal-list-dd">雨涩连衣裙雪纺 夏短袖2016春装时尚新</dd>
+                    <dd class="normal-list-dd2">￥198.00</dd>
+
+                </dl>
+            </div>
+        </li>
+        <!-- <li class="normal-list">
+          <div class="pro-img"><img src="images/hot4.jpg" /></div>
+          <div class="product-info-box">
+              <div class="product-name"><span>胜伟 床品家纺 纯棉套件 高支棉全棉双人斜纹被套床单四件套1.5米床/1.8米床 被套200*230cm 裸婚时代</span></div>
+              <div class="product-price-m"> <em>&yen;<span class="big-price">149</span><span class="small-price">.00</span></em></div>
+              <div class="gray-pro-info"><span>52579条评价</span><span>52579条评价</span></div>
+          </div>
+       </li> -->
+    </ul>
+    <div class="bottom_space"></div>
+</div>
+<!--End 猜你喜欢 End-->
+<div class="b_btm gudingdibu">
+    <ul>
+        <li class="b_1 cur"><a href="Index.html"><p> <img src="images/b_1.png"> </p>首页</a></li>
+        <li class="b_2"><a href="classif.html"><p><img src="images/b_2.png"> </p>分类</a></li>
+        <li class="b_3"><a href="BuyCar.html"><p><img src="images/b_3.png"> </p>购物车</a></li>
+        <li class="b_4"><a href="Personal_center.html"><p><img src="images/b_4.png"> </p>我的</a></li>
+    </ul>
+</div>
+<!--End Footer End-->
+
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+* {margin: 0;padding: 0;}
+a:hover {color: #c40000}
+.mt10{margin-top:10px;}
+html, body {margin: 0;padding: 0;color: #666;font-size: 12px;font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, STHeiti;letter-spacing: 0px;height: 100%;width: 100%;}
+ul {list-style: outside none none;}
+img {vertical-align: bottom;}
+a img {border: medium none;}
+a {text-decoration: none!important;}
+.foot a:hover,.list_page .section2_list2 .qd a:hover,.section7 li a:hover,.list_page .section3_right .page_btn a:hover,
+.header_right a:hover {color: #008bf2;}
+select {outline: none;}
+.clear {clear: both;}
+.overflowhidden {overflow: hidden;}
+.hide {display: none;}
+.clearfix::after {clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.header_left {float: left;}
+.header_right {float: right;}
+.header_right a {color: #52524f;}
+.small_nav {margin: 25px auto 30px;width: 1200px;}
+.small_nav .nav_logo {float: left;padding-top: 10px;width: 252px;}
+.small_nav .nav_text {border-left: 1px solid #e4e1de;float: left;font-family: "Microsoft Yahei";font-size: 22px;height: 60px;line-height: 60px;margin-top: 16px;padding-left: 16px;text-align: center;}
+.price_list { position: fixed;top: 0;right: -525px;z-index: 10;height: 100%;min-height: 590px;
+}
+
+.main{width:1200px;margin:0 auto;}
+/* 登录注册页面底部公共样式开始 */
+/* .text_link{margin:0 auto;width:1200px;text-align:center;padding-top:10px;}
+.text_link p{padding-top:10px;}
+.text_link a{color:#666;}
+.text_link a:hover{color:#c40000;} */
+
+
+html, body, div, label, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
+	pre, code, form, fieldset, legend, p, blockquote, th, td, img, textarea
+	{
+	border: 0px;
+	margin: 0px;
+	outline: 0px;
+	padding: 0px;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+img {
+	display: inline-block;
+}
+
+:focus {
+	outline: 0;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+em, i, u {
+	font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+code, kbd, samp, tt {
+	font-size: 100%;
+}
+
+input, button, textarea, select {
+	*font-size: 100%;
+	font-family: "Microsoft YaHei";
+}
+
+ol, ul {
+	list-style: none outside none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th {
+	text-align: left;
+}
+
+:link, :visited, ins {
+	text-decoration: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+div {
+	display: block;
+}
+
+a:hover {
+	color: #c40000
+}
+
+.relative {
+	position: relative
+}
+
+.marginbottom {
+	margin-bottom: 20px;
+}
+
+.clearfix:after, .p-price:after, ul:after, li:after {
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	font-size: 0;
+	line-height: 0;
+}
+
+
+
+
+
+
+

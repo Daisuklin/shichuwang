@@ -1,0 +1,230 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016-12-3, 17:09:36
+    Author     : Administrator
+*/
+body{
+    background-color: #f0f0f0;
+}
+@media screen and (max-width: 414px){
+    #logo {
+    margin-top: 0%;
+    }
+}   
+.top{
+    background-color: #fff;
+    padding: 1% 0;
+    border-bottom: solid 1px #d7d7d7;
+}
+#logo {
+    width: 10.5%;
+    height: 40px;
+    margin-left: 20px;
+    /* width: 40px; */
+}#logo img {
+   
+    height: 40px;
+}
+
+.search{
+    width: 66%;
+    -webkit-border-radius: 10px;
+     background-color: #f0f0f0;
+}
+
+.s_ipt{
+    background-color: #f0f0f0;
+    outline:none;
+}
+#banner{
+    margin-top: 52px;
+}
+.t_log{
+    float: left;
+}
+.t_log img {
+    width: 30px;
+    height: 30px;
+     padding-bottom: 20px;
+}
+.i_img {
+    border-top: solid 1px #d7d7d7;
+    border-bottom: solid 1px #d7d7d7;
+    margin-top: 6px;
+    margin-bottom: -4px;
+}
+.i_img ul li {
+    width: 15%;
+    margin: 2% 4.5%;
+}
+.mar_3 {
+    margin-top: 0px; 
+}
+/*banner轮播*/
+.bx-wrapper .bx-pager {
+  margin-bottom: 0px;
+    display: none;
+}
+.i_t .Df_c{
+    padding-top:3px;
+    font-size: 16px;
+    color: #0bbdfd;
+    font-weight: 500;
+    margin-left: 13%;
+}
+/*商品轮播*/
+.Dbanner{
+    margin-top: 0px !important;
+}
+.Dban-item{
+    width: 100%;
+    height: 100px;
+    background-color: #ccc;
+}
+.Dban-item .Dban-itemT {
+    width: 25% !important;
+    float: left;
+    background: #fff;
+}
+.Dban-item .Dban-itemT a {
+    color: #333333;
+    text-decoration: none;
+}
+.Dban-item .kz_kg {
+    width: 100%;
+    height: 100%;
+    min-height: 80px;
+    max-height: 80px;
+}
+.Dban-item .Dprice {
+    color: #1a1a1a;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    overflow: hidden;
+}
+.Dban-item .schu {
+    color: #bcbcbc;
+    font-weight: 400;
+    text-align: center;
+    font-size: 8px;
+    height: 20px;
+}
+/*好商品内容*/
+.flash_sale .Dprice {
+    color: #1a1a1a;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    overflow: hidden;
+}
+.f_i {
+  
+    color: #666;
+   
+}
+.schu {
+    color: #bcbcbc;
+    font-weight: 400;
+    text-align: center;
+    font-size: 8px;
+    height: 20px;
+}
+/*楼层标题*/
+.f_c {
+    color: #252525;
+    font-size: 14px;
+    font-weight: 500;
+}
+.i_t .f_i  img{
+    border: 0;
+    vertical-align: middle;
+    /* width: 100%; */
+    /* height: 100%; */
+    height: 16px;
+    margin-bottom: 2px;
+}
+ /*楼层内容*/
+.tj_c .Dprice {
+    color: #1a1a1a;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    overflow: hidden;
+}
+/*轮播内容*/
+.ui-slider-item {
+    width: 100%;
+    background-color: #e3e3e3;
+    text-align: center;
+    top: 0;
+    display: inline-block;
+    overflow: hidden;
+    height: 400px;
+}
+.ui-slider-item > a {
+    display: block;
+    text-decoration: none;
+    height: 300px;
+}
+
+.ui-slider-item > p {
+    color: #000;
+
+    padding: 6px 0;
+    text-indent: 10px;
+    height: 214px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 414px){
+    .i_t .Df_c {
+        padding-top: 3px;
+        font-size: 16px;
+        color: #0bbdfd;
+        font-weight: 500;
+        margin-left: 10%;
+    }
+
+}
+@media screen and (max-width: 374px){
+    .i_img ul li a{
+        font-size: 12px;
+    }
+    .schu {
+        color: #bcbcbc;
+        font-weight: 400;
+        text-align: center;
+        font-size: 8px;
+        height: 20px;
+        margin-right: 4px;
+    }
+    .i_t .Df_c {
+        padding-top: 3px;
+        font-size: 16px;
+        color: #0bbdfd;
+        font-weight: 500;
+        margin-left: 4%;
+    }
+
+}
+@media screen and (min-width: 375px)
+    .i_t .Df_c {
+        padding-top: 3px;
+        font-size: 16px;
+        color: #0bbdfd;
+        font-weight: 500;
+        margin-left: 10%;
+    }
+}
+
+

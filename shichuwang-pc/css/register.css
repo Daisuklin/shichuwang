@@ -1,0 +1,649 @@
+.login_page .main_wrap{
+	background-color:#c40000;
+    }
+.main{
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+    height:500px;
+}
+.login_box{
+    position:absolute;
+    left:700px;
+    top:43px;
+    width:328px;
+    background:#fff;
+    padding-left:20px;
+}
+.login_top{
+	padding-top:12px;
+    height:40px;
+    line-height:40px;
+    overflow:hidden;
+    font-size:20px;
+    font-family:"Microsoft Yahei";
+}
+.login_top .reg{
+    float:right;
+    width:80px;
+    height:17px;
+    line-height:17px;
+    display:inline-block;
+    font-size:14px;
+    color:#c40000;
+    margin-top:12px;
+}
+.password_affirm{
+    width:303px;
+    height:38px;
+    border:1px solid #C2BEB7;
+    position:relative;
+ }
+.password_affirm label{
+    width:40px;
+    height:38px;
+    display:inline-block;
+    background:#DFDDD8 url(../images/form/log3.png) 13px 12px no-repeat;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.number_text,.password_affirm_text{
+    position:absolute;
+    left:60px;
+    height:38px;
+    line-height:38px;
+    top:0;
+    color:#93908B;
+}
+.number input,.password_affirm input{
+    width: 253px;
+    height:38px;
+    line-height:38px;
+    vertical-align:middle;
+    padding-left: 45px;
+    border:none;
+}
+.number{
+    width:303px;
+    height:38px;
+    border:1px solid #C2BEB7;
+    position:relative;
+}
+.number label{
+    width:40px;
+    height:38px;
+    display:inline-block;
+    background:#DFDDD8  url(../images/form/log2.png) 13px 12px no-repeat;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.number_text,.password_text{
+    position:absolute;
+    left:60px;
+    height:38px;
+    line-height:38px;
+    top:0;
+    color:#93908B;
+}
+.number input,.password input{
+    width: 255px;
+    height:38px;
+    line-height:38px;
+    vertical-align:middle;
+    padding-left: 45px;
+    border:none;
+}
+.password{
+    width:303px;
+    height:38px;
+    border:1px solid #C2BEB7;
+    position:relative;
+   /*  margin-top:20px; */
+}
+.password label{
+    width:40px;
+    height:38px;
+    display:inline-block;
+    background:#DFDDD8 url(../images/form/log3.png) 13px 12px no-repeat;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.password_affirm{
+    width:303px;
+    height:38px;
+    border:1px solid #C2BEB7;
+    position:relative;
+ }
+
+
+.verification{
+    width:103px;
+    height:38px;
+    /* border:1px solid #C2BEB7; */
+    position:relative;
+    /* margin-top:15px; */
+    margin-left:-29px;
+}
+.verification label{
+    width:40px;
+    height:38px;
+    display:inline-block;
+    /* background:#DFDDD8 url(../images/form/log3.png) 13px 12px no-repeat; */
+    position:absolute;
+    left:0;
+    top:0;
+}
+.yanzhen{
+	margin-left:144px;
+	margin-top:-40px;
+}
+.yanzhen .hui{
+	color:#666;
+	height:30px;
+	line-height:30px;
+}
+.yanzhen .red{
+	color:#c40000;
+	height:30px;
+	line-height:30px;
+}
+.input_focus {
+    border:1px solid #0087BB!important;
+}
+.input_focus label {
+    background-color: #72BEE3!important ;
+}
+.forget{
+    height:34px;
+    overflow:hidden;
+    padding:8px 20px 0 0;
+    width:305px;
+    margin-top:-47px;
+}
+.forget a{
+    float:right;
+    color:#c40000;
+}
+.log_btn{
+    margin:0 auto;
+    width:300px;
+    height:40px;
+    background:#c40000;
+    text-align:center;
+    line-height:40px;
+    color:#fff;
+    font-size:18px;
+    font-family:"Microsoft Yahei";
+    display:inline-block;
+    border: none;
+}
+
+.auto_log{
+    height:66px;
+    line-height:66px;
+    color:#666;
+    font-family:"Microsoft Yahei";
+}
+.auto_log input{
+    margin-right:5px;
+    position:relative;
+    top:2px;
+}
+.log_bom{
+    padding-bottom:27px;
+}
+.log_bom a{
+    float:left;
+    padding-left:32px;
+    display:inline-block;
+    height:24px;
+    line-height:24px;
+    color:#93908B;
+}
+.log_bom .wb{
+	margin-top:10px;
+    background:url(../images/form/log3.gif) no-repeat;
+}
+.log_bom .qq{
+	margin-top:10px;
+    background:url(../images/form/log2.gif) no-repeat;
+    margin-left:20px;
+}
+.log_bom .wx{
+	margin-top:10px;
+    background:url(../images/form/dl__10-23.png) no-repeat;
+    margin-left:30px;
+}
+
+
+.log2_page .main_wrap{
+       background:url(../img/form/log2_bg.jpg) center top no-repeat;
+       padding:25px 0;
+       height:450px;
+}
+
+.con_red{text-align: right;padding-right: 47px;margin-bottom:15px;}
+
+
+.log_btnt{ margin:0 auto;width:212px;height:40px;background:#c40000;text-align:center;line-height:40px;color:#fff;font-size:18px;font-family:"Microsoft Yahei";display:inline-block;border: none;margin-left:75px;margin-top:20px;margin-bottom:40px;border-radius: 4px;}
+.reset_password input{color:#999;height:38px;padding-left:10px;line-height:38px;width:200px;margin-top:20px;border:#e5e5e5 1px solid;}
+.reset_password em{width:70px;text-align:right;color:#666;font-size:12px;}
+.reset_password2 input{color:#999;height:38px;padding-left:10px;line-height:38px;width:80px;margin-top:20px;border:#e5e5e5 1px solid;}
+.reset_password2 em{width:70px;text-align:right;color:#666;font-size:12px;}
+.reset_password2 button{padding:8px 12px;border-radius:4px;}
+.button_t a:hover{color:#fff;background:#F23131;}
+.log_btnz{ margin:0 auto;width:300px;height:40px;background:#c40000;text-align:center;line-height:40px;color:#fff;font-size:18px;font-family:"Microsoft Yahei";display:inline-block;border: none;margin-top:10px;margin-bottom:40px;border-radius:4px;}
+
+/* Ê≥®ÂÜåÈ°µÈù¢ */
+ .ph_display{height:26px;line-height:26px;color:red;padding-left:44px;}
+ 
+ 
+ 
+/* ” œ‰◊¢≤· */
+.taba UL:after 
+{ 
+display: block; 
+height: 0px; 
+visibility: hidden; 
+clear: both; 
+content: ""; 
+} 
+.taba UL LI 
+{ 
+curosr: pointer;
+text-align: center; 
+line-height: 35px; 
+width: 180px; 
+display: inline; 
+background:#EAEAEA;  
+float: left; 
+height:35px; 
+color: #666; 
+} 
+.taba UL LI.on 
+{ 
+background: #fff; 
+color: #000; 
+} 
+
+/* ” œ‰◊¢≤·Ω· ¯ */
+/* ◊¢≤· */
+.shop_register{border-radius: 4px;display:block;width:305px;height:38px;background:#f23131;color:#fff;line-height:38px;text-align:center;font-size:16px;}
+.shop_register:hover{background:#fa5151;color:#fff;}
+.error_display{color:red;padding-left:44px;}
+
+@charset "utf-8";
+/* CSS Document */
+/*layout*/
+body {
+	margin: 0 auto;
+}
+.w {
+	width: 990px;
+	padding: 0;
+	margin: 0 auto;
+	zoom: 1;
+}
+.block {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+}
+.hide {
+	display: none;
+}
+.invisible {
+	visibility: hidden;
+}
+
+#regist .null, #regist .error {
+	color: red;
+	line-height: 22px;
+*line-height:20px;
+}
+#regist .checkbox {
+margin-top: 14px;
+*margin-top:2px;
+}
+.form {
+	position: relative;
+}
+/*entry*/
+.w .mcon {
+	margin-bottom: 20px;
+    height: 470px;
+	width: 1085px;
+	overflow: hidden;
+	position: relative;
+}
+
+.w .mcon .uc_box {
+	position: absolute;
+	top: 0px;
+	right: -385px;
+	width: 362px;
+}
+.w .mcon .uc_box_reg {
+	right: 0px
+}
+#entry .form, #regist .form, #entry1 .form {
+	float: right;
+	overflow: hidden;
+	/* border: 1px #ddd solid; */
+	padding: 20px 0px;
+	width: 336px;
+	min-height: 410px;
+	height: auto;
+}
+#entry .form, #entry1 .form {
+	-webkit-box-shadow: #ccc 0px 0px 5px;
+	-moz-box-shadow: #ccc 0px 0px 5px;
+	box-shadow: #ccc 0px 0px 5px;
+}
+#entry h2 {
+	height: 30px;
+	line-height: 30px;
+}
+
+#entry .item_te {
+	margin-top: 10px;
+	height: 20px;
+}
+#entry .item_te .fl {
+	float: left;
+	margin-left: 35px;
+ *margin-left:25px;
+}
+#entry .item_te .fr {
+	float: right;
+	margin-right: 35px;
+ *margin-right:25px;
+}
+#entry .label, #regist .label {
+	font-size: 14px;
+	color: #666;
+	padding-right: 10px;
+	height: 22px;
+	line-height: 22px;
+	display: inline-block;
+}
+#entry1 .label {
+	font-size: 14px;
+	color: #666;
+	padding-right: 10px;
+	height: 20px;
+	line-height: 20px;
+	display: inline-block;
+}
+#regist .label, #entry1 .label {
+	font-size: 12px;
+	color: #999;
+}
+#entry .text, #regist .text, #entry1 .text {
+	width: 258px;
+	height: 16px;
+	padding: 10px 5px 10px 5px;
+	border: 1px solid #cccccc;
+	font-size: 12px;
+	font-family: arial;
+	color: #999;
+	margin-bottom:2px;
+}
+#regist .text {
+	margin-left: 30px;
+}
+#entry .text, #entry1 .text {
+	width: 288px;
+}
+#entry .text-1 {
+	width: 100px;
+}
+#entry .blank {
+	width: 16px;
+	height: 16px;
+	margin: 2px 5px 0;
+}
+#entry .mar {
+	margin-right: 10px;
+}
+#entry .img img {
+	height: 36px;
+	margin: 1px 5px;
+	width: 135px;
+}
+#entry .succeed {
+	background: url(../../images/login/pwdstrength.gif) no-repeat -105px 0;
+}
+#entry .btn-entry, #entry .btn-img {
+	width: 300px;
+	height: 35px;
+	font-size: 14px;
+	color: #FFF;
+	background: #E4393C;
+	text-align: center;
+	line-height: 35px;
+	text-decoration: none;
+	cursor: pointer;
+	letter-spacing: 2px;
+	border: none;
+}
+#entry .item_gqu {
+	margin: 20px 0px 10px;
+}
+#entry .item_qpass {
+	margin-top: 20px;
+}
+#entry .item_qpass .btn-entry {
+	width: 100px;
+	border: none;
+	float: left;
+	font-weight: normal
+}
+#entry .item_qpass .btn-img {
+	width: 150px;
+	float: right;
+	font-weight: normal
+}
+#entry .focus {
+	color: #999;
+	line-height: 22px;
+ *line-height: 20px;
+}
+#entry .null, #entry .error {
+	line-height: 22px;
+ *line-height: 20px;
+}
+#entry .extra {
+	padding-left: 50px;
+	padding-top: 30px;
+}
+#entry .extra .btns {
+	float: left;
+	position: relative;
+	overflow: hidden;
+	height: 14px;
+	padding: 5px 0 5px 23px;
+	margin-right: 2px;
+	line-height: 14px;
+}
+#entry .extra .btns s {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 23px;
+	height: 23px;
+}
+#entry .extra .btns a:link, #entry .extra .btns a:visited {
+	text-decoration: none;
+	color: #005aa0;
+	padding-right: 4px;
+	border-right: 1px solid #DBDBDB;
+}
+#entry .extra .alipay a:link, #entry .extra .alipay a:visited {
+	border: none;
+}
+#entry .extra .more {
+	padding-left: 5px;
+}
+#entry .extra .more a:link, #entry .extra .more a:visited {
+	border: none;
+}
+#entry .checkbox {
+	margin-top: 7px;
+*margin-top:3px;
+}
+#entry .safety {
+	margin-top: 10px;
+	height: 30px;
+	line-height: 30px;
+}
+#entry .safety .checkbox {
+	vertical-align: middle
+}
+#entry .safety .mar-b {
+	height: 26px;
+	line-height: 26px;
+	margin-left: 5px
+}
+#entry .safety .forget_password {
+	float: right;
+	text-decoration: none;
+	margin-top: -2px;
+}
+#entry .mar {
+	margin-right: 10px;
+	line-height: 24px;
+}
+#entry .message {
+	color: #090 !important;
+}
+.item .item-ifo {
+	position: relative;
+	width: 540px;
+}
+#regist .item, #entry1 .item, #entry .item  {
+	position: relative;
+}
+.thickbox-form .item .item-ifo {
+	position: relative;
+	width: 330px;
+}
+.item .item-ifo-extra, .thickbox-form .item .item-ifo-extra {
+	position: relative;
+	width: 350px;
+}
+#regist i {
+	position: absolute;
+	right: 8px;
+    background: url(images/register.png) no-repeat scroll 0 0
+}
+#regist .text_te {
+	width: 90px;
+}
+#regist .phone {
+	width: 120px;
+	height: 36px;
+	border: 1px solid #DDD;
+	float: left;
+	font-size: 14px;
+	font-family: arial;
+	color: #333;
+	cursor: pointer;
+	margin-left: 10px;
+	background: #F4F4F4
+}
+#regist .i-name {
+	height: 16px;
+	top: 10px;
+	width: 16px;
+	left: 10px;
+	background-position: 0px 0px
+}
+#regist .i-pass {
+	height: 19px;
+	top: 10px;
+	width: 14px;
+	left: 10px;
+	background-position: -1px -25px
+}
+#regist .i-phone {
+	background-position: -1px -50px;
+	height: 21px;
+	top: 8px;
+	width: 14px;
+	left: 10px;
+}
+#regist .i-email {
+	background-position: 0px -75px;
+	height: 16px;
+	top: 10px;
+	width: 16px;
+	left: 10px;
+}
+#regist .i-msn {
+	background-position: 0px -95px;
+	height: 17px;
+	top: 10px;
+	width: 16px;
+	left: 10px;
+}
+#regist .i-qq {
+	background-position: 0px -195px;
+	height: 18px;
+	top: 10px;
+	width: 16px;
+	left: 10px;
+}
+#regist .i-bgphone, #regist .i-jtphone {
+	background-position: -1px -220px;
+	height: 12px;
+	top: 13px;
+	width: 16px;
+	left: 10px;
+}
+#regist .safety {
+	height: 40px;
+	line-height: 40px;
+}
+
+#regist .safety .mar-b {
+	height: 40px;
+	line-height: 40px;
+	margin-left:5px
+}
+#regist .img img {
+	height: 36px;
+	margin: 1px 5px;
+	width: 135px;
+}
+#entry1 .text1 {
+	width: 90px;
+}
+#entry1 #fphone, #regist #zphone, #regist #zemail {
+	height: 35px;
+	font-size: 12px;
+    background: #edeeef;
+	text-align: center;
+	line-height: 35px;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 0px 8px;
+	margin-left:204px;
+	float: left;
+	margin-top:-38px;
+	color:#666;
+	border-radius: 4px;
+	border: 1px solid #dbdcdd;
+}
+
+#regist .register_con .uc_box {
+	margin-top:40px;
+}
+
+
+
+

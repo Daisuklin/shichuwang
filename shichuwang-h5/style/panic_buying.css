@@ -1,0 +1,65 @@
+@charset "utf-8";
+.white{background:#fff;}
+.nav{clear:both;overflow:hidden;display:block;background: #000;}
+.nav ul li{float: left; width: 20%;height: 50px;text-align: center;}
+.nav ul li a{color:#fff;}
+.con_xl{width:18px;margin-top: 14px;margin-left: 10px;}
+.jto{height:40px;}
+
+
+/* 公用样式 */
+.f12{font-size:12px;}
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f20{font-size:16px;}
+/* 列表 */
+.fl{float:left;}
+.fr{float:right;}
+.consultation_list {min-height:165px;float:left;margin-top:10px;background:#fff;padding-top:10px;padding-bottom:10px;padding-left:10px;padding-right:10px;}
+.consultation_list .imgs{width:28%;}
+.consultation_list .imgs img{width: 100%;min-height:120px;max-height:120px;padding-top: 20px;}
+.consultation_list ul li{float:left;}
+.consultation_list .minute{width:70%;margin-left:5px;}
+.consultation_list .minute .bt{font-weight:600;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;word-break: break-all;overflow: hidden;}
+.hs_color{color:#999999;}
+.hs_color img{width:100px;height:28px;margin-bottom: 3px;}
+.consultation_list .minute .text{float: right;text-align: center;line-height: 45px;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 3;word-break: break-all;overflow: hidden;}
+.zixuns ul li{float: left;width: 11%;height: 40px;line-height: 40px;text-align: center;background: #fff;}
+
+
+
+/* 团购页面 */
+.i_t{overflow: hidden;clear: both;}
+.i_t .f_i{line-height:40px;height:40px;}
+.i_t .r_i{line-height:40px;height:40px;}
+.flash_sale ul li{width:31%;float:left;background:#fff;margin-left:2%;}
+.kz_kg{width:100%;height:100%;min-height: 90px;max-height: 90px;}
+.flash_sale .price{color:#666;font-weight:550;text-align:center;font-size:13px;height:20px;}
+.schu{color:#666;font-weight:400;text-align:center;font-size:13px;height:15px;line-height:15px;}
+.count_down{background:#c40000;padding:2px 4px;color:#fff;border-radius: 4px;margin-left:1px;}
+.ys{color:#666;margin-left:1px;}
+.shop_price dl dt{float:left;}
+.shop_price dl dt img{width:46px;height:8px;}
+.shop_price dl dd{float:right;}
+/* 入场疯抢 */
+.shop_prices dl {margin-top:4px;}
+.shop_prices dl dt{float:left;}
+.shop_prices dl dt img{width:46px;height:8px;}
+.shop_prices dl dd{float:right;background:#f15352;color:#fff;border-radius: 4px;width:50%;text-align:center;margin-top:10px;}
+.prices{color:#c40000;font-weight:600;text-align:center;font-size:19px;height:20px;line-height:15px;padding-left:5px;}
+
+/* 限时抢购 */
+.navul ul li span{lin-height:15px;color:#fff;}
+.time_bts dl{clear: both;overflow: hidden;line-height: 32px;padding-top:30px;}
+.time_bts dl dt em{color:#e5e5e5;font-size:14px;}
+.time_bts dl dt{float:left;width: 100px;text-align:center;border-radius: 4px;color: #ff4e0f;font-size: 22px;font-weight: 600;}
+.time_bts dl dd{float:right;background:#f15352;color:#fff;text-align:center;border-radius: 4px;width: 70px;}
+.consultation_list ul li .time{color:#ff4d00;border:#fe494e 1px solid;background:#ffcfd5;padding:3px;border-radius: 4px;padding-left:4px;}
+.consultation_list ul li .Symbol{color:#e34e47;font-size:14px;padding-left:5px;padding-right:5px;}
+.progress dl dt{float:left;text-align:center;border-radius: 4px;color: #666;font-size: 14px;}
+.progress dl dd{float:right;color:#666;text-align:center;width: 68px;}
+.btfl{line-height:40px;height:40px;}
+
+
+	

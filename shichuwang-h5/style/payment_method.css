@@ -1,0 +1,28 @@
+@charset "utf-8";
+--------------------------------------------------*/
+/* 閫夋嫨閰嶉�鏂瑰紡 */
+.payment_method{background: #fff; overflow: hidden; clear: both;}
+.payment_method{width:96%;margin:0 auto;margin-top:2%; background: #fff; overflow: hidden; clear: both;}
+.payment_method h2{color:#666;font-size:12px;padding-left:5px;}
+.payment_method .icon-01{width:20px;height:15px;margin-bottom:1px;}
+.payment_method .shop_img img{width:130px;height:100px;margin-top:10px;}
+.payment_list{width:96%;margin:0 auto;}
+.payment_list ul li{float:left;width:60px;border:#c40000 1px solid;text-align:center;margin-left:5px;}
+
+.determine{
+	width:80%;
+	margin-left:10%;
+	margin-top:5%;
+	height: 45px;
+    line-height: 45px\9;
+    overflow: hidden;
+    background-color: #ff4e00;
+    color: #FFF;
+    font-size: 1.3em;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    border: 0;
+    border-radius: 2px;
+    -mos-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    }

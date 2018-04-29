@@ -1,0 +1,23 @@
+@charset "utf-8";
+.fanxuan{width:16px;height:23px;}
+.choice{width:18px;height:18px;}
+.receipt .m {background-color: #fff;padding: 0px 0 14px 0;}
+.bdb-1px { position: relative;
+}
+.receipt .mt_new {overflow: hidden;padding: 0 0 11px 10px;}
+.receipt .mt_new h2 {float: left;font-size: 14px;color: #252525;}
+.receipt .mc {clear: both;padding-left: 10px;}
+.clr {clear: both;}
+.receipt .mc a {float: left; margin-right: 4%;}
+.btn3-ch{border: 1px solid #f15353;color: #f15353; padding: 0px 10px 0px 10px;height: 28px; line-height: 28px;}
+.re-head .reh-txt {border: 1px solid #d7d7d7;border-radius: 3px; padding: 2px 0 2px 14px; height: 22px;width: 92%; color: #252525; font-size: 12px;}
+.re-head .inputbox-w {position: relative;width: 97.5%;}
+.receipt .mt_new {overflow: hidden;padding:5px 0 11px 10px;}
+.receipt .mt_new span {float: left;color: #999; font-size: 12px; padding: 2px 0 0 10px;}
+.re-con dd span { margin: 2px 0 0 10px; float: left;}
+.re-con dd { overflow: hidden; color: #999; padding: 6px 0;  padding-left: 10px;}
+
+
+/* 发票人信息 */
+.invoice_person ul li{text-indent: 3%;color:#999;}
+.invoice_person ul li span{color:#999;}

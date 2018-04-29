@@ -1,0 +1,58 @@
+.pl5{padding-left: 5px;}
+.mtcenter10{margin-bottom: 10px;}
+.kongneirong{margin-left: 5px; font-size: 14px; font-weight: bold; background:#fff;height:20px;}
+.n_arrow a{ color: #fff}
+.title{ line-height: 40px; font-size: 14px; color: #fff; }
+.title span{padding-right: 10px;}
+.sku-group img{margin-top: 13px;}
+.text_center{font-size: 12px; font-weight: bold;margin-top:1px;}
+.right_text{ font-weight: normal; float: right; font-size: 12px;padding-right: 10px;color: #686868;  margin-left: 3px;}
+.sku_two_center{background: #fff; margin-top: -11px;float: left;text-align: center;width: 100%; padding-top: 5px;line-height: 43px;}
+.sku_two_centerc{float: left; width: 20%; text-align: left;}
+.sku_two_centerimg img{width: 14px;}
+.sku_two_centerb{background: #fff;float: left; width: 33.3%;}
+.sku_two_centerd{float: left; width: 75%; text-align: right;color: #686868;}
+.sku_two_centerc a{color: #fff;text-decoration:none; line-height: 18px;}
+.sku_two_centerb a, .name a{text-decoration:none;}
+.center_tuijian{height: 20px; width: 100%}
+.center_tuijian ul{float: left;width: 100%;list-style-type:none; padding: 0px;}
+.center_tuijian ul .li1{float: left;width: 40%;}
+.center_tuijian ul .li2{float: left;width: 20%;text-align: center;line-height: 5px;}
+.li_line{width: 100%;border-bottom: 1px solid #d7d7d7}
+.link_list{width: 100%;padding: 0px;margin-left: 4px;}
+.padbotm{padding-bottom: 100px;}
+.bg_one{background:url(../images/bg-one.png) no-repeat center center; height:40px;margin-top: 18px;}
+.listone{line-height: 45px; border-bottom: 1px solid #f6f6f6; margin-top:6px;}
+.listtwo{line-height: 45px; border-bottom: 1px solid #f6f6f6; margin-top:-1px;}
+.listthree{line-height: 45px; border-bottom: 1px solid #f6f6f6; margin-top:-3px;}
+.biaoti{margin-left: 5px; font-size: 14px; font-weight: bold; background:#fff;height: 40px;}
+.neirong{text-align: left;
+margin-top: -27px;}
+.bb300{border-bottom: 300px}
+.pt40{padding-top: 40px;}
+.mt100{margin-top:100px}
+
+
+.bdinput_two{
+    height: 28px;
+    width: 97%;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    color: #686868;
+    }  
+.bdinput_three{
+    height: 28px;
+    width: 46%;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    color: #686868;
+    }      
+
+.bdinput_fore{
+    height: 28px;
+    width: 46%;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    color: #686868;
+    }  
+.mt10{margin-top: 10px;}

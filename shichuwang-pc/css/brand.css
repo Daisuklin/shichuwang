@@ -1,0 +1,44 @@
+
+/* 首页积分中心 */
+a:hover {color: #c40000;}
+.section1_bom{ position: relative;left: -186px;top: 10px;font-family: "宋体";}
+.section1_bom a{color:#63625D;}
+
+@charset "utf-8";
+.channel-tab{margin:0px auto; /* padding-left:15px; */width:1185px;/* border-bottom:1px solid #d7d7d7; */}
+.channel-tab li{position:relative;float:left;margin-bottom:-1px;padding:12px 20px;width:156px;}
+/*.channel-tab i{position:absolute;bottom:0;left:48%;display:none;width:8px;height:4px;background-position:-39px 0;}*/
+.channel-tab a{font-size:16px;color:#666;}
+/* tab选项卡下边线 */
+.channel-tab .act{border-bottom:2px solid #f23131;}
+.channel-tab .act a{color:#e54e2d;}
+.channel-mod{margin-bottom:15px;  width:1200px;margin:0 auto;}
+.channel-title{margin-top:-1px;/*margin-bottom:20px;*/height:32px;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5; background:#f2f2f2;}
+.channel-title span{margin-left:18px;font-size:18px;line-height:32px;color:#656464;}
+.channel-title span.f14{font-size:14px;line-height:32px;}
+.brand-list{width:1164px;width:1185px;margin:5px auto 20px; overflow:hidden;border-top:1px solid #e5e5e5;}
+.brand-listUl{width:1188px;}
+.brand-list-item{float:left;padding:4px 12px 12px;width:173px;height:104px; border-bottom:1px solid #e5e5e5;border-right:1px solid #e5e5e5;}
+.brand-list-item:nth-child(6n+1){padding-left:10px;border-left:#e5e5e5 1px solid;}
+.brand-list-item:nth-child(6n){padding-right:10px;}
+.brand-list-item a.link{display:block;margin-top:8px;border:1px solid #fff;}
+.brand-list-item a{color:#333;}
+.brand-list-item .brand-logo{display:block;margin:0 auto;max-width:150px;height:60px;vertical-align: middle;display: table-cell;}
+.brand-list-item .brand-name{ font-size: 14px;margin-top:8px;height:28px;line-height:28px;background:#f8f7f8;text-align:center;white-space:nowrap;overflow:hidden;}
+.brand-list-item:hover a.link{border:1px solid #f23131}
+.brand-list-item:hover a.link .brand-name{ background:#f23131; color:#fff;}
+.brand-list-item .brand-lPannel.act{position:relative;}
+.area-brand .act{border:1px solid #eaeaea;}
+.brand-pop{display:none;position:absolute;margin-top:11px;width:374px;z-index:100;border:1px solid #ff4200;background:#fff;text-align:left;zoom:1;}
+.brand-list-item.act .brand_pop{display:block;}
+.brand-pop h3{margin-top:-6px;padding-left:10px;height:34px;font-size:14px;line-height:34px;color:#333;background:#f3f3f3;}
+
+
+/* 优惠券 */
+.mt{margin-top:20px;}
+.mt50{margin-top:50px;}
+.con_list .left_side{margin-left:0px;}
+
+
+
+

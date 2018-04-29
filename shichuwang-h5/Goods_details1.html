@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+    Remove this if you use the .htaccess -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>商品详情1</title>
+<meta name="description" content="" />
+<meta name="author" content="Administrator" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+<link rel="stylesheet" href="style/head_buycar.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<!--头部样式	--><link rel="stylesheet" href="style/head_buycar.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<!-- 商品详情 -->
+<link rel="stylesheet" href="style/goods_details.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="stylesheet" href="style/base.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<link rel="stylesheet" href="style/common.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<link rel="stylesheet" href="style/device.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<link rel="stylesheet" href="style/jquery.bxslider.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<script src="js/jquery-1.7.2.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/jquery.bxslider.min.js" type="text/javascript" charset="utf-8"></script>
+<!-- 选择地区 --><script type="text/javascript" src="js/zepto.min.js"></script>
+<!-- 选择地区 --><script type="text/javascript" src="js/dialog.js"></script>
+<!-- 选择地区 --><script type="text/javascript" src="js/mobile-select-area.js"></script>
+<!-- 店铺优惠劵样式 -->
+<link rel="stylesheet" href="style/discount_style.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+<!--[if IE]>
+<script src="js/html5.js"></script>
+<![endif]-->
+<!-- 页面层 -->
+    <script src="js/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+<script>
+  function pay(){
+    layer.open({
+	    content: '<div style="padding:0px;line-height:0px;">领取成功</div>',
+	    time: 5 //2秒后自动关闭
+	});
+	}
+</script>
+<body>
+<div class="banbg"> 
+  <!--Begin Header Begin-->
+  <div class="top" style="position: fixed;">
+     <div class="backhome"><a href="Index.html"><img src="images/back.png"  class="backhome_icon"/></a></div>
+    <div class="pos">
+       <ul>
+          <li class="active"><a href="Goods_details.html" style="color:#fff;">商品</a></li>
+          <li><a href="Goods_details_tab.html" style="color:#fff;">详情</a></li>
+          <li><a href="evaluate.html" style="color:#fff;">评价</a></li>
+       </ul>
+     </div> 
+    <div class="n_arrow"><a id="nav"><img src="images/sharch.png" class="share_icon"></a></div>      
+  </div>
+</div> 
+<!--详情内容-->
+<div  class="item">
+<section class="images">
+    <div class="swiper-container">
+        <div class="swiper-wrapper" style="height:320px;">
+            <div class="swiper-slide">
+            	<img src="images/Fssu.jpg" />
+            </div>
+            <div class="swiper-slide">
+            	<img src="images/shop_24.png" />
+            </div>
+            <div class="swiper-slide">
+            	<img src="images/shop_22.png" />
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+
+<section class="header">
+
+    <h2 class="title" style="color: #666;height:20px;padding-left:10px;">Apple iPhone 6s (A1700) 64G 玫瑰金色 移动联通电信4G手机 Apple iPhone 6s (A1700) 64G</h2>
+
+     <span class="current-title">满699.00另加25.00元，或满1299.00另加35.00元，或满1999.00另加</span>
+    <div class="price ">
+        <div class="current-price">
+            <span class="msj">秒杀价</span>
+            <span class="current-price">&yen;15.90</span>
+        </div>
+        <a href="merchant.html"><span class="express">进入店铺</span></a>
+    </div>
+</section>
+
+<section class="sku"  onClick="toshare()">
+	<dl class="sku-group">
+    	<dt>领券:</dt>
+        <dd>
+           <div class="naj">
+           	<ul>
+           	   <li>满300减10</li>
+           	</ul>
+           </div>
+       </dd>
+    </dl>
+</section> 
+<section class="sku button_show">
+	<dl class="sku-group">
+    	<dt>促销:</dt>
+        <dd>
+           <div class="naj">
+           	<ul>
+           	   <li>满300减10</li>
+           	</ul>
+           </div>
+       </dd>
+    </dl>
+</section> 
+<div class="button_showp" style="display:none;">
+	<ul>
+		<li><span>11</span>促销信息</li>
+		<li>22</li>
+		<li>11</li>
+		<li>22</li>
+	</ul>
+</div>
+<script>
+$(document).ready(function() {
+   $(".button_show").click(function(){
+	   $(".button_showp").toggle(200)
+	   })    
+});
+
+</script>
+<div class="am-share">
+	<div class="content">
+        <div class="head"><a class="close"></a></div>
+    	<div class="bd">
+           <div style="overflow-y:auto;height: 260px;">
+               <div class="coupons_body">
+               <div class="coupon-excellent m m-receive " style="margin-top:10px;">
+					<div class="mc" >
+					  <a href="shop_list.html">
+                        <div class="ce-con">
+                            <div class="ce-con-l">
+                                <span class="pl5">自营 </span>
+                                <p class="red_ll"><i class="red_ll">&yen;</i>200</p>
+                            </div>
+                            <div class="ce-con-r" style="margin-top: -30.5px;">
+                                <p class="f14" displaylength="36" style="margin-top:6px;margin-right: 16px;">自营iPhone 6S 16G版手机</p>
+                                <span class="ce-con-line"></span>
+                                <p class="f12">满4000元可用</p>
+                            </div>
+                            <div class="fr">
+                               <img class="mt25" src="images/e_icon.gif">&nbsp;
+                            </div>
+                        </div>
+                       </a> 
+						<div class="ce-ft">
+							<p class="ce-hr"></p>
+							<div class="ce-time">2016.08.08--2016.08.19</div>
+							<span class="ce-btn" onclick="pay();">立即领取<i></i></span>
+						</div>
+					</div>
+                </div>
+                
+                <div class="coupon-excellent m m-receive " style="margin-top:10px;">
+					<div class="mc" >
+					  <a href="shop_list.html">
+                        <div class="ce-con">
+                            <div class="ce-con-l">
+                                <span class="pl5">自营 </span>
+                                <p class="red_ll"><i class="red_ll">&yen;</i>200</p>
+                            </div>
+                            <div class="ce-con-r" style="margin-top: -30.5px;">
+                                <p class="f14" displaylength="36" style="margin-top:6px;margin-right: 16px;">自营iPhone 6S 16G版手机</p>
+                                <span class="ce-con-line"></span>
+                                <p class="f12">满4000元可用</p>
+                            </div>
+                            <div class="fr">
+                               <img class="mt25" src="images/e_icon.gif">&nbsp;
+                            </div>
+                        </div>
+                       </a> 
+						<div class="ce-ft">
+							<p class="ce-hr"></p>
+							<div class="ce-time">2016.08.08--2016.08.19</div>
+							<span class="ce-btn" onclick="pay();">立即领取<i></i></span>
+						</div>
+					</div>
+                </div>
+                
+                <div class="coupon-excellent m m-receive " style="margin-top:10px;">
+					<div class="mc" >
+					 <a href="shop_list.html">
+                        <div class="ce-con">
+                            <div class="ce-con-l">
+                                <span class="pl5">自营 </span>
+                                <p class="red_ll"><i class="red_ll">&yen;</i>200</p>
+                            </div>
+                            <div class="ce-con-r" style="margin-top: -30.5px;">
+                                <p class="f14" displaylength="36" style="margin-top:6px;margin-right: 16px;">自营iPhone 6S 16G版手机</p>
+                                <span class="ce-con-line"></span>
+                                <p class="f12">满4000元可用</p>
+                            </div>
+                            <div class="fr">
+                              <img class="mt25" src="images/e_icon.gif">&nbsp;
+                            </div>
+                        </div>
+                       </a> 
+						<div class="ce-ft">
+							<p class="ce-hr"></p>
+							<div class="ce-time">2016.08.08--2016.08.19</div>
+							<span class="ce-btn" onclick="pay();">立即领取<i></i></span>
+						</div>
+					</div>
+                </div>
+            </div>
+           </div>
+        </div>
+ </div>
+</div>
+
+
+<script type="text/javascript">
+	function toshare(){
+		$(".am-share").addClass("am-modal-active");	
+		if($(".sharebg").length>0){
+			$(".sharebg").addClass("sharebg-active");
+		}else{
+			$("body").append('<div class="sharebg"></div>');
+			$(".sharebg").addClass("sharebg-active");
+		}
+		$(".sharebg-active,.share_btn").click(function(){
+			$(".am-share").removeClass("am-modal-active");	
+			setTimeout(function(){
+				$(".sharebg-active").removeClass("sharebg-active");	
+				$(".sharebg").remove();	
+			},300);
+		})
+	}	
+</script>
+<section class="layer">
+ <div class="content">
+        <div class="head"><a class="close"></a></div>
+    	<div class="bd">
+            <dl>
+                <dt><img src="images/photo.png" width="185"  style="border: 1px solid #dbdcdd;border-radius: 4px;"/></dt>
+                <dd><span>&yen;63880</span></br><span><b>商品编号123456</b></span></dd>
+            </dl>
+           <div style="overflow-y:auto;height: 200px;">
+             <dl>
+                <dt>颜色</dt>
+                <dd>
+                    <ul id="skus">
+                        <li><a data-sku=10 class="active">红色1</a><i></i></li>
+                        <li><a data-sku=11>粉色</a><i></i></li>
+                    </ul>
+                </dd>
+            </dl>  <dl>
+                <dt>颜色</dt>
+                <dd>
+                    <ul id="skus">
+                        <li><a data-sku=10 class="active">红色</a><i></i></li>
+                        <li><a data-sku=11>粉色</a><i></i></li>
+                        <li><a data-sku=12>碎花</a><i></i></li>
+                        <li><a data-sku=10 >红色</a><i></i></li>
+                        <li><a data-sku=11>深灰色</a><i></i></li>
+                        <li><a data-sku=12>玫瑰金</a><i></i></li>
+                        
+                    </ul>
+                </dd>
+            </dl>  <dl>
+                <dt>颜色</dt>
+                <dd>
+                    <ul id="skus">
+                        <li><a data-sku=10 class="active">红色</a><i></i></li>
+                        <li><a data-sku=11>粉色</a><i></i></li>
+                        <li><a data-sku=12>碎花</a><i></i></li>
+                        <li><a data-sku=10 >红色</a><i></i></li>
+                        <li><a data-sku=11>深灰色</a><i></i></li>
+                        <li><a data-sku=12>玫瑰金</a><i></i></li>
+                        
+                    </ul>
+                </dd>
+            </dl>  
+           
+            <dl>
+                <dt>颜色</dt>
+                <dd>
+                    <ul id="skus">
+                        <li><a data-sku=10 class="active">红色</a><i></i></li>
+                        <li><a data-sku=11>粉色</a><i></i></li>
+                        <li><a data-sku=12>碎花</a><i></i></li>
+                        <li><a data-sku=10 >红色</a><i></i></li>
+                        <li><a data-sku=11>深灰色</a><i></i></li>
+                        <li><a data-sku=12>玫瑰金</a><i></i></li>
+                        
+                    </ul>
+                </dd>
+            </dl>  
+             <dl>
+                <dt>大小</dt>
+                <dd>
+                    <ul id="sku3">
+                        <li><a data-sku=10 class="active">16gqqq</a><i></i></li>
+                        <li><a data-sku=11>32g</a><i></i></li>
+                        <li><a data-sku=12>64g</a><i></i></li>
+                        <li><a data-sku=10 >128g</a><i></i></li>       
+                    </ul>
+                </dd>
+            </dl>  
+             <dl>
+                <dt>选择版本</dt>
+                <dd>
+                    <ul id="sku1">
+                        <li><a data-sku=10 class="active">公开版</a><i></i></li>
+                        <li><a data-sku=11>移动版</a><i></i></li>
+                    </ul>
+                </dd>
+            </dl>  
+             <dl>
+                <dt>选择容量</dt>
+                <dd>
+                    <ul id="sku2">
+                        <li><a data-sku=10 class="active">16G</a><i></i></li>
+                        <li><a data-sku=11>32G</a><i></i></li>
+                        <li><a data-sku=12>64G</a><i></i></li>                      
+                        
+                    </ul>
+                </dd>
+            </dl>  
+            <dl>
+            <dt>数量</dt>
+                <dd>
+                   <div class="gw_num">
+					<em class="jian">-</em>
+					<input type="text" value="1" class="num"/>
+					<em class="add">+</em>
+				</div>     
+                </dd>
+                         
+            </dl>  
+           
+           
+           </div>
+        </div>
+        
+    </div>
+
+</section>
+<!-- 优惠劵 -->
+<section class="sku" id="sku">
+	<dl class="sku-group">
+    	<dt>已选: </dt>
+        <dd>&nbsp;玫瑰金   公开版   16GB</dd>
+    </dl>
+</section>
+
+<!-- 优惠劵结束 -->
+
+<!-- <section class="sku_two">
+	<dl class="sku-group_two">
+    	<dt>送至: </dt>
+        <dd>&nbsp;&nbsp;<img src="images/zuobiao.png" style="width: 14px;">&nbsp;&nbsp;北京 朝阳区 三环到四环之间</dd>
+        <dt>运费: </dt>
+        <dd>&nbsp;&nbsp;包邮</dd>
+    </dl>
+</section> -->
+<div class="sku_two_center  listtwo" >
+	<div class="sku_two_centerc " style="padding-left: 5px;">所在地区：</div>
+	<div class="sku_two_centerd2">
+	    <input type="hidden" id="hd_area" value="12,124,3269"/>
+		<script>
+		var selectArea = new MobileSelectArea();
+		selectArea.init({trigger:'#txt_area',value:$('#hd_area').val(),data:'data.json',eventName:'tap'});
+		</script>
+            <input class="input_css" type="text" id="txt_area2" value="浙江省 杭州市 滨江区" data-value="12,124,3269" />
+        <script>
+		var json =[{
+			"id": "3",
+			"name": "\u5317\u4eac\u5e02",
+			"child": [{
+				"id": "2288",
+				"name": "\u4e1c\u57ce\u533a"
+			}, {
+				"id": "2301",
+				"name": "\u5927\u5174\u533a"
+			}, {
+				"id": "2300",
+				"name": "\u660c\u5e73\u533a"
+			}],
+			
+			
+		}];
+		var selectArea2 = new MobileSelectArea();
+		selectArea2.init({trigger:'#txt_area2',value:$('#txt_area2').data('value'),data:json,eventName:'click'});
+		</script>
+	</div>
+</div>
+<section class="sku_two">	
+<a href="evaluate.html">
+    <div class="line_bottom">
+    
+         <span>商品评价（好评95%）</span>
+         <span class="fr"><img src="images/e_icon.gif" class="icon_jiantou" style="margin-top: 0px;"></span>
+    </div>	
+</a> 
+    <div class="sku-group_two ">
+    	<div style="width: 100%">
+    	  <span><img src="images/yellow_icon_star.png" class="pr_img"><img src="images/yellow_icon_star.png" class="pr_img"><img src="images/star_icon.png" class="pr_img"><img src="images/star_icon.png" class="pr_img"><img src="images/star_icon.png" class="pr_img"></span>
+          <span class="fr">张**9</span>
+        </div> 
+        <div style="float: left;">
+         <span>查了一下是正品哦，感觉真的很好用</span> </br>
+         <span><img src="images/like_3.jpg" class="pr_img_photo"><img src="images/like_3.jpg" class="pr_img_photo"><img src="images/like_3.jpg" class="pr_img_photo"><img src="images/like_3.jpg" class="pr_img_photo"><img src="images/like_3.jpg" class="pr_img_photo"></span>     
+       </div>
+    </div>
+     <div class="sku-group_two ">
+    	<div style="width: 100%">
+    	  <span><img src="images/yellow_icon_star.png" class="pr_img"><img src="images/yellow_icon_star.png" class="pr_img"><img src="images/star_icon.png" class="pr_img"><img src="images/star_icon.png" class="pr_img"><img src="images/star_icon.png" class="pr_img"></span>
+          <span class="fr">张**9</span>
+        </div> 
+        <div style="float: left;">
+         <span>查了一下是正品哦，感觉真的很好用</span> </br>
+         <span><img src="images/like_3.jpg" class="pr_img_photo"><img src="images/like_3.jpg" class="pr_img_photo"><img src="images/like_3.jpg" class="pr_img_photo"><img src="images/like_3.jpg" class="pr_img_photo"><img src="images/like_3.jpg" class="pr_img_photo"></span>     
+       </div>
+    </div>
+   <div class="tipe_pingjia mt10" >
+      <div class="icon_tip"><a href="slide_show.html"><sapn style="color:#9d9c9c">商品晒单（4567）</sapn></a></div>
+      <div class="icon_tip" style="margin-left: 7px;"><a href="purchase_advice_list.html"><sapn style="color:#9d9c9c">购买咨询（45678）</sapn></a></div>
+   </div>
+      
+</section>
+<section class="sku_two ">	
+     <div class="sku-group_two tm10" >
+    	
+    	  <div class="shop_logo_22">
+    	     <ul>
+    	        <li class="shop_img"><img src="images/b_3.jpg" ></li>
+    	        <li class="shop_logo_p" style="width: 40%">
+    	          <p style="color:#252525;text-align: left;">索尼专买旗舰店</p>
+    	          <p style="color:#9d9c9c;text-align: left;">正品行货，欢迎选购!</p>
+    	        </li>
+    	        <li class="shop_logo_p2"><span class="font_tip">9.4分</span></li>
+    	     </ul>
+    	  </div>    
+    </div>
+     <div class="sku-group_two " >	
+    	  <div class="shop_logo tm15">
+    	    <ul>
+    	        <li  class="pygc">
+    	            <p>商品<span class="font_tip">9.4分</span></p>
+    	            <p class="ziti_p">32.1万</p>
+    	            <p>关注人数</p>
+    	        </li>
+    	         <li class="pygc">
+    	            <p>服务<span class="font_tip">9.4分</span></p>
+    	            <p class="ziti_p">654</p>
+    	            <p>全部商品</p>
+    	        </li>
+    	         <li >
+    	            <p>物流<span class="font_tip">9.4分</span></p>
+    	            <p class="ziti_p">32.1万</p>
+    	            <p>店铺动态</p>
+    	        </li>
+    	     </ul> 
+    	  </div>    
+    </div>
+  <div class="tipe_pingjia  tm15">
+      <div class="icon_tip"><a href="#"><sapn style="color:#9d9c9c">联系客服</sapn></a></div>
+      <div class="icon_tip" style="margin-left: 7px;"><a href="merchant.html"><sapn style="color:#9d9c9c">进入店铺</sapn></a></div>
+   </div>
+      
+</section>
+<section class="content" >
+	<div class="nav">
+    	<a class="active">为你推荐</a>
+    	<a>排行榜</a>
+    </div>
+	<div class="like">
+	<ul>
+    	<li>
+        	<div class="img"><a href="#"><img src="images/like_1.jpg" width="185" /></a></div>                                        
+            <div class="name">
+                <a href="#"><h2>德国进口</h2>德亚全脂200ml*48盒</a>
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 26R
+            </div>
+        </li>
+        <li>
+        	<div class="img"><a href="#"><img src="images/like_2.jpg" width="185" /></a></div>                                        
+            <div class="name">
+                <a href="#"><h2>德国进口</h2>德亚全脂200ml*48盒</a>
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 26R
+            </div>
+        </li>
+        <li>
+        	<div class="img"><a href="#"><img src="images/like_3.jpg" width="185" /></a></div>                                        
+            <div class="name">
+                <a href="#"><h2>德国进口</h2>德亚全脂200ml*48盒</a>
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 26R
+            </div>
+        </li>
+        <li>
+        	<div class="img"><a href="#"><img src="images/like_4.jpg" width="185" /></a></div>                                        
+            <div class="name">
+                <a href="#"><h2>德国进口</h2>德亚全脂200ml*48盒</a>
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 26R
+            </div>
+        </li>
+        <li>
+        	<div class="img"><a href="#"><img src="images/like_5.jpg" width="185" /></a></div>                                        
+            <div class="name">
+                <a href="#"><h2>德国进口</h2>德亚全脂200ml*48盒</a>
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 26R
+            </div>
+        </li>
+        <li>
+        	<div class="img"><a href="#"><img src="images/like_6.jpg" width="185" /></a></div>                                        
+            <div class="name">
+                <a href="#"><h2>德国进口</h2>德亚全脂200ml*48盒</a>
+            </div>
+            <div class="price">
+                <font>&yen;<span>189</span></font> &nbsp; 26R
+            </div>
+        </li>
+    </ul>
+</div>
+</section>
+<section class="content" style="margin-top:10px;">
+	<div class="content_tab1" id="tab1">
+	<div class="content_menu">
+		<ul>
+			<li id="one1" onclick="setTab('one',1)">商品介绍</li>
+			<li id="one2" onclick="setTab('one',2)">规格参数</li>
+			<li id="one3" onclick="setTab('one',3)" style="border-right: #eae9e9 solid 1px;">包装售后</li>
+			
+		</ul>
+	</div>
+	<div class="content_menudiv">
+		<div id="con_one_1">
+		    <div class="desc">
+        <img data-original="images/inages_001.jpg" width="100%">        
+        <img data-original="images/inages_002.jpg" width="100%">        
+        <img data-original="images/inages_003.jpg" width="100%">        
+		<img data-original="images/inages_001.jpg" />
+		<img data-original="images/inages_002.jpg" />
+    </div>
+		</div>
+		<div id="con_one_2" style="display:none;">
+			<div class="specifications h_color">
+			   <p>上传规格参数</p>
+			</div>
+		    
+		</div>
+		<div id="con_one_3" style="display:none;">
+		 <p>商城向您保证所售商品均为正品行货，京东自营商品开具机打发票或电子发票。</p>
+		</div>		
+	</div>
+</div>
+</section>        
+ <div class="bottom_space"></div>
+<footer class="footer">
+	<span class="server"></span>
+    <div class="button"><a href="place_order.html" >立即购买</a></div>
+</footer>
+<!-- 弹出框页面样式 -->
+<style type="text/css">
+.am-share { font-size: 14px; border-radius: 0; bottom: 0; left: 0; position: fixed; text-align: center; -webkit-transform: translateY(100%); -ms-transform: translateY(100%); transform: translateY(100%); -webkit-transition: -webkit-transform 300ms; transition: transform 300ms ; width: 100%; z-index: 1110; }
+.am-modal-active { transform: translateY(0px);  -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0) }
+.am-modal-out { z-index: 1109; -webkit-transform: translateY(100%); -ms-transform: translateY(100%); transform: translateY(100%) }
+
+.am-share-title { background-color: #f8f8f8; border-bottom: 1px solid #fff; border-top-left-radius: 2px; border-top-right-radius: 2px; color: #555; font-weight: 400; margin: 0 10px; padding: 10px 0 0; text-align: center; }
+.am-share-title::after { border-bottom: 1px solid #dfdfdf; content: ""; display: block; height: 0; margin-top: 10px; width: 100%; }
+
+.am-share-footer { margin: 10px; }
+.am-share-footer .share_btn { color: #555;  display: block; width: 100%; background-color: #e6e6e6; border: 1px solid #e6e6e6; border-radius: 0; cursor: pointer;  font-size: 16px; font-weight: 400; line-height: 1.2; padding: 0.625em 0; text-align: center; transition: background-color 300ms ease-out 0s, border-color 300ms ease-out 0s; vertical-align: middle; white-space: nowrap;font-family:"微软雅黑";  }
+
+.am-share-sns { background-color: #f8f8f8; border-radius: 0 0 2px 2px; margin: 0 10px; padding-top: 15px; height:auto; zoom:1; overflow:auto; }
+
+.am-share-sns li { margin-bottom: 15px; display: block; float: left; height: auto;  width: 25%; }
+
+.am-share-sns a { color: #555; display: block; text-decoration:none; }
+.am-share-sns span { display: block; }
+
+.am-share-sns li i { background-position: center 50%; background-repeat: no-repeat; background-size: 36px 36px; background-color: #ccc; color: #fff; display: inline-block; font-size: 18px; height: 36px; line-height: 36px; margin-bottom: 5px; width: 36px; }
+.am-share-sns .share-icon-weibo { background-image: url(); }
+
+.sharebg { background-color: rgba(0, 0, 0, 0.6); bottom: 0; height: 100%; left: 0; opacity: 0; position: fixed; right: 0; top: 0; width: 100%; z-index: 1100; display:none; }
+.sharebg-active { opacity: 1; display:block; }
+
+</style>
+<script src="js/jquery.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/jquery.lazyload.js"></script>
+<script>
+
+var path = "{:U('buy')}?id=";
+//兼容性：字体大小，全局尺寸(rem)
+
+
+(function(){
+	//轮播图
+	new Swiper('.swiper-container', {
+		pagination: '.swiper-pagination',
+		paginationClickable: true,
+		autoplay:3000
+	});
+	
+	$('.nav a').click(function(){
+		$('.nav a').removeClass('active');
+		$(this).addClass('active');
+	})
+	//sku
+	$('#sku,.buy').click(function(){
+		$('.layer').addClass('acitve');
+	})
+	//s
+	$('#sku,.buys').click(function(){
+		$('.layers').addClass('acitve');
+	})
+	
+	$('.close').click(function(){
+		$('.layer').removeClass('acitve');
+	});
+	//却动
+	$('#sku a').click(function(){
+		console.log(this);
+		$('#sku a').removeClass('active');
+		$(this).addClass('active');
+		$('.next').attr('href',path + $(this).data('sku'));
+		$('.sku-group dd').text($(this).text());
+	});
+	//sku1
+	$('.sku1,.buy').click(function(){
+		$('.layer').addClass('acitve');
+	})
+	$('.close').click(function(){
+		$('.layer').removeClass('acitve');
+	});
+	//却动
+	$('#sku1 a').click(function(){
+		console.log(this);
+		$('#sku1 a').removeClass('active');
+		$(this).addClass('active');
+		$('.next').attr('href',path + $(this).data('sku1'));
+		$('.sku-group dd').text($(this).text());
+	});
+	//sku2
+	$('.sku2,.buy').click(function(){
+		$('.layer').addClass('acitve');
+	})
+	$('.close').click(function(){
+		$('.layer').removeClass('acitve');
+	});
+	//却动
+	$('#sku2 a').click(function(){
+		console.log(this);
+		$('#sku2 a').removeClass('active');
+		$(this).addClass('active');
+		$('.next').attr('href',path + $(this).data('sku2'));
+		$('.sku-group dd').text($(this).text());
+	});
+	//却动
+	$('#sku3 a').click(function(){
+		console.log(this);
+		$('#sku3 a').removeClass('active');
+		$(this).addClass('active');
+		$('.next').attr('href',path + $(this).data('sku3'));
+		$('.sku-group dd').text($(this).text());
+	});
+	//图片懒加载
+	$("img").lazyload({
+		effect : 'fadeIn',
+		placeholder :'http://img.weizhi.so/placeholder.png'
+	});
+	
+})();
+
+</script>
+<!-- tab切换js -->
+ <script>
+function setTab(name,cursel){
+	cursel_0=cursel;
+	for(var i=1; i<=links_len; i++){
+		var menu = document.getElementById(name+i);
+		var menudiv = document.getElementById("con_"+name+"_"+i);
+		if(i==cursel){
+			menu.className="off";
+			menudiv.style.display="block";
+		}
+		else{
+			menu.className="";
+			menudiv.style.display="none";
+		}
+	}
+}
+function Next(){                                                        
+	cursel_0++;
+	if (cursel_0>links_len)cursel_0=1
+	setTab(name_0,cursel_0);
+} 
+var name_0='one';
+var cursel_0=1;
+
+var links_len,iIntervalId;
+onload=function(){
+	var links = document.getElementById("tab1").getElementsByTagName('li')
+	links_len=links.length;
+	for(var i=0; i<links_len; i++){
+		links[i].onmouseover=function(){
+			clearInterval(iIntervalId);
+			this.onmouseout=function(){
+				iIntervalId = setInterval(Next,ScrollTime);;
+			}
+		}
+	}
+	document.getElementById("con_"+name_0+"_"+links_len).parentNode.onmouseover=function(){
+		clearInterval(iIntervalId);
+		this.onmouseout=function(){
+			iIntervalId = setInterval(Next,ScrollTime);;
+		}
+	}
+	setTab(name_0,cursel_0);
+	iIntervalId = setInterval(Next,ScrollTime);
+}
+</script> 
+<script type="text/javascript">
+		$(document).ready(function(){
+			//加的效果
+			$(".add").click(function(){
+			var n=$(this).prev().val();
+			var num=parseInt(n)+1;
+			if(num==0){ return;}
+			$(this).prev().val(num);
+			});
+			//减的效果
+			$(".jian").click(function(){
+			var n=$(this).next().val();
+			var num=parseInt(n)-1;
+			if(num==0){ return}
+			$(this).next().val(num);
+			});
+		})
+	</script>
+</div>
+<!--End 猜你喜欢 End-->
+<div class="b_btm_details">
+	<ul>
+    	<li class="b_1"><a href="javascript:void(0) "><p></p>收藏</a></li>
+        <li class="b_2"><a href="BuyCar.html" style="color:#fff;">加入购物车</a></li>
+        <li class="b_3"><a href="#" style="color:#fff;">立即购买</a></li>
+    </ul>
+</div>
+<!--End Footer End-->
+
+</body>
+</html>

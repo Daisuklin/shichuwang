@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* 底部样式 */
+.btm{
+	overflow:hidden; text-align:center; padding:2% 5% 0 5%; margin-top:2%; border-top:1px solid #cccccc;
+}
+.b_btm{
+	width:100%; overflow:hidden; background-color: #fff; /* margin-top:5%; */ border-top:1px solid #eaeaea;/* position:fixed;
+    bottom:0;z-index: 999 */
+}
+.b_btm ul li{
+	width:22%; height:42px; overflow:hidden; color:#333333; font-size:12px; text-align:center; float:left; display:inline; margin:1% 1% 2% 2%;
+}
+.b_btm ul li a{
+	width:100%; height:42px; overflow:hidden; color:#666; float:left; text-align:center;
+}
+.b_btm ul li a:hover, .b_btm ul li:hover a, .b_btm ul li.cur a{
+	/* color:#ce3131; */
+}
+.b_btm ul li p{
+	height:23px; overflow:hidden; margin:1% auto 0% auto; padding:0;
+}
+.gudingdibu{
+	position:fixed;  
+    left:0px;  
+    bottom:0;  
+    _position:absolute;  
+    _top:expression(document.documentElement.clientHeight + document.documentElement.scrollTop - this.offsetHeight);
+  }

@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* 浏览记录 */
+.bto{text-align: center; width: 75%;color:#fff;}
+.con_main ul li{width:94%;margin:0 auto;margin-top:10px;}
+.tuc{width:75px;height:75px;margin:2px;}
+.browsing ul li{float:left;}
+.common-wrapper ul li{margin-top:10px;border-bottom: #e5e5e5 1px solid;}
+.common-wrapper {width: 100%;position: relative;max-width: 640px;min-width: 320px;overflow: hidden;margin: 0 auto;font-size: 16px; background-color: white;padding-bottom: 10px;}
+.concern-con {overflow: hidden;}
+.concern-con li a.btn-grey {position: absolute;border-radius: 4px; font-size: 12px;right: 10px;height: 20px;line-height: 20px;width: 5.82em;text-align: center; color: #848689; border: 1px solid #c2c2c2;}
+.concern-con li .p-price {font-family: "微软雅黑";color: #f15353;font-size: 12px;}
+.concern-con li .p-img {width: 4.88em;height: 4.88em; box-shadow: inset 0 0 1px rgba(0,0,0,0.5); padding: 1px; float: left;margin-right: .5em;}
+.concern-con li .p-name {display: block;line-height: 1.5em; height: 3em; overflow: hidden; color: #666;margin-bottom: .5em;font-size: 12px;}
+
+/* 我的关注 */
+.con_main .light_goods ul li{float:left;width:50%;text-align:center;}
+.xuanfud {
+    width: 80px;
+    position: absolute;
+}
+.xuanfud img {
+    margin-top: -13%;
+    margin-left: -9%;
+    width: 100%;
+    height: 100%;
+}
+.xuanfud{  
+	  width: 80px;
+	position: absolute;
+	}
+.xuanfu_two{
+	position: absolute;
+	opacity:0.5;
+	color: #fff;
+    width: 81px;
+   margin-top: 22%;
+margin-left:1%;
+text-align: center;
+
+
+	
+} 
+.wid240 
+{ 
+width: 100%; 
+margin-bottom: 20px; 
+} 
+.wid180 
+{ 
+width: 100%; 
+background: #fff;
+} 
+.tab UL 
+{ 
+zoom: 1; 
+clear: both; 
+} 
+.tab UL:after 
+{ 
+display: block; 
+height: 0px; 
+visibility: hidden; 
+clear: both; 
+content: ""; 
+} 
+.tab UL LI { 
+text-align: center; 
+width: 50%; 
+display: inline; 
+float: left; 
+height: 35px;
+line-height: 35px;
+color: #000; 
+border-bottom: 1px solid #e5e5e5;
+background: #fff; 
+} 
+.tab UL LI.on 
+{ 
+background: #fff; 
+color: #c40000; 
+border-bottom: 1px solid #c40000;
+} 
+.tabList { 
+height:auto; 
+border-top: #000 1px; 
+
+} 
+.tabList .one 
+{ 
+padding-left: 10px; 
+padding-right: 10px; 
+display: none; 
+color: #ff0000; 
+} 
+.tabList .block { display: block; } 
+.bookmark{width:100%;clear: both;overflow: hidden;}
+.bookmark ul li{width:30%;float:left;background: #fff;overflow: hidden;}
+.size{width:80px;height:40px;}
+.store_list{background: #fff;clear: both; overflow: hidden;padding-bottom: 20px;}
+.store_list ul{margin-right:-10px;}
+.store_list ul li{float:left;margin-left:5px;width:80px;height:60px;}
+.store_list ul li img{width:100%;height:100%;margin:2px;border:#eee 1px solid;}
+
+
+/* 列表样式 */
+.like ul{
+	margin-left:-2%;
+}
+.like ul li{
+	width:47%; margin-left:2%;margin-top:2%;overflow:hidden; background-color:#FFF; float:left; float:left; display:inline;/*  margin:0 1% 2% 1%; */ border:1px solid #eaeaea;
+}
+.like ul li .img{
+	width:63.5%; overflow:hidden; margin-top:1%;
+}
+.like ul li .img img{
+	width:100%;
+}
+.like ul li .name{
+	height:40px; line-height:20px; overflow:hidden; color:#888888; font-size:12px; text-align:center; margin-top:1%;
+}
+.like ul li .name h2{
+	height:20px; line-height:20px; overflow:hidden; color:#555555; font-size:14px; text-align:center;
+}
+.like ul li .name h2 a{
+	color:#555555;
+}
+.like ul li .name h2 a:hover{
+	color:#555555; text-decoration:underline;
+}
+.like ul li .name a{
+	color:#888888;
+}
+.like ul li .name a:hover{
+	color:#888888; text-decoration:underline;
+}
+.like ul li .price{
+	height:30px; line-height:30px; overflow:hidden; color:#999999; text-align:center; text-transform:uppercase;
+}
+.like ul li .price font{
+	color:#e9321f; font-size:14px;font-family: "微软雅黑";
+}
+.like ul li .price span{
+	color:#e9321f; font-size:18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

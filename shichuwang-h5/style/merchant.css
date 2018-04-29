@@ -1,0 +1,104 @@
+@charset "utf-8";
+.classification_list{text-indent: 3%;}
+.classification_list li{border-bottom:#ddd 1px solid;line-height:35px;height:auto; overflow: hidden;}
+.left .back_1 img{width:15px;height:25px;margin-bottom:-5px;}
+/* 头部轮播开始 */
+.img_lodo{/* margin-top:15%; */width: 100%;height: 100%;}
+.dipu_lsit{position:absolute;z-index:2;left:10px;top:75%;width:94%;margin-right:3%;height: 30px;}
+.dipu_lsit ul li{float:left;}
+.dipu_lsit .one_list img{width:60px;height:20px;/* margin-bottom:-20px; */}
+.dipu_lsit .two_list{margin-left:2%;margin-top:-14px;}
+.dipu_lsit .two_list .biaot1{font-family:"微软雅黑";color:#888888;}
+.dipu_lsit .two_list .biaot2{font-family:"微软雅黑";color:#888888;}
+.dipu_lsit .three_list{float:right;}
+.guanzhu{width:52px;height:18px;/* margin-bottom:-20px; */}
+.subtitle{margin-top:10px;}
+.subtitle .bannertu{width: 94%;height: 100%;margin-left:3%;}
+.subtitle .puul{font-family:"微软雅黑";text-indent: 3%;color:#888888;margin-bottom:4px;}
+
+
+.total-section {background-color: #fff;padding: .4rem 0 .28rem;}
+.border-grids {margin-bottom: .36rem; margin-top: 10px;}
+.total-centent { position: relative; height: 1.4rem;}
+.total-centent a {float:left;width:30%; position: relative; color: #838689; text-align: center;border-right:#e5e5e5 1px solid;}
+.total-centent a .total-num {color: #666;font-size: 12px;}
+.total-centent a span {width:100%; display: block;line-height: 12px;color:#888888;}
+.total-centent a .total-text {font-size: 12px;margin-top: 8px;}
+
+/* 底部 */
+.dingwie{width: 100%; position: fixed; bottom: 0px; background: #f0f2f5;/*  height: 40px;line-height: 40px; */}
+.tabbar-section{background:#fff;}
+.tabbar-section ul li{width:33%;float:left;text-align:center;height:40px;line-height:40px;background:#fff;border-right:#e5e5e5 1px solid;}
+/* 列表样式 */
+.like ul{
+	margin-left:-0.5%;
+}
+.like ul li{
+	width:47%; margin-left:2%;margin-top:2%;overflow:hidden; background-color:#FFF; 
+
+float:left; float:left; display:inline;/*  margin:0 1% 2% 1%; */ border:1px solid #eaeaea;
+}
+.like ul li .img{
+	width:63.5%; overflow:hidden; margin-top:1%;
+}
+.like ul li .img img{
+	width:100%;
+}
+.like ul li .name{
+	height:40px; line-height:20px; overflow:hidden; color:#888888; font-size:12px; 
+
+text-align:center; margin-top:1%;
+}
+.like ul li .name h2{
+	height:20px; line-height:20px; overflow:hidden; color:#555555; font-size:14px; 
+
+text-align:center;
+}¬
+.like ul li .name h2 a{
+	color:#555555;
+}
+.like ul li .name h2 a:hover{
+	color:#555555; text-decoration:underline;
+}
+.like ul li .name a{
+	color:#888888;
+}
+.like ul li .name a:hover{
+	color:#888888; text-decoration:underline;
+}
+.like ul li .price{
+	height:30px; line-height:30px; overflow:hidden; color:#999999; text-align:center; 
+
+text-transform:uppercase;
+}
+.like ul li .price font{
+	color:#e9321f; font-size:14px;font-family: "微软雅黑";
+}
+.like ul li .price span{
+	color:#e9321f; font-size:18px;
+}
+
+
+.new-change-eleven {
+    width: 25%;
+    border-right: 0px none;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 0.875rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.new-change-eleven.active span {
+    color: #F15353 !important;
+}
+.new-change-eleven.active span {
+    color: #F15353 !important;
+}
+
+
+/*二级菜单样式*/
+.fl_width{width:90%;float: left;}
+.fr_width{width:10%;float: right;text-align:left;}
+.nav_con{background: #fff;}
+.nav_conn ul li{color:#e5e5e5;float: left;width:21%;height: 30px;line-height:30px;text-align: center;background: #fcfcfc;border-radius: 2px;background:#e5e5e5;margin:2%;border-radius: 2px;}
+.nav_conn ul li a{display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;width:76%;}

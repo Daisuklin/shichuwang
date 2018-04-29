@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* 收货地址管理 */
+.receipt .addredd{text-indent:3%;}
+.receipt ul li{list-style:none;}
+.container { overflow: hidden; white-space: nowrap;width:94%;margin:0 auto;}
+.container .label { overflow: hidden; white-space: nowrap;}
+.wihi{width:15px;height:15px;margin-bottom:4px;}
+.wihid{width:14px;height:14px;margin-bottom:4px;}
+.wihids{width:18px;height:16px;margin-bottom:4px;}
+.new-addr-btn { font-size: 12px;text-align: right; padding-bottom:3%;}
+.button_anniu{position:relative; display: inline-block;bottom:opx;}
+.goods-buttonn{bottom: 0px;position:relative; display: inline-block;}
+.button_anniu{width:37%;}
+.new-addr-btn a{color: #999;}
+.new-addr-btn a:hover{color:#c40000;}
+.goods-buttonn {font-size: 12px;margin-top: 20px; display: block;/* width: 100%; */ border: 1px solid #d00e14;padding: 8px 14px;background: #d00e14;border-radius: 4px; text-align: center; color: #fff;margin-left: 10px;
+margin-right: 10px;}
+.mt10{margin-top: 10px;}
+

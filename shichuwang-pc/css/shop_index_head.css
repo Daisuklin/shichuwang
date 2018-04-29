@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* 头部搜索框样式 */
+.header_c {width:630px;padding-top:20px;float:left;margin-left:60px;}
+.header_c .form { height:30px; }
+.header_c .form input {outline: none; width:335px; height:30px; border:3px #c40000 solid; background-position:-2px -278px; background-repeat:repeat-x; }
+.header_c .form a { width:75px; height:36px; line-height:32px; letter-spacing:3px; color:#fff; font-size:16px; text-align:center; font-family:"微软雅黑"; background:#c40000; display:block; }
+.dimension img{width:100px;height:100px;float:right;margin:5px;margin-top:15px;}
+/*  */
+.dimension{width:90px;height:90px;float:right;margin-right:20px;margin-top:10px;}

@@ -1,0 +1,192 @@
+/* 修改的css */
+.span-box{
+	float: right;
+	display: inline-block;
+}
+.item{
+	background: #f0f0f0;
+}
+.header{
+	margin-bottom: 0.75rem;
+	border-bottom: 1px solid #d8d8d8;
+}
+.price{
+	margin-bottom:1rem; 
+}
+.sku-group .sku-group-dd1{
+	font-size: 14px; 
+}
+.sku-group .sku-group-dt1{
+	font-size: 14px; 
+}
+.sku{
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	margin-bottom: 0.75rem;
+}
+.sku_two_centerc{
+	width: 15%;
+}
+.sku_two_centerd2-span{
+	float: left;
+	display: inline-block;
+	width: 0.8rem;
+	height: 1.4rem;
+	padding-top:0.8rem;
+	background: url(../images/list-pic/dingwei.png) no-repeat 0 0.9rem; 
+	background-size:100% ;
+	margin-right:0.3rem;
+}
+.sku_two_centerd2 input{
+	padding-top:0.8rem; 
+	float: left;
+}
+.sku_two_centerc {
+}
+.line_bottom-span1{
+	font-size: 14px;
+}
+.line_bottom{
+	border-style:none !important;
+}
+.sku_two-1{
+	margin-bottom: 0.75rem;
+	
+	border-bottom: 1px solid #d8d8d8;
+}
+.sku_two_center{
+	border-top: 1px solid #d8d8d8;
+}
+.icon_tip{
+	background: #9e8870;
+
+}
+.icon_tip a span{
+	color: #fff !important;
+}
+.icon_tip1{
+	background: #fff;
+}
+.mt10{
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #eae9e9;
+}
+.shop-evaluate span{
+	float: right;	
+}
+.shop-evaluate{
+	height: 3rem;
+	line-height: 3rem;
+	font-size: 14px;
+	border-bottom: 1px solid #eae9e9;
+	font-weight: bolder;
+}
+.sku_two-2{
+	border-bottom: 1px solid #d8d8d8;
+	border-top: 1px solid #d8d8d8;
+}
+.content_menu ul li{
+	box-sizing:border-box;
+	width: 33%;
+	height: 3.0rem;
+	background: #ededed;
+	line-height: 3rem;
+}
+.content_tab1{
+	width: 100%;
+}
+.content_menu ul{
+	width: 100%;
+}
+.bottom-lbt{
+	width:100%;
+	height: 100%;
+	background: #fff;
+}
+.bottom-lbt li{
+	float: left;
+	box-sizing:border-box;
+	width: 33.3%
+}
+.bottom-lbt-dl{
+	width:90%;
+	margin:2%;
+}
+.bottom-lbt-dl dt{
+   width: 100%;
+}
+.bottom-lbt-dl dt img{
+	width: 100%;
+}
+.bottom-lbt-dd1{
+	display: block;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.item .content{
+	margin-top: 1rem;
+}
+.content_tab1{
+	border-top:1px solid #eae9e9; 
+	border-bottom:1px solid #eae9e9; 
+}
+.sku_two-3{
+	border-top:1px solid #eae9e9; 
+	border-bottom:1px solid #eae9e9;
+}
+.pos ul li{
+	width: 100%;
+	border-style:none !important;
+	margin:0;
+	font-size: 1rem;
+}
+.icon_tip{
+	position: relative;
+}
+.icon_tip-fd{
+	position: absolute;
+	top:-2px;
+	left: 1.25rem;
+}
+.icon_tip-fd img{
+	width:18px;
+	height: 18px;
+}
+.main-floor-p{
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+	text-align: center;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.n_arrow{
+	top:22%;
+}
+#tc-dd1 span{
+	float: left;
+	display: inline-block;
+	padding-top: 3.6rem;
+}
+#tc-dd1 .tc-dd1-span1{
+	font-size: 1.2rem;
+}
+#tc-dd1 .tc-dd1-span2{
+	line-height: 1.8rem;
+}
+#tc-dt1{
+	margin-right: 1rem; 
+	width: 5rem;
+}
+.tc-dl1{
+	padding-left: 80px !important;
+}
+.tc-dl2{
+	padding-top: 0.3rem !important;
+}
+#sul-dt{
+	padding-left:0.1rem; 
+	text-align: center;
+}
